@@ -29,4 +29,4 @@ echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
 
 echo "Publish"
-git push origin gh-pages
+git push -f origin gh-pages
