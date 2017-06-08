@@ -1,0 +1,14 @@
+﻿<div class="media">
+    <a class="pull-left" href="/articles/<%= item._id.toString() %>/<%=: item.title | urlPart %>">
+        <img class="media-object" src="<%= item.image?item.image.small:'' %>" alt="<%= item.title %>" width="200" />
+    </a>
+    <div class="media-body">
+        <h4 class="media-heading"><a href="/articles/<%= item._id.toString() %>/<%=: item.title | urlPart %>"><%= item.title %></a></h4>
+        <div class="info">
+            <% (item.tags||[]).forEach(function(tag){ %>
+                    <span class="badge"><%= tag %></span>
+            <% }) %>
+        </div>
+        <%= item.description %>
+    </div>
+</div>

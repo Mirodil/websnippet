@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default " en-us " }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <title> {{ .Title }} - Web Resources | {{ .Site.Params.Name }} </title>
+  {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  {{ .Hugo.Generator }}
+  {{ if .Site.Params.opengraph }}{{ template "_internal/opengraph.html" . }}{{ end }}
+  <link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}">
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ "/images/apple-icon-57x57.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{ "/images/apple-icon-60x60.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ "/images/apple-icon-72x72.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ "/images/apple-icon-76x76.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ "/images/apple-icon-114x114.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ "/images/apple-icon-120x120.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ "/images/apple-icon-144x144.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ "/images/apple-icon-152x152.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/images/apple-icon-180x180.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ "/images/android-icon-192x192.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/images/favicon-32x32.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ "/images/favicon-96x96.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/images/favicon-16x16.png" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/styles.min.css" | relURL }}" type="text/css" media="all" />
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds2.feedburner.com/WebSnippet" />
+  {{ if .RSSLink }}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ end }}
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>

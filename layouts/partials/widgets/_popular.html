@@ -1,0 +1,21 @@
+<div class="widget panel panel-default">
+    <div class="panel-heading">
+        <h4>POPULAR POSTS</h4>
+    </div>
+    <div class="panel-body">
+        <% (populars||[]).forEach(function(doc){ %>
+        <% var url = htmlHelper.articleUrl(doc); %>
+        <div class="media">
+            <div class="media-left">
+                <a href="<%=url%>" title="<%=doc.title%>">
+                    <img class="media-object" src="<%= doc.image && doc.image.small?doc.image.small:'http://placehold.it/120x120'%>" alt="<%=doc.title%>" width="120">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="<%=url%>"><%=doc.title%></a></h4>
+                <%=doc.description.substring(0, 140)%> ...                
+            </div>
+        </div>
+        <% }); %>
+    </div>
+</div>

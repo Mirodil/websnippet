@@ -1,0 +1,25 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "WebSnippet is a blog to share top quality open source resources for developers"
+paginate = "10" # Number of posts per page
+googleAnalytics = "UA-63282481-1" # Enable Google Analytics by entering your tracking id
+disqusShortname = "websnippet-io" # Enable comments by entering your Disqus shortname
+
+[params]
+    name = "WebSnippet"
+    opengraph = true
+
+[author]
+    name = "Mirodil"
+    email = "mirodil@websnippet.io"
+
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+    filename = "sitemap.xml"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
+rssLimit = 1000 # maximum number of items in the RSS feed

@@ -1,0 +1,314 @@
+﻿// Core variables and mixins
+@import "blog/bootstrap/variables.less";
+@import "blog/bootstrap/mixins.less";
+
+// Reset and dependencies
+@import "blog/bootstrap/normalize.less";
+@import "blog/bootstrap/print.less";
+//@import "less/glyphicons.less";
+@import "blog/font-awesome/font-awesome.less";
+
+// Core CSS
+@import "blog/bootstrap/scaffolding.less";
+@import "blog/bootstrap/type.less";
+@import "blog/bootstrap/code.less";
+@import "blog/bootstrap/grid.less";
+@import "blog/bootstrap/tables.less";
+@import "blog/bootstrap/forms.less";
+@import "blog/bootstrap/buttons.less";
+
+// Components
+@import "blog/bootstrap/component-animations.less";
+//@import "blog/bootstrap/dropdowns.less";
+@import "blog/bootstrap/button-groups.less";
+@import "blog/bootstrap/input-groups.less";
+@import "blog/bootstrap/navs.less";
+@import "blog/bootstrap/navbar.less";
+//@import "blog/bootstrap/breadcrumbs.less";
+//@import "blog/bootstrap/pagination.less";
+@import "blog/bootstrap/pager.less";
+@import "blog/bootstrap/labels.less";
+//@import "blog/bootstrap/badges.less";
+//@import "blog/bootstrap/jumbotron.less";
+@import "blog/bootstrap/thumbnails.less";
+@import "blog/bootstrap/alerts.less";
+//@import "blog/bootstrap/progress-bars.less";
+@import "blog/bootstrap/media.less";
+//@import "blog/bootstrap/list-group.less";
+@import "blog/bootstrap/panels.less";
+@import "blog/bootstrap/responsive-embed.less";
+@import "blog/bootstrap/wells.less";
+@import "blog/bootstrap/close.less";
+
+// Components w/ JavaScript
+//@import "blog/bootstrap/modals.less";
+//@import "blog/bootstrap/tooltip.less";
+//@import "blog/bootstrap/popovers.less";
+//@import "blog/bootstrap/carousel.less";
+
+// Utility classes
+@import "blog/bootstrap/utilities.less";
+@import "blog/bootstrap/responsive-utilities.less";
+@import "blog/variables.less";
+
+
+header {
+    padding: @padding-base-horizontal 0 0 0;
+
+    .logo {
+        font-size: 2em;
+        width: 220px;
+        margin: 0 auto;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .social {
+        font-size: 2.8em;
+        text-align: center;
+    }
+}
+
+.social {
+    a {
+        text-decoration: none;
+        color: @text-color;
+        opacity: 0.1;
+
+        i {
+            padding: 3px;
+        }
+    }
+
+    a:hover {
+        color: @brand-danger;
+        opacity: 1;
+    }
+}
+
+hr {
+    border-top: 2px dotted #eeeeee;
+}
+
+.nav {
+    a {
+        font-size: 1.6em;
+        font-weight: 500;
+        text-align: center;
+        color: @brand-danger;
+        text-decoration: none;
+        letter-spacing: 0.2px;
+    }
+}
+
+.posts {
+    padding-top: @padding-base-vertical;
+}
+
+.post {
+    h1 > a, h2 > a {
+        color: @gray-darker;
+    }
+
+    margin-top: 10px;
+
+    a {
+        text-decoration: none;
+    }
+
+    .meta {
+        a {
+            text-decoration: none;
+            color: @gray-light;
+        }
+
+        time + span {
+            margin-left: @padding-base-horizontal;
+        }
+    }
+
+    .entry-colors {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        div {
+            width: 33.3%;
+            height: 5px;
+            float: left;
+        }
+
+        .red {
+            background: @brand-danger;
+        }
+
+        .blue {
+            background: @brand-info;
+        }
+
+        .gray {
+            background: @brand-success;
+        }
+    }
+
+    .content {
+        position: relative;
+        margin-top: @line-height-computed;
+        background: @component-active-color;
+        padding: @padding-large-horizontal @padding-large-vertical*3;
+
+        .img-thumbnail {
+            width: 200px;
+            height: 150px;
+            float: left;
+            margin: 0 @padding-small-horizontal @padding-small-vertical @padding-small-vertical;
+        }
+
+        img {
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        .image-head {
+            margin: 10px auto;
+        }
+
+        .more {
+            color: @brand-danger;
+            font-size: 1.2em;
+        }
+
+        .share {
+            margin: 20px 0;
+        }
+    }
+
+    .comments {
+        margin: 40px 0;
+
+        .media-object {
+            max-width: 90px;
+            min-height: 90px;
+        }
+    }
+}
+
+.widget {
+    margin: 20px 0;
+
+    .panel-body a {
+        display: block;
+        text-decoration: none;
+        color: @text-color;
+    }
+
+    .social {
+        a {
+            opacity: .4;
+        }
+
+        a:hover {
+            color: @brand-danger;
+            opacity: 1;
+        }
+    }
+}
+
+footer {
+    margin: 100px 0 0 0;
+    background: @component-active-color;
+    padding: 20px 0;
+
+    .social {
+        a {
+            color: @text-color;
+            opacity: 0.7;
+
+            i {
+                padding: 3px;
+                font-size: 1.4em;
+            }
+        }
+    }
+}
+
+.muted {
+    opacity: 0.5;
+}
+
+.media-list {
+    .media {
+        background-color: @component-active-color;
+        margin: 0 0 2%;
+        padding: 0;
+    }
+
+    .media-hat {
+        height: 10px;
+        width: 100%;
+        display: block;
+    }
+
+    .media-heading {
+        margin: 0;
+        overflow: hidden;
+        height: 22px;
+    }
+
+    .media-object {
+        width: 65px;
+        height: 65px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .media-content {
+        padding: 3%;
+    }
+
+    .media-body {
+        p {
+            margin: 0;
+        }
+    }
+
+    .small {
+        margin-top: 5%;
+        height: 57px;
+        overflow: hidden;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+    .media-list {
+        .media {
+            margin: 0 1% 1% 0;
+            width: 49%;
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+    .media-list {
+        .media {
+            margin: 0 1% 1% 0;
+            width: 49%;
+        }
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+    .media-list {
+        .media {
+            margin: 0 1% 1% 0;
+            width: 32%;
+        }
+    }
+}
