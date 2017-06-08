@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on WebSnippet is a blog to share top quality open source resources for developers</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on WebSnippet is a blog to share top quality open source resources for developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mirodil@websnippet.io (Mirodil)</managingEditor>
+    <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
+    <lastBuildDate>Tue, 19 May 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Angularjs</title>
+      <link>/tags/angularjs/</link>
+      <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/tags/angularjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>/tags/javascript/</link>
+      <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on WebSnippet is a blog to share top quality open source resources for developers</title>
+    <link>/about/</link>
+    <description>Recent content in About on WebSnippet is a blog to share top quality open source resources for developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mirodil@websnippet.io (Mirodil)</managingEditor>
+    <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
+    
+	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

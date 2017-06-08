@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on WebSnippet is a blog to share top quality open source resources for developers</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on WebSnippet is a blog to share top quality open source resources for developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mirodil@websnippet.io (Mirodil)</managingEditor>
+    <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
+    <lastBuildDate>Tue, 19 May 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AngularJS Constants</title>
+      <link>/post/angularjs-constants/</link>
+      <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/angularjs-constants/</guid>
+      <description>AngularJS offers a provider for constants that despite is not very popular it could save you hours of debugging.
+Let’s see an example about how Constants works and will be used.
+angular .module(&#39;app&#39;, []) .constant(&amp;quot;AppConfig&amp;quot;, { &amp;quot;url&amp;quot;: &amp;quot;http://localhost&amp;quot;, &amp;quot;port&amp;quot;: &amp;quot;80&amp;quot; }) .controller(&#39;MainCtrl&#39;, function (AppConfig) { // Do something with AppConfig... });  Above the snippet of code is a classic example, you want a config that could be injectable at any part of your application and it works but maybe is not the best use of a constant.</description>
+    </item>
+    
+  </channel>
+</rss>
