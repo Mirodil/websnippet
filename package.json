@@ -1,0 +1,33 @@
+{
+  "name": "github-websnippet",
+  "version": "1.0.0",
+  "description": "WebSnippet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p --config _scripts/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirodil/websnippet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mirodil/websnippet/issues"
+  },
+  "homepage": "https://github.com/Mirodil/websnippet#readme",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "webpack": "^2.6.1",
+    "font-awesome": "*",
+    "font-awesome-sass-loader": "^2.0.1"
+  },
+  "dependencies": {}
+}

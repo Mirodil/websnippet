@@ -1,0 +1,315 @@
+$fa-font-path: "~font-awesome/fonts";
+
+// Core variables and mixins
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+// Reset and dependencies
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/print";
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
+@import "~font-awesome/scss/font-awesome";
+
+// Core CSS
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/code";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/tables";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+
+// Components
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap/breadcrumbs";
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap/pagination";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/pager";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/labels";
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap/badges";
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/thumbnails";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/alerts";
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap/progress-bars";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/media";
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap/list-group";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/panels";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/wells";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/close";
+
+// Components w/ JavaScript
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap/modals";
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap/popovers";
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap/carousel";
+
+// Utility classes
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+
+header {
+    padding: $padding-base-horizontal 0 0 0;
+
+    .logo {
+        font-size: 2em;
+        width: 220px;
+        margin: 0 auto;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .social {
+        font-size: 2.8em;
+        text-align: center;
+    }
+}
+
+.social {
+    a {
+        text-decoration: none;
+        color: $text-color;
+        opacity: 0.1;
+
+        i {
+            padding: 3px;
+        }
+    }
+
+    a:hover {
+        color: $brand-danger;
+        opacity: 1;
+    }
+}
+
+hr {
+    border-top: 2px dotted #eeeeee;
+}
+
+.nav {
+    a {
+        font-size: 1.6em;
+        font-weight: 500;
+        text-align: center;
+        color: $brand-danger;
+        text-decoration: none;
+        letter-spacing: 0.2px;
+    }
+}
+
+.posts {
+    padding-top: $padding-base-vertical;
+}
+
+.post {
+    h1 > a, h2 > a {
+        color: $gray-darker;
+    }
+
+    margin-top: 10px;
+
+    a {
+        text-decoration: none;
+    }
+
+    .meta {
+        a {
+            text-decoration: none;
+            color: $gray-light;
+        }
+
+        time + span {
+            margin-left: $padding-base-horizontal;
+        }
+    }
+
+    .entry-colors {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        div {
+            width: 33.3%;
+            height: 5px;
+            float: left;
+        }
+
+        .red {
+            background: $brand-danger;
+        }
+
+        .blue {
+            background: $brand-info;
+        }
+
+        .gray {
+            background: $brand-success;
+        }
+    }
+
+    .content {
+        position: relative;
+        margin-top: $line-height-computed;
+        background: $component-active-color;
+        padding: $padding-large-horizontal $padding-large-vertical*3;
+
+        .img-thumbnail {
+            width: 200px;
+            height: 150px;
+            float: left;
+            margin: 0 $padding-small-horizontal $padding-small-vertical $padding-small-vertical;
+        }
+
+        img {
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        .image-head {
+            margin: 10px auto;
+        }
+
+        .more {
+            color: $brand-danger;
+            font-size: 1.2em;
+        }
+
+        .share {
+            margin: 20px 0;
+        }
+    }
+
+    .comments {
+        margin: 40px 0;
+
+        .media-object {
+            max-width: 90px;
+            min-height: 90px;
+        }
+    }
+}
+
+.widget {
+    margin: 20px 0;
+
+    .panel-body a {
+        display: block;
+        text-decoration: none;
+        color: $text-color;
+    }
+
+    .social {
+        a {
+            opacity: .4;
+        }
+
+        a:hover {
+            color: $brand-danger;
+            opacity: 1;
+        }
+    }
+}
+
+footer {
+    margin: 100px 0 0 0;
+    background: $component-active-color;
+    padding: 20px 0;
+
+    .social {
+        a {
+            color: $text-color;
+            opacity: 0.7;
+
+            i {
+                padding: 3px;
+                font-size: 1.4em;
+            }
+        }
+    }
+}
+
+.muted {
+    opacity: 0.5;
+}
+
+.media-list {
+    .media {
+        background-color: $component-active-color;
+        margin: 0 0 2%;
+        padding: 0;
+    }
+
+    .media-hat {
+        height: 10px;
+        width: 100%;
+        display: block;
+    }
+
+    .media-heading {
+        margin: 0;
+        overflow: hidden;
+        height: 22px;
+    }
+
+    .media-object {
+        width: 65px;
+        height: 65px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .media-content {
+        padding: 3%;
+    }
+
+    .media-body {
+        p {
+            margin: 0;
+        }
+    }
+
+    .small {
+        margin-top: 5%;
+        height: 57px;
+        overflow: hidden;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    .media-list {
+        .media {
+            margin: 0 1% 1% 0;
+            width: 49%;
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+    .media-list {
+        .media {
+            margin: 0 1% 1% 0;
+            width: 49%;
+        }
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+    .media-list {
+        .media {
+            margin: 0 1% 1% 0;
+            width: 32%;
+        }
+    }
+}
