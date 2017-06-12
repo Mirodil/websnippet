@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on WebSnippet is a blog to share top quality open source resources for developers</title>
+    <link>/categories/tools/</link>
+    <description>Recent content in Tools on WebSnippet is a blog to share top quality open source resources for developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mirodil@websnippet.io (Mirodil)</managingEditor>
+    <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
+    <lastBuildDate>Thu, 21 May 2015 13:17:16 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learn to Type Faster with Ratatype Typing Tutor</title>
+      <link>/post/learn-to-type-faster-with-ratatype-typing-tutor/</link>
+      <pubDate>Thu, 21 May 2015 13:17:16 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/learn-to-type-faster-with-ratatype-typing-tutor/</guid>
+      <description>Ratatype is an online typing tutor and a great website for people who want to type better. Start mastering your skills with us, challenge your friends or simply get a typing certificate. Typing is a more important skill than writing nowadays. And if you do it slow you are just wasting your time. Your time deserves much more than this.
+If you increase your typing speed by 30% you can save 20 minutes daily.</description>
+    </item>
+    
+  </channel>
+</rss>

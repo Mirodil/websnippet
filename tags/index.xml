@@ -8,26 +8,89 @@
     <language>en-us</language>
     <managingEditor>mirodil@websnippet.io (Mirodil)</managingEditor>
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
-    <lastBuildDate>Tue, 19 May 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Sep 2016 16:24:54 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>.Net</title>
+      <link>/tags/.net/</link>
+      <pubDate>Thu, 01 Sep 2016 16:24:54 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/tags/.net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Angularjs</title>
       <link>/tags/angularjs/</link>
-      <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jun 2015 07:26:03 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
       <guid>/tags/angularjs/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Css</title>
+      <link>/tags/css/</link>
+      <pubDate>Sat, 06 Jun 2015 17:26:19 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>/tags/html/</link>
+      <pubDate>Wed, 27 May 2015 08:17:11 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript</title>
       <link>/tags/javascript/</link>
-      <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 30 Nov 2016 18:05:08 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
       <guid>/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>/tags/mobile/</link>
+      <pubDate>Fri, 22 May 2015 13:08:33 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Node.Js</title>
+      <link>/tags/node.js/</link>
+      <pubDate>Sun, 27 Mar 2016 05:46:51 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/tags/node.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>/tags/react/</link>
+      <pubDate>Wed, 20 May 2015 11:32:24 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>/tags/tools/</link>
+      <pubDate>Fri, 22 May 2015 17:13:30 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/tags/tools/</guid>
       <description></description>
     </item>
     

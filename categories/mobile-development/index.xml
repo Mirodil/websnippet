@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile Development on WebSnippet is a blog to share top quality open source resources for developers</title>
+    <link>/categories/mobile-development/</link>
+    <description>Recent content in Mobile Development on WebSnippet is a blog to share top quality open source resources for developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mirodil@websnippet.io (Mirodil)</managingEditor>
+    <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
+    <lastBuildDate>Fri, 22 May 2015 13:08:33 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/mobile-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Top Hybrid Mobile Application Frameworks</title>
+      <link>/post/the-top-hybrid-mobile-application-frameworks/</link>
+      <pubDate>Fri, 22 May 2015 13:08:33 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/the-top-hybrid-mobile-application-frameworks/</guid>
+      <description>An HTML application is very attractive if you need to support many types of devices and platforms and you either don&amp;rsquo;t have the internal resources to develop and maintain native applications or you don&amp;rsquo;t have the budget to pay someone to do it for you. It&amp;rsquo;s also a tempting option to just reuse a responsive web application that may already exist and save yourself the headache of a new project.</description>
+    </item>
+    
+  </channel>
+</rss>

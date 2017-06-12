@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React on WebSnippet is a blog to share top quality open source resources for developers</title>
+    <link>/tags/react/</link>
+    <description>Recent content in React on WebSnippet is a blog to share top quality open source resources for developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mirodil@websnippet.io (Mirodil)</managingEditor>
+    <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
+    <lastBuildDate>Wed, 20 May 2015 11:32:24 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Making Your First Webapp with React</title>
+      <link>/post/making-your-first-webapp-with-react/</link>
+      <pubDate>Wed, 20 May 2015 11:32:24 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/making-your-first-webapp-with-react/</guid>
+      <description>React has gained a lot of popularity recently and has attracted a large and active community. This results in a vast wealth of reusable components for it that will save you time when coding. The library itself encourages writing loosely coupled code that is modular and composable.
+In this tutorial, I will show you how to create a small application and how to split it into discrete components that talk to each other.</description>
+    </item>
+    
+  </channel>
+</rss>

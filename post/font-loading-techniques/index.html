@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <title> Font Loading Techniques - Web Resources | WebSnippet </title>
+  
+  <meta name="generator" content="Hugo 0.21" />
+  <meta property="og:title" content="Font Loading Techniques" />
+<meta property="og:description" content="It seems as though most websites use non-default fonts these days and who can blame them?  System fonts are all pretty boring and custom fonts add a bit of flare and freshness to a site&#39;s design.  The problem with using custom fonts, however, is they can really slow down your site load.  Font files are large, can require separate font files for bold and italic, and can block rendering if the developer doesn&#39;t work around them.  Let me show you a strategy for faster font loading!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/font-loading-techniques/" />
+
+
+
+<meta property="article:published_time" content="2015-06-13T09:12:43&#43;00:00"/>
+<meta property="article:modified_time" content="2015-06-13T09:12:43&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all" />
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds2.feedburner.com/WebSnippet" />
+  
+  
+  
+</head>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <header>
+    <div class="logo">
+        <a href="/">
+                Web <span class="text-danger">{</span><span class="snippet">Snippet</span><span class="text-danger">}</span>
+            </a>
+    </div>
+    <hr />
+    <div class="social">
+        <a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow">
+                <i class="fa fa-facebook"></i>
+            </a>
+        <a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow">
+                <i class="fa fa-twitter"></i>
+            </a>
+        <a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        <a href="http://feeds2.feedburner.com/WebSnippet" title="rss">
+                <i class="fa fa-rss"></i>
+            </a>
+    </div>
+    <hr />
+    <ul class="nav nav-stacked">
+        <li role="presentation"><a href="/" title="">Home</a></li>
+        <li role="presentation"><a href="/tools-and-resources" title="Tools and Resources">Tools &amp; Resources</a></li>
+        <li role="presentation"><a href="/about" title="About">About</a></li>
+        <li role="presentation"><a href="/contact" title="Support">Support</a></li>
+        <li role="presentation"><a href="/contact" title="Contacts">Contacts</a></li>
+    </ul>
+</header>
+        </div>
+        <div class="col-md-6">
+            <article class="post">
+                <div class="page-header">
+                    <h1>
+                        <a href="/post/font-loading-techniques/" title="Font Loading Techniques">
+                            Font Loading Techniques
+                        </a>
+                    </h1>
+                </div>
+                <div class="meta text-muted">
+                    <time datetime="2015-06-13T09:12:43">
+                        <i class="fa fa-clock-o"></i>
+                        June 13, 2015
+                    </time>
+                    
+                    <span>
+                        <i class="fa fa-bookmark"></i>
+                        
+                            <a href="/categories/web-management" title="Web Management" rel="category">
+                                <strong>Web Management</strong></a>
+                        
+                    </span>
+                    <span class="pull-right">
+                        <i class="fa fa-comments"></i>
+                        <a href="<%=url%>" title="Font Loading Techniques">0 comment</a>
+                    </span>
+                </div>
+                <div class="content">
+                    <div class="entry-colors">
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="gray"></div>
+                    </div>
+                    <div class="text-center">
+                    </div>
+                    <div class="raw">
+                        
+
+<p>It seems as though most websites use non-default fonts these days and who can blame them?  System fonts are all pretty boring and custom fonts add a bit of flare and freshness to a site&rsquo;s design.  Web fonts are great and make the web a more beautiful space; however, loading them can be slow, which results in an unwanted side effect. Let me show you a strategy for faster font loading!</p>
+
+<h2 id="put-fonts-on-cdn">Put Fonts on CDN</h2>
+
+<p>One simple solution for improving site speed is using a CDN, and that&rsquo;s no different for fonts.  It&rsquo;s important to ensure the CDN has proper CORS settings.</p>
+
+<pre><code># Apache config
+&lt;FilesMatch &quot;.(eot|ttf|otf|woff)&quot;&gt;
+    Header set Access-Control-Allow-Origin &quot;*&quot;
+&lt;/FilesMatch&gt;
+
+# nginx config
+if ($filename ~* ^.*?\.(eot)|(ttf)|(woff)$){
+    add_header Access-Control-Allow-Origin *;
+}
+</code></pre>
+
+<p>You&rsquo;ll see AJAX / cross-domain errors in the console if the CDN&rsquo;s CORS settings are not properly configured.</p>
+
+<h2 id="use-non-blocking-css-loading">Use Non-Blocking CSS Loading</h2>
+
+<p> It&rsquo;s actually genius, which outlines a strategy for preventing CSS loading from blocking render. </p>
+
+<pre><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;fonts.css&quot; media=&quot;none&quot; onload=&quot;this.media='all';&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;style.css&quot; media=&quot;none&quot; onload=&quot;this.media='all';&quot;&gt;
+</code></pre>
+
+<p>Essentially using media=none let&rsquo;s the browser download the stylesheet without blocking rendering, so when the stylesheet has loaded, setting the media(<code>onload=&quot;this.media='all';&quot;</code>) to its desired setting will then render the screen as it should.</p>
+
+<h2 id="storing-fonts-in-localstorage">Storing Fonts in localStorage</h2>
+
+<p>First let’s add a class to the <code>&lt;html&gt;</code> DOM node that will hold the fallback font styles. Using JavaScript, this will later be replaced with a class that has the styles of the loaded font. We will also save a path pointing to the font file to a variable for later reuse.</p>
+
+<pre><code>document.documentElement.className = 'fallback';
+var css_href = '../path/fonts.css';
+</code></pre>
+
+<p>Next we need to check for local storage support by trying to set and get an item into local storage. Some browsers can’t store anything in private mode but <code>window.localStorage</code> will still return a storage object. We need this extra request to make sure that our script will work properly:</p>
+
+<pre><code>var localStorageSupported = function() {
+  return 'localStorage' in window;
+}
+</code></pre>
+
+<p>If the browser passes the <code>localStorageSupported</code> test and our font file is already stored, we can get the file and add it to the page header inside a <code>style</code> tag using the <code>injectRawStyle()</code> function. If the browser doesn’t pass the test, we call the <code>injectFontsStylesheet()</code> function on the <code>onLoad</code> event, so that we don’t block the ui thread:</p>
+
+<pre><code>if (localStorageSupported() &amp;&amp; localStorage.webFonts) {
+  injectRawStyle(localStorage.webFonts);
+} else {
+  window.onload = function() {
+    injectFontsStylesheet();
+  } 
+}
+</code></pre>
+
+<p>The <code>injectFontsStylesheet()</code> function makes an <code>xhr</code> request to get the font file content, injects it into the header with the help of the <code>injectRawStyle</code> function and saves it to local storage:</p>
+
+<pre><code>function injectFontsStylesheet() {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', css_href, true);
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === 4) {
+      injectRawStyle(xhr.responseText);
+      localStorage.webFonts = xhr.responseText;
+    }
+    xhr.send();
+  }
+}
+</code></pre>
+
+<p>This is the function that creates the <code>style</code> tag in the <code>head</code> of the document and gets its content through the <code>text</code> parameter. It’s also at this stage that we replace the fallback class with the font class that has the web font styles:</p>
+
+<pre><code>function injectRawStyle(text) {
+  var style = document.createElement('style');
+  style.innerHTML = text;
+  document.getElementsByTagName('head')[0].appendChild(style);
+  document.documentElement.className = 'webFont';
+}
+</code></pre>
+
+<p>With this solution, you’re now able to store your fonts asynchronously into local storage, while providing a good and reliable fallback font.</p>
+
+                    </div>
+                    <div class="row share">
+    <div class="col-md-2 text-right">Share this:</div>
+    <div class="col-md-2 text-center">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank" rel="nofollow" title="">
+                                <i class="fa fa-facebook"></i> Facebook
+                            </a>
+    </div>
+    <div class="col-md-2 text-center">
+        <a href="https://twitter.com/home?status= " target="_blank" rel="nofollow" title="">
+                                <i class="fa fa-twitter"></i> Twitter
+                            </a>
+    </div>
+    <div class="col-md-2 text-center">
+        <a href="https://plus.google.com/share?url=" target="_blank" rel="nofollow" title="">
+                                <i class="fa fa-google-plus"></i> Google+
+                            </a>
+    </div>
+    <div class="col-md-2 text-center">
+        <a href="http://www.stumbleupon.com/submit?url=&amp;title=" target="_blank"
+            rel="nofollow" title="">
+                                <i class="fa fa-stumbleupon"></i> Stumble
+                            </a>
+    </div>
+    <div class="col-md-2 text-center">
+        <a href="http://digg.com/submit?url=&amp;title=" target="_blank"
+            rel="nofollow" title="">
+                                <i class="fa fa-digg"></i> Digg
+                            </a>
+    </div>
+</div>
+                </div>
+            </article>
+        </div>
+        <div class="col-md-3">
+            <div class="widget panel panel-default">
+    <div class="panel-heading">
+        <h4>
+            Follow Us
+            <span class="social pull-right">
+                <a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow" target="_blank" class="nodecoration">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow" target="_blank" class="nodecoration">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow" target="_blank" class="nodecoration">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+                <a href="http://feeds2.feedburner.com/WebSnippet" title="rss" target="_blank" class="nodecoration">
+                    <i class="fa fa-rss"></i>
+                </a>
+            </span>
+        </h4>
+    </div>
+    <div class="panel-body">
+        <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=WebSnippet', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">	    
+	    <input type="hidden" value="WebSnippet" name="uri">
+	    <input type="hidden" name="loc" value="en_US">  		
+  		<div class="form-group">
+          <label class="sr-only" for="subemail">Enter your email address</label>
+          <div class="input-group">
+            <input type="text" id="subemail" name="email" class="form-control" placeholder="Your email address...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="submit"><i class="fa fa-fire"></i></button>
+            </span>
+          </div>
+        </div>  
+	</form>
+    </div>
+</div>
+            
+<div class="widget panel panel-default">
+    <div class="panel-heading">
+        <h4>CATEGORIES</h4>
+    </div>
+    <div class="panel-body">
+        <nav>
+            <h5>
+                <a href="/categories/design" title="Design">
+                    Design (10)
+                </a>
+            </h5>
+            <h5>
+                <a href="/categories/development" title="Development">
+                    Development (37)
+                </a>
+            </h5>
+            <h5>
+                <a href="/categories/mobile-development" title="Mobile-Development">
+                    Mobile-Development (1)
+                </a>
+            </h5>
+            <h5>
+                <a href="/categories/resources" title="Resources">
+                    Resources (15)
+                </a>
+            </h5>
+            <h5>
+                <a href="/categories/tools" title="Tools">
+                    Tools (1)
+                </a>
+            </h5>
+            <h5>
+                <a href="/categories/web-development" title="Web-Development">
+                    Web-Development (36)
+                </a>
+            </h5>
+            <h5>
+                <a href="/categories/web-management" title="Web-Management">
+                    Web-Management (5)
+                </a>
+            </h5>
+        </nav>
+    </div>
+</div>
+            
+<div class="widget panel panel-default">
+	<div class="panel-heading">
+        <h4>CATEGORIES</h4>
+    </div>
+	<div class="panel-body">
+		<nav>
+		<h5>
+			<a href="/tags/.net" title=".net">.net (2)</a>
+		</h5>
+		<h5>
+			<a href="/tags/angularjs" title="angularjs">angularjs (4)</a>
+		</h5>
+		<h5>
+			<a href="/tags/css" title="css">css (6)</a>
+		</h5>
+		<h5>
+			<a href="/tags/html" title="html">html (4)</a>
+		</h5>
+		<h5>
+			<a href="/tags/javascript" title="javascript">javascript (26)</a>
+		</h5>
+		<h5>
+			<a href="/tags/mobile" title="mobile">mobile (1)</a>
+		</h5>
+		<h5>
+			<a href="/tags/node.js" title="node.js">node.js (8)</a>
+		</h5>
+		<h5>
+			<a href="/tags/react" title="react">react (1)</a>
+		</h5>
+		<h5>
+			<a href="/tags/tools" title="tools">tools (1)</a>
+		</h5>
+		</nav>
+	</div>
+</div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="text-center social">
+            <a href="mailto:hello@websnippet.io" title="email" rel="nofollow">
+                <i class="fa fa-envelope"></i>
+            </a>
+            <a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow" target="_blank">
+                <i class="fa fa-google-plus"></i>
+            </a>
+            <a href="http://feeds2.feedburner.com/WebSnippet" title="rss" target="_blank">
+                <i class="fa fa-rss"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63282481-1', 'auto');
+ga('send', 'pageview');
+</script>

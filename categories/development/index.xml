@@ -8,20 +8,386 @@
     <language>en-us</language>
     <managingEditor>mirodil@websnippet.io (Mirodil)</managingEditor>
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
-    <lastBuildDate>Tue, 19 May 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Nov 2016 18:05:08 +0000</lastBuildDate>
     
 	<atom:link href="/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Google Chrome Developer Console For Beginners</title>
+      <link>/post/google-chrome-developer-console-for-beginners/</link>
+      <pubDate>Wed, 30 Nov 2016 18:05:08 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/google-chrome-developer-console-for-beginners/</guid>
+      <description>1. Selection of DOM elements if you familar with jQuery, select element is simlar $(‘.class’) or $(‘#id’). This construction is alias for document.querySelector. Commands kinds of $(‘tagName’), $(‘.class’), $(‘#id’) and $( ‘.class #id’) return the first DOM element, which coincides with the selector. In this case, if the document is available for the jQuery, its &amp;ldquo;$&amp;rdquo; will override this functionality console.
+Here is another construction $$, which select all elements.</description>
+    </item>
+    
+    <item>
+      <title>.NET Interview Questions with Answers: Senior Developers/Architects</title>
+      <link>/post/net-interview-questions-with-answers-senior-developers-architects/</link>
+      <pubDate>Thu, 01 Sep 2016 16:24:54 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/net-interview-questions-with-answers-senior-developers-architects/</guid>
+      <description>What’s wrong with a line like this? DateTime.Parse(myString);
+In addition the locale problem, DateTime.Parse() could also throw an exception which you would then have to catch. Use DateTime.TryParse() or DateTime.TryParseExact() instead.
+What are PDBs? Where must they be located for debugging to work?
+PDB stands for Program database store debugging symbols and meta information for debugging. Normally they are located at bin or debug folder.
+What is cyclomatic complexity and why is it important?</description>
+    </item>
+    
+    <item>
+      <title>.NET Interview Questions with Answers: Mid-Level .NET Developer</title>
+      <link>/post/net-interview-questions-with-answers-mid-level-net-developer/</link>
+      <pubDate>Thu, 01 Sep 2016 16:20:06 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/net-interview-questions-with-answers-mid-level-net-developer/</guid>
+      <description>Describe the difference between Interface-oriented, Object-oriented and Aspect-oriented programming. Interface-oriented programming – an interface is created to define the contract and rules, without caring about the implementation. All parties follow the contract and rules and communicate through the contract. One example is Web Service.
+Object-oriented programming – classes implements the concept of abstraction, encapsulation, polymorphism and inheritance. Abstraction means loose coupling between components by providing interfaces. Encapsulation means hiding details of class implementation.</description>
+    </item>
+    
+    <item>
+      <title>Speech Recognition &amp; Text to Speech in the Browser</title>
+      <link>/post/speech-recognition-and-text-to-speech-in-the-browser/</link>
+      <pubDate>Wed, 03 Aug 2016 02:17:59 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/speech-recognition-and-text-to-speech-in-the-browser/</guid>
+      <description>Speech Recognition If you&amp;rsquo;ve ever clicked the microphone on the right-hand side of the Google search input, you&amp;rsquo;ve already experienced the power of the SpeechRecognition API. The speech recognizer will listen to what you say and convert your words to a string.
+Browser support is currently limited to just Chrome for now. Firefox support can be enabled by setting the media.webspeech.recognition.enable flag in about:config.
+// This API is currently prefixed in Chrome var SpeechRecognition = window.</description>
+    </item>
+    
+    <item>
+      <title>5 handy JavaScript one-liners</title>
+      <link>/post/5-handy-javascript-one-liners/</link>
+      <pubDate>Tue, 17 May 2016 00:46:55 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/5-handy-javascript-one-liners/</guid>
+      <description>Generate a random string Math.random().toString(36).substr(2);  This simply generates a random float, casts it into a String using base 36 and remove the 2 first chars 0and ..
+Clone an array var newA = myArray.slice(0);  This will return a copy of the array, ensuring no other variables point to it.
+Remove HTML tags &#39;&amp;lt;b&amp;gt;A&amp;lt;/b&amp;gt;&#39;.replace(/&amp;lt;[^&amp;gt;]+&amp;gt;/gi, &#39;&#39;);  This is using a simple regular expression to remove any string that looks like &amp;lt;xxx&amp;gt;where xcan be any char, including /.</description>
+    </item>
+    
+    <item>
+      <title>Video Streaming with NodeJS</title>
+      <link>/post/video-streaming-with-nodejs/</link>
+      <pubDate>Sun, 27 Mar 2016 05:46:51 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/video-streaming-with-nodejs/</guid>
+      <description>We can stream video files by utilizing fs.createReadStream(), the server can read the file in a stream rather than reading it all into memory at once. First, we need to create node.js server(here is a code).
+var fs = require(&amp;quot;fs&amp;quot;), http = require(&amp;quot;http&amp;quot;), url = require(&amp;quot;url&amp;quot;), path = require(&amp;quot;path&amp;quot;); http.createServer(function (req, res) { if (req.url = &#39;/movie.mp4&#39;) { // here will be code :) } }).listen(3000);  We will take care about the Accept-Ranges header as is required for the HTML5 video controls to work instead of just blindly send the full file.</description>
+    </item>
+    
+    <item>
+      <title>Best Web Hosting Platforms for Node.js Apps</title>
+      <link>/post/best-web-hosting-platforms-for-node-js-apps/</link>
+      <pubDate>Thu, 13 Aug 2015 14:12:01 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/best-web-hosting-platforms-for-node-js-apps/</guid>
+      <description>With the rise in popularity of JavaScript the web development is rising to new heights. The flexibility that JavaScript gives us with web applications and on the server was a dream to achieve just some year back. Node.js which has became a next big thing for developers is an open source and runtime environment focused on developing networking and server side applications. The Node.js applications are written in JavaScript and can be executed within Node.</description>
+    </item>
+    
+    <item>
+      <title>How debugging remote node app that is hosted on server</title>
+      <link>/post/how-debugging-remote-node-app-that-is-hosted-on-server/</link>
+      <pubDate>Fri, 10 Jul 2015 17:54:05 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/how-debugging-remote-node-app-that-is-hosted-on-server/</guid>
+      <description>Port Forwarding using SSH This is aslo called SSH Port Tunneling. We will use Putty for SSH Tunneling. So lets get start. In order to use port forwarding to connect from your local machine to a port on a remote server, you need to:
+ Choose a port number on your local machine (e.g. 5858 in our case) where PuTTY should listen for incoming connections.  Now, before you start your SSH connection, go to the PuTTY Tunnels panel.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Spread operator - ES6</title>
+      <link>/post/javascript-spread-operator-es6/</link>
+      <pubDate>Sun, 05 Jul 2015 06:17:04 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/javascript-spread-operator-es6/</guid>
+      <description>The spread operator ... takes an iterable and expands it into the individual elements. The spread operator looks identical to the rest operator but instead performs the opposite action.
+const numbers = [1, 2, 3, 4]; const moreNumbers = [...numbers, 5, 6]; console.log(moreNumbers);//=&amp;gt; [1, 2, 3, 4, 5, 6]  This is most useful for dealing with cases like apply where you want to pass an iterable as its components.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Object literals - ES6</title>
+      <link>/post/javascript-object-literals-es6/</link>
+      <pubDate>Sun, 05 Jul 2015 06:13:03 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/javascript-object-literals-es6/</guid>
+      <description> Object literals have gotten a new shorthand notation {name: name, title: title} can be condensed to {name, title}
+const foo = &amp;quot;foo&amp;quot;; const bar = function () { return &amp;quot;bar&amp;quot;; }; const a = {foo, bar}; console.log(a); // Object {foo: &amp;quot;foo&amp;quot;, bar: function}  JavaScript - ES6  JavaScript Arrow functions JavaScript Classes JavaScript Concise methods JavaScript Destructuring JavaScript Generators JavaScript Object literals JavaScript Spread operator  </description>
+    </item>
+    
+    <item>
+      <title>JavaScript Generators - ES6</title>
+      <link>/post/javascript-generators-es6/</link>
+      <pubDate>Sun, 05 Jul 2015 06:09:41 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/javascript-generators-es6/</guid>
+      <description>Generators functions take the following form function* name() {}. Or our preferred const name = function* () {};, since we avoid function declarations in favor of function expressions.
+Calling a generator doesn&amp;rsquo;t actually run any of its contents. A call to a generator returns a generator instance.
+const foo = function* () { console.log(&amp;quot;foo&amp;quot;); } // No console output here // bar is now an instance of the generator and the console.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Destructuring - ES6</title>
+      <link>/post/javascript-destructuring-es6/</link>
+      <pubDate>Mon, 29 Jun 2015 16:34:06 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/javascript-destructuring-es6/</guid>
+      <description>Both arrays and objects now support destructuring.
+Array destructuring gives a quicker and more fine-grained approach to interacting with elements in an array. See below:
+const foo = [&amp;quot;one&amp;quot;, &amp;quot;two&amp;quot;, &amp;quot;three&amp;quot;]; const [a, b, c] = foo; console.log(a + b + c); //=&amp;gt; &amp;quot;onetwothree&amp;quot; const [x, ,z] = foo; console.log(x + z); //=&amp;gt; &amp;quot;onethree&amp;quot; const [, y] = foo; console.log(y); //=&amp;gt; &amp;quot;two&amp;quot;  Object destructuring is similar to array destructuring but uses key names to do the destructuring.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Concise methods - ES6</title>
+      <link>/post/javascript-concise-methods-es6/</link>
+      <pubDate>Fri, 26 Jun 2015 10:29:29 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/javascript-concise-methods-es6/</guid>
+      <description> ES6 adds a new feature called “concise methods” to object literals and classes we can condense render: function () {} to render()
+var o = { foo() { .. } };  And that’s shorthand for the more familiar:
+var o = { foo: function() { .. } };  JavaScript - ES6  JavaScript Arrow functions JavaScript Classes JavaScript Concise methods JavaScript Destructuring JavaScript Generators JavaScript Object literals JavaScript Spread operator  </description>
+    </item>
+    
+    <item>
+      <title>JavaScript Classes - ES6</title>
+      <link>/post/javascript-classes-es6/</link>
+      <pubDate>Wed, 24 Jun 2015 07:10:42 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/javascript-classes-es6/</guid>
+      <description>Class syntax has been added to ES6. The underlying inheritance model is still prototypal but the class syntax can make it easier to reason about relationships. To create a class just use the class keyword. Classes can be created with class expressions or class declarations. Unlike function declarations, class declarations are not hoisted.
+// class declaration class Rectangle { constructor(height, width) { this.height = height; this.width = width; } } // class expression (unnamed) var Square = class { constructor(width) { this.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Arrow functions - ES6</title>
+      <link>/post/javascript-arrow-functions-es6/</link>
+      <pubDate>Mon, 22 Jun 2015 04:26:59 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/javascript-arrow-functions-es6/</guid>
+      <description>Arrow functions are shorthand for an anonymous function that keep the current context. example:
+const a = 2; const multiply = function (num) { return num * a; }.bind(this); console.log(multiply(3)) //=&amp;gt; 6  Can be written as:
+const a = 2; const multiply = num =&amp;gt; num * a; console.log(multiply(3)) //=&amp;gt; 6  This is most useful for cases like map or reduce:
+const numbers = [1, 2, 3, 4]; const doubled = numbers.</description>
+    </item>
+    
+    <item>
+      <title>Introduction fetch API - the new AJAX</title>
+      <link>/post/introduction-fetch-api-the-new-ajax/</link>
+      <pubDate>Sun, 07 Jun 2015 16:08:56 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/introduction-fetch-api-the-new-ajax/</guid>
+      <description>Fetch provides a generic definition of Request and Response objects. This will allow them to be used whether it’s for service workers, Cache API and other similar things that handle or modify requests and responses, or any kind of use case that might require you to generate your own responses programmatically. It also provides a definition for related concepts such as CORS and the HTTP origin header semantics, supplanting their separate definitions elsewhere.</description>
+    </item>
+    
+    <item>
+      <title>Let’s Chat</title>
+      <link>/post/let-s-chat/</link>
+      <pubDate>Sat, 06 Jun 2015 17:41:03 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/let-s-chat/</guid>
+      <description>Let’s Chat is like #Slack, but opensource and self-hosted. It is a persistent messaging application that runs on Node.js and MongoDB. It’s designed to be easily deployable and fits well with small, intimate teams. It’s free (MIT licensed) and ships with killer features such as LDAP/Kerberos authentication, a REST-like API and XMPP support.</description>
+    </item>
+    
+    <item>
+      <title>Example Product Comparison Layout &amp; Effect</title>
+      <link>/post/example-product-comparison-layout-effect/</link>
+      <pubDate>Sat, 06 Jun 2015 17:26:19 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/example-product-comparison-layout-effect/</guid>
+      <description>This Blueprint is a responsive product grid layout with comparison functionality. A maximum of three items can be selected for the product comparison. The comparison view shows flexbox-powered columns or rows (depending on the viewport size) that appear with a slide-in effect. There are a couple of example media queries for smaller viewports.</description>
+    </item>
+    
+    <item>
+      <title>Top Tips to Improve AngularJS Performance</title>
+      <link>/post/top-tips-to-improve-angularjs-performance/</link>
+      <pubDate>Tue, 02 Jun 2015 07:26:03 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/top-tips-to-improve-angularjs-performance/</guid>
+      <description>Minimize/Avoid Watchers Usually, if your Angular app is slow, it means that you either have too many watcher, or those watchers are working harder then they should.
+Angular uses dirty checking to keep track of all the changes in app. This means it will have to go through every watcher to check if they need to be updated (call the digest cycle). If one of the watcher is relied upon by another watcher, Angular would have to re-run the digest cycle again, to make sure that all of the changes has propagated.</description>
+    </item>
+    
+    <item>
+      <title>CSS Transition in Examples</title>
+      <link>/post/css-transition-in-examples/</link>
+      <pubDate>Mon, 01 Jun 2015 16:23:47 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/css-transition-in-examples/</guid>
+      <description>We will create the basic examples to show your how CSS Transition works. CSS transitions let you decide which properties to animate, when the animation will start, how long the transition will last, and how the transition will run.
+Basic Animation The transition property is a shorthand property used to represent up to four transition-related longhand properties:
+.selector { transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay]; }  These transition properties allow elements to change values over a specified duration, animating the property changes, rather than having them occur immediately.</description>
+    </item>
+    
+    <item>
+      <title>Top Free Books for Web Designers &amp; Developers</title>
+      <link>/post/top-free-books-for-web-designers-developers/</link>
+      <pubDate>Wed, 27 May 2015 08:17:11 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/top-free-books-for-web-designers-developers/</guid>
+      <description>There are thousands of books available for web designers and developers online. There has been no language, no point of discussion, or no trend that has not, at one time or another, been extensively explored and analyzed, and eventually published into a book. The great news is quite a lot of these books are available for free! And I have collected my top favorites for you!
+CSS &amp;amp; HTML Essential Learning A Guide to HTML5 and CSS3 by Ashley Menhennett A Guide to HTML5 and CSS3 covers the basics of web development and it’s a great starting point whether your plan is to make websites, HTML5 mobile apps or games.</description>
+    </item>
+    
+    <item>
+      <title>HTML5 File Upload without jQuery</title>
+      <link>/post/html5-file-upload-without-jquery/</link>
+      <pubDate>Wed, 27 May 2015 07:03:15 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/html5-file-upload-without-jquery/</guid>
+      <description>In this blog post, I’ll explain how to use HTML 5, to read information about file(s) selected by users, and to upload the file(s) on a server. You might want to do is let the user upload the selected file or files to a server. This can be done asynchronously very easily.
+The File API is one of the most interesting features added with HTML 5. Now we can fetch and display file(s) information before they are uploaded on the server, and we can send them without posting a form.</description>
+    </item>
+    
+    <item>
+      <title>Plain JavaScript Functions and Helpers</title>
+      <link>/post/plain-javascript-functions-and-helpers/</link>
+      <pubDate>Tue, 26 May 2015 06:08:52 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/plain-javascript-functions-and-helpers/</guid>
+      <description>jQuery is one of the great libraries that helped us overcome JavaScript browser issues when IE 6 and 7 were still around. Today, it may be a good choice to drop jQuery and its cousins, because modern browsers are pretty easy to deal with on their own. Using plain JavaScript will make your applications load and react blazingly fast.</description>
+    </item>
+    
+    <item>
+      <title>How to Center in CSS</title>
+      <link>/post/how-to-center-in-css-tools/</link>
+      <pubDate>Fri, 22 May 2015 17:13:30 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/how-to-center-in-css-tools/</guid>
+      <description>Centering in CSS is a pain in the ass. There seems to be a gazillion ways to do it, depending on a variety of factors. This consolidates them and gives you the code you need for each situation.</description>
+    </item>
+    
+    <item>
+      <title>The Top Hybrid Mobile Application Frameworks</title>
+      <link>/post/the-top-hybrid-mobile-application-frameworks/</link>
+      <pubDate>Fri, 22 May 2015 13:08:33 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/the-top-hybrid-mobile-application-frameworks/</guid>
+      <description>An HTML application is very attractive if you need to support many types of devices and platforms and you either don&amp;rsquo;t have the internal resources to develop and maintain native applications or you don&amp;rsquo;t have the budget to pay someone to do it for you. It&amp;rsquo;s also a tempting option to just reuse a responsive web application that may already exist and save yourself the headache of a new project.</description>
+    </item>
+    
+    <item>
+      <title>Another One Way to Create a Multilingual AngularJS Application</title>
+      <link>/post/another-one-way-to-create-a-multilingual-angularjs-application/</link>
+      <pubDate>Fri, 22 May 2015 11:12:26 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/another-one-way-to-create-a-multilingual-angularjs-application/</guid>
+      <description>The rise of multilingual user interface has bought an interesting shift in the way complex information is perceived by today’s web users. These days, a variety of web projects demand the use of multilingual graphical interface to cater the needs of an international audience. Creating a unique international application requires you to make use of translated resource strings which ultimately lets you render the data using locale-sensitive objects.
+Designing a mobile application interface that supports a great deal of languages can help you make headways to the international market in the quickest possible manner.</description>
+    </item>
+    
+    <item>
+      <title>Lazyr.js – A Small Library for Lazy Loading Images</title>
+      <link>/post/lazyrjs-a-small-library-for-lazy-loading-images/</link>
+      <pubDate>Thu, 21 May 2015 13:14:56 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/lazyrjs-a-small-library-for-lazy-loading-images/</guid>
+      <description>Lazyr.js is a small, fast, modern, and dependency-free library for lazy loading images. Lazy loading boosts page speed by deferring the loading of images until they’re in (or near) the viewport. This library makes it completely painless – maximizing speed by keeping options to a minimum.
+The scroll event has been debounced to minimize the weight on the browser, and images are revealed within rAF to ensure optimal rendering. For each image, put a placeholder in the src attribute, the regular image in the data-layzr attribute, and the retina image in the data-layzr-retina attribute.</description>
+    </item>
+    
+    <item>
+      <title>Basscss - A Low Level CSS Toolkit</title>
+      <link>/post/basscss-a-low-level-css-toolkit/</link>
+      <pubDate>Thu, 21 May 2015 13:02:16 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/basscss-a-low-level-css-toolkit/</guid>
+      <description>Basscss is a lightweight collection of base element styles, immutable utilities, layout modules, and color styles designed for speed, clarity, performance, and scalability.
+Using clear, humanized naming conventions, Basscss is quick to internalize and easy to reason about while speeding up development time with more scalable, more readable code. Basscss strikes a balance between consistency and flexibility to allow for rapid prototyping and quick iterative changes when designing in the browser.</description>
+    </item>
+    
+    <item>
+      <title>T3 JavaScript Framework for Large-scale Web Applications</title>
+      <link>/post/t3-javascript-framework-for-large-scale-web-applications/</link>
+      <pubDate>Thu, 21 May 2015 12:58:23 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/t3-javascript-framework-for-large-scale-web-applications/</guid>
+      <description>T3 is a client-side JavaScript framework for building large-scale web applications. T3 is different than most JavaScript frameworks. It’s meant to be a small piece of an overall architecture that allows you to build scalable client-side code. A T3 application is managed by the Application object, whose primary job is to manage modules, services, and behaviors. It’s the combination of these three types of objects that allow you to build a scalable JavaScript front-end.</description>
+    </item>
+    
+    <item>
+      <title>Create Cross Platform Desktop Applications with Electron</title>
+      <link>/post/create-cross-platform-desktop-applications-with-electron/</link>
+      <pubDate>Thu, 21 May 2015 12:50:32 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/create-cross-platform-desktop-applications-with-electron/</guid>
+      <description>The Electron framework lets you write cross-platform desktop applications using JavaScript, HTML and CSS. It is based on io.js and Chromium and is used in the Atom editor. You can use HTML, CSS, and JavaScript with Chromium and Node.js to build your app.Electron is open source; mantained by GitHub and an active community. Best of all, Electron apps build and run on Mac, Windows, and Linux.</description>
+    </item>
+    
+    <item>
+      <title>Using the ES6 transpiler Babel on Node.js</title>
+      <link>/post/using-the-es6-transpiler-babel-on-nodejs/</link>
+      <pubDate>Thu, 21 May 2015 09:46:23 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/using-the-es6-transpiler-babel-on-nodejs/</guid>
+      <description>This post explains how to use the ES6 transpiler Babel with Node.js. Use next generation JavaScript, today with Babel JavaScript compiler.
+Running normal Node.js code via Babel Firts needs to install babel package. The npm package babel brings Babel support to Node.js:
+$ npm install --global babel  This package contains the shell script babel-node, which is a Babel-ified version of node. It compiles everything from ES6 to ES5 that is run or required.</description>
+    </item>
+    
+    <item>
+      <title>Making Your First Webapp with React</title>
+      <link>/post/making-your-first-webapp-with-react/</link>
+      <pubDate>Wed, 20 May 2015 11:32:24 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/making-your-first-webapp-with-react/</guid>
+      <description>React has gained a lot of popularity recently and has attracted a large and active community. This results in a vast wealth of reusable components for it that will save you time when coding. The library itself encourages writing loosely coupled code that is modular and composable.
+In this tutorial, I will show you how to create a small application and how to split it into discrete components that talk to each other.</description>
+    </item>
+    
+    <item>
+      <title>Learn Meteor.js From Scratch: Build a Polling App</title>
+      <link>/post/learn-meteor-js-from-scratch-build-a-polling-app-scotchio/</link>
+      <pubDate>Wed, 20 May 2015 11:10:44 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/learn-meteor-js-from-scratch-build-a-polling-app-scotchio/</guid>
+      <description>Meteor.js is an open-source platform built on Node and MongoDB. It’s not just a framework, it’s more than that.
+Is it comparable to Angular? Angular handles just the frontend parts of application. Meteor is more of a platform than Angular. It is both server and client-side code and handles a lot of the parts of applications that we need to create manually in Angular.
+We’ll be diving into a simple application in this tutorial to show off the benefits and power of Meteor.</description>
+    </item>
+    
+    <item>
+      <title>Build a Time Tracker with Laravel 5 and AngularJS</title>
+      <link>/post/build-a-time-tracker-with-laravel-5-and-angularjs-scotchio/</link>
+      <pubDate>Wed, 20 May 2015 11:07:44 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/build-a-time-tracker-with-laravel-5-and-angularjs-scotchio/</guid>
+      <description>Laravel and AngularJS work great together, but it can be a little tricky to get going at first, especially if you are new to the frameworks. In a previous article, Chris showed you how to make a Single Page Comment App with Laravel and Angular. This tutorial will again bring the two frameworks together as we build out a simple time tracking application.
+We’ll be going into a lot of detail in this tutorial, so to make things manageable it has been broken into two parts.</description>
+    </item>
+    
+    <item>
+      <title>Authenticate a Node.js API with JSON Web Tokens</title>
+      <link>/post/authenticate-a-node-js-api-with-json-web-tokens/</link>
+      <pubDate>Wed, 20 May 2015 11:00:44 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/authenticate-a-node-js-api-with-json-web-tokens/</guid>
+      <description>Authentication is one of the big parts of every application. Security is always something that is changing and evolving. In the past, we have gone over Node authentication using the great Passport npm package.
+Those articles used the session based authentication however, which has problems when we talk about scaling web services and creating an API that can be consumed across many devices and services.
+As a primer to this article, go ahead and get yourself familiar with token based authentication principles and the standard used for token based authentication,JSON Web Tokens.</description>
+    </item>
+    
+    <item>
+      <title>Facebook authentication in AngularJS web application</title>
+      <link>/post/facebook-authentication-in-angularjs-web-application/</link>
+      <pubDate>Wed, 20 May 2015 10:25:41 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/facebook-authentication-in-angularjs-web-application/</guid>
+      <description>In this post we are trying to implement a login system based on the Facebook’s authentication system.
+Authentication with Facebook When I started to work on the facebook authentication I was not a big expert in the matter of Facebook’s api in this case I think that the smarter thing you can do is start reading the Facebook’s document about Facebook’s authentication system.
+You’ll discover that Facebook makes available different ways to authenticate the users of your website, or application, on the basis of the device they are using (Web, iOS or Android), and even for a web app is possible to choose between two different flows: with or without JavaScript SDK.</description>
+    </item>
+    
+    <item>
       <title>AngularJS Constants</title>
       <link>/post/angularjs-constants/</link>
-      <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 May 2015 11:57:48 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
       <guid>/post/angularjs-constants/</guid>
-      <description>AngularJS offers a provider for constants that despite is not very popular it could save you hours of debugging.
-Let’s see an example about how Constants works and will be used.
-angular .module(&#39;app&#39;, []) .constant(&amp;quot;AppConfig&amp;quot;, { &amp;quot;url&amp;quot;: &amp;quot;http://localhost&amp;quot;, &amp;quot;port&amp;quot;: &amp;quot;80&amp;quot; }) .controller(&#39;MainCtrl&#39;, function (AppConfig) { // Do something with AppConfig... });  Above the snippet of code is a classic example, you want a config that could be injectable at any part of your application and it works but maybe is not the best use of a constant.</description>
+      <description>I’m working with AngularJS for almost a year and I’ve decided to share my experience and get feedback from the community. If you consider that something is wrong or could be improved, just leave a message in this post.
+Constants AngularJS offers a provider for constants that despite is not very popular it could save you hours of debugging.
+Let’s see an example about how Constants works and will be used.</description>
     </item>
     
   </channel>
