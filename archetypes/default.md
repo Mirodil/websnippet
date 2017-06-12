@@ -1,7 +1,7 @@
 ---
 title: "..."
 description: "..."
-date: "YYYY-MM-DD"
+date: "2006-03-01"
 slug: "..-.."
 categories:
     - "..."
