@@ -61,16 +61,20 @@
     <hr />
     <div class="social">
         <a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow">
-                <i class="fa fa-facebook"></i>
+                <i class="fa fa-facebook" aria-hidden></i>
+                <span class="sr-only">facebook</span>
             </a>
         <a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow">
-                <i class="fa fa-twitter"></i>
+                <i class="fa fa-twitter" aria-hidden></i>
+                <span class="sr-only">twitter</span>
             </a>
         <a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow">
-                <i class="fa fa-google-plus"></i>
+                <i class="fa fa-google-plus" aria-hidden></i>
+                <span class="sr-only">google+</span>
             </a>
         <a href="http://feeds2.feedburner.com/WebSnippet" title="rss">
-                <i class="fa fa-rss"></i>
+                <i class="fa fa-rss" aria-hidden></i>
+                <span class="sr-only">rss</span>
             </a>
     </div>
     <hr />
@@ -776,11 +780,38 @@ A lot of developers and developer publications out there have started to write m
     </div>
 </article>
 
-            
-<div class="pagination clearfix">
-	<span class="pagination__item pagination__item--current">1/3</span>
-	<a class="pagination__item pagination__item--next" href="/tags/javascript/page/2/">»</a>
-</div>
+            <hr />
+
+<nav aria-label="Page navigation" class="text-center">
+	<ul class="pagination">
+		<li class="disabled">
+			<span aria-label="Previous">
+        		<span aria-hidden="true">&laquo;</span>
+			</span>
+		</li> 
+		
+		
+		<li class="active">
+			<a href="/tags/javascript/">
+				1 <span class="sr-only">(current)</span>
+			</a>
+		</li> 
+		
+		<li>
+			<a href="/tags/javascript/page/2/">2</a>
+		</li> 
+		
+		<li>
+			<a href="/tags/javascript/page/3/">3</a>
+		</li> 
+		
+		<li>
+			<a href="/tags/javascript/page/2/" aria-label="Next">
+				<span aria-hidden="true">&raquo;</span>
+			</a>
+		</li>
+	</ul>
+</nav>
 
         </div>
         <div class="col-md-3">
@@ -790,16 +821,20 @@ A lot of developers and developer publications out there have started to write m
             Follow Us
             <span class="social pull-right">
                 <a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow" target="_blank" class="nodecoration">
-                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-facebook" aria-hidden></i>
+                    <span class="sr-only">facebook</span>
                 </a>
                 <a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow" target="_blank" class="nodecoration">
-                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-twitter" aria-hidden></i>
+                    <span class="sr-only">twitter</span>
                 </a>
                 <a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow" target="_blank" class="nodecoration">
-                    <i class="fa fa-google-plus"></i>
+                    <i class="fa fa-google-plus" aria-hidden></i>
+                    <span class="sr-only">google+</span>
                 </a>
                 <a href="http://feeds2.feedburner.com/WebSnippet" title="rss" target="_blank" class="nodecoration">
-                    <i class="fa fa-rss"></i>
+                    <i class="fa fa-rss" aria-hidden></i>
+                    <span class="sr-only">rss</span>
                 </a>
             </span>
         </h4>
@@ -813,7 +848,9 @@ A lot of developers and developer publications out there have started to write m
           <div class="input-group">
             <input type="text" id="subemail" name="email" class="form-control" placeholder="Your email address...">
             <span class="input-group-btn">
-              <button class="btn btn-default" type="submit"><i class="fa fa-fire"></i></button>
+                <button class="btn btn-default" type="submit" aria-label="Subscribe">
+                  <i class="fa fa-fire" aria-hidden></i>
+                </button>
             </span>
           </div>
         </div>  
@@ -909,19 +946,24 @@ A lot of developers and developer publications out there have started to write m
     <div class="container">
         <div class="text-center social">
             <a href="mailto:hello@websnippet.io" title="email" rel="nofollow">
-                <i class="fa fa-envelope"></i>
+                <i class="fa fa-envelope" aria-hidden></i>
+                <span class="sr-only">email</span>
             </a>
             <a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow" target="_blank">
-                <i class="fa fa-facebook"></i>
+                <i class="fa fa-facebook" aria-hidden></i>
+                <span class="sr-only">facebook</span>
             </a>
             <a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow" target="_blank">
-                <i class="fa fa-twitter"></i>
+                <i class="fa fa-twitter" aria-hidden></i>
+                <span class="sr-only">twitter</span>
             </a>
             <a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow" target="_blank">
-                <i class="fa fa-google-plus"></i>
+                <i class="fa fa-google-plus" aria-hidden></i>
+                <span class="sr-only">google+</span>
             </a>
             <a href="http://feeds2.feedburner.com/WebSnippet" title="rss" target="_blank">
-                <i class="fa fa-rss"></i>
+                <i class="fa fa-rss" aria-hidden></i>
+                <span class="sr-only">rss</span>
             </a>
         </div>
     </div>
