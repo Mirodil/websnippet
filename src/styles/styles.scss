@@ -29,8 +29,8 @@ $panel-border-radius: 0;
 @import "~bootstrap-sass/assets/stylesheets/bootstrap/navs";
 @import "~bootstrap-sass/assets/stylesheets/bootstrap/navbar";
 // @import "~bootstrap-sass/assets/stylesheets/bootstrap/breadcrumbs";
-// @import "~bootstrap-sass/assets/stylesheets/bootstrap/pagination";
-@import "~bootstrap-sass/assets/stylesheets/bootstrap/pager";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/pagination";
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap/pager";
 @import "~bootstrap-sass/assets/stylesheets/bootstrap/labels";
 // @import "~bootstrap-sass/assets/stylesheets/bootstrap/badges";
 // @import "~bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
@@ -115,6 +115,10 @@ hr {
         color: $gray-darker;
     }
 
+    .page-header{
+        border: 0;
+    }
+
     margin-top: 10px;
 
     a {
@@ -161,7 +165,7 @@ hr {
         position: relative;
         margin-top: $line-height-computed;
         background: $component-active-color;
-        padding: $padding-large-horizontal $padding-large-vertical*3;
+        padding: $padding-small-horizontal 0;
 
         .img-thumbnail {
             width: 200px;
