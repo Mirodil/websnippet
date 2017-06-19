@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/handling-long-unexpected-text-content-in-css/</loc>
+    <lastmod>2017-06-19T18:32:36+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/post/google-chrome-developer-console-for-beginners/</loc>
     <lastmod>2016-12-04T23:38:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -407,7 +414,7 @@
   
   <url>
     <loc>/tags/css/</loc>
-    <lastmod>2015-06-06T17:26:19+00:00</lastmod>
+    <lastmod>2017-06-19T18:32:36+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -421,7 +428,7 @@
   
   <url>
     <loc>/categories/development/</loc>
-    <lastmod>2016-12-04T23:38:59+00:00</lastmod>
+    <lastmod>2017-06-19T18:32:36+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -463,7 +470,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2016-12-04T23:38:59+00:00</lastmod>
+    <lastmod>2017-06-19T18:32:36+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -511,7 +518,7 @@
   
   <url>
     <loc>/categories/web-development/</loc>
-    <lastmod>2016-12-04T23:38:59+00:00</lastmod>
+    <lastmod>2017-06-19T18:32:36+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -525,7 +532,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2016-12-04T23:38:59+00:00</lastmod>
+    <lastmod>2017-06-19T18:32:36+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

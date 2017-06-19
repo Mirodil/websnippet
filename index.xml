@@ -8,10 +8,20 @@
     <language>en-us</language>
     <managingEditor>mirodil@websnippet.io (Mirodil)</managingEditor>
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
-    <lastBuildDate>Wed, 30 Nov 2016 18:05:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jun 2017 18:32:36 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Handling long unexpected text content in CSS</title>
+      <link>/post/handling-long-unexpected-text-content-in-css/</link>
+      <pubDate>Mon, 19 Jun 2017 18:32:36 +0000</pubDate>
+      <author>mirodil@websnippet.io (Mirodil)</author>
+      <guid>/post/handling-long-unexpected-text-content-in-css/</guid>
+      <description>When we write CSS, sometimes we forget about edge cases in the designs. For example, when the content is longer than we expected or has long word or link enough and we didn&amp;rsquo;t account for that possibility. We can&amp;rsquo;t guarantee that our CSS will always work as expected, but at least we can reduce that by testing different types of the text content.
+Sometimes there are long words in an article or in a block.</description>
+    </item>
     
     <item>
       <title>Google Chrome Developer Console For Beginners</title>
