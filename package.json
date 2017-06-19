@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p --config _scripts/webpack.config.js",
-    "publish": "sh _scripts/publish_toghpages.sh"
+    "publish": "sh _scripts/publish_toghpages.sh",
+    "post": "hugo new -f yaml post/"
   },
   "repository": {
     "type": "git",
