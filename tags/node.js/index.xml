@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Node.Js on WebSnippet is a blog to share top quality open source resources for developers</title>
-    <link>/tags/node.js/</link>
+    <link>http://github.websnippet.io/tags/node.js/</link>
     <description>Recent content in Node.Js on WebSnippet is a blog to share top quality open source resources for developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,53 +10,53 @@
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
     <lastBuildDate>Sun, 27 Mar 2016 05:46:51 +0000</lastBuildDate>
     
-	<atom:link href="/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.websnippet.io/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Video Streaming with NodeJS</title>
-      <link>/post/video-streaming-with-nodejs/</link>
+      <link>http://github.websnippet.io/post/video-streaming-with-nodejs/</link>
       <pubDate>Sun, 27 Mar 2016 05:46:51 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/video-streaming-with-nodejs/</guid>
+      <guid>http://github.websnippet.io/post/video-streaming-with-nodejs/</guid>
       <description>We can stream video files by utilizing fs.createReadStream(), the server can read the file in a stream rather than reading it all into memory at once. First, we need to create node.js server(here is a code).
 var fs = require(&amp;quot;fs&amp;quot;), http = require(&amp;quot;http&amp;quot;), url = require(&amp;quot;url&amp;quot;), path = require(&amp;quot;path&amp;quot;); http.createServer(function (req, res) { if (req.url = &#39;/movie.mp4&#39;) { // here will be code :) } }).listen(3000);  We will take care about the Accept-Ranges header as is required for the HTML5 video controls to work instead of just blindly send the full file.</description>
     </item>
     
     <item>
       <title>Best Web Hosting Platforms for Node.js Apps</title>
-      <link>/post/best-web-hosting-platforms-for-node-js-apps/</link>
+      <link>http://github.websnippet.io/post/best-web-hosting-platforms-for-node-js-apps/</link>
       <pubDate>Thu, 13 Aug 2015 14:12:01 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/best-web-hosting-platforms-for-node-js-apps/</guid>
+      <guid>http://github.websnippet.io/post/best-web-hosting-platforms-for-node-js-apps/</guid>
       <description>With the rise in popularity of JavaScript the web development is rising to new heights. The flexibility that JavaScript gives us with web applications and on the server was a dream to achieve just some year back. Node.js which has became a next big thing for developers is an open source and runtime environment focused on developing networking and server side applications. The Node.js applications are written in JavaScript and can be executed within Node.</description>
     </item>
     
     <item>
       <title>How debugging remote node app that is hosted on server</title>
-      <link>/post/how-debugging-remote-node-app-that-is-hosted-on-server/</link>
+      <link>http://github.websnippet.io/post/how-debugging-remote-node-app-that-is-hosted-on-server/</link>
       <pubDate>Fri, 10 Jul 2015 17:54:05 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/how-debugging-remote-node-app-that-is-hosted-on-server/</guid>
+      <guid>http://github.websnippet.io/post/how-debugging-remote-node-app-that-is-hosted-on-server/</guid>
       <description>Port Forwarding using SSH This is aslo called SSH Port Tunneling. We will use Putty for SSH Tunneling. So lets get start. In order to use port forwarding to connect from your local machine to a port on a remote server, you need to:
  Choose a port number on your local machine (e.g. 5858 in our case) where PuTTY should listen for incoming connections.  Now, before you start your SSH connection, go to the PuTTY Tunnels panel.</description>
     </item>
     
     <item>
       <title>Let’s Chat</title>
-      <link>/post/let-s-chat/</link>
+      <link>http://github.websnippet.io/post/let-s-chat/</link>
       <pubDate>Sat, 06 Jun 2015 17:41:03 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/let-s-chat/</guid>
+      <guid>http://github.websnippet.io/post/let-s-chat/</guid>
       <description>Let’s Chat is like #Slack, but opensource and self-hosted. It is a persistent messaging application that runs on Node.js and MongoDB. It’s designed to be easily deployable and fits well with small, intimate teams. It’s free (MIT licensed) and ships with killer features such as LDAP/Kerberos authentication, a REST-like API and XMPP support.</description>
     </item>
     
     <item>
       <title>Using the ES6 transpiler Babel on Node.js</title>
-      <link>/post/using-the-es6-transpiler-babel-on-nodejs/</link>
+      <link>http://github.websnippet.io/post/using-the-es6-transpiler-babel-on-nodejs/</link>
       <pubDate>Thu, 21 May 2015 09:46:23 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/using-the-es6-transpiler-babel-on-nodejs/</guid>
+      <guid>http://github.websnippet.io/post/using-the-es6-transpiler-babel-on-nodejs/</guid>
       <description>This post explains how to use the ES6 transpiler Babel with Node.js. Use next generation JavaScript, today with Babel JavaScript compiler.
 Running normal Node.js code via Babel Firts needs to install babel package. The npm package babel brings Babel support to Node.js:
 $ npm install --global babel  This package contains the shell script babel-node, which is a Babel-ified version of node. It compiles everything from ES6 to ES5 that is run or required.</description>
@@ -64,10 +64,10 @@ $ npm install --global babel  This package contains the shell script babel-node
     
     <item>
       <title>Learn Meteor.js From Scratch: Build a Polling App</title>
-      <link>/post/learn-meteor-js-from-scratch-build-a-polling-app-scotchio/</link>
+      <link>http://github.websnippet.io/post/learn-meteor-js-from-scratch-build-a-polling-app-scotchio/</link>
       <pubDate>Wed, 20 May 2015 11:10:44 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/learn-meteor-js-from-scratch-build-a-polling-app-scotchio/</guid>
+      <guid>http://github.websnippet.io/post/learn-meteor-js-from-scratch-build-a-polling-app-scotchio/</guid>
       <description>Meteor.js is an open-source platform built on Node and MongoDB. It’s not just a framework, it’s more than that.
 Is it comparable to Angular? Angular handles just the frontend parts of application. Meteor is more of a platform than Angular. It is both server and client-side code and handles a lot of the parts of applications that we need to create manually in Angular.
 We’ll be diving into a simple application in this tutorial to show off the benefits and power of Meteor.</description>
@@ -75,20 +75,20 @@ We’ll be diving into a simple application in this tutorial to show off the ben
     
     <item>
       <title>Build a Time Tracker with Laravel 5 and AngularJS</title>
-      <link>/post/build-a-time-tracker-with-laravel-5-and-angularjs-scotchio/</link>
+      <link>http://github.websnippet.io/post/build-a-time-tracker-with-laravel-5-and-angularjs-scotchio/</link>
       <pubDate>Wed, 20 May 2015 11:07:44 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/build-a-time-tracker-with-laravel-5-and-angularjs-scotchio/</guid>
+      <guid>http://github.websnippet.io/post/build-a-time-tracker-with-laravel-5-and-angularjs-scotchio/</guid>
       <description>Laravel and AngularJS work great together, but it can be a little tricky to get going at first, especially if you are new to the frameworks. In a previous article, Chris showed you how to make a Single Page Comment App with Laravel and Angular. This tutorial will again bring the two frameworks together as we build out a simple time tracking application.
 We’ll be going into a lot of detail in this tutorial, so to make things manageable it has been broken into two parts.</description>
     </item>
     
     <item>
       <title>Authenticate a Node.js API with JSON Web Tokens</title>
-      <link>/post/authenticate-a-node-js-api-with-json-web-tokens/</link>
+      <link>http://github.websnippet.io/post/authenticate-a-node-js-api-with-json-web-tokens/</link>
       <pubDate>Wed, 20 May 2015 11:00:44 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/authenticate-a-node-js-api-with-json-web-tokens/</guid>
+      <guid>http://github.websnippet.io/post/authenticate-a-node-js-api-with-json-web-tokens/</guid>
       <description>Authentication is one of the big parts of every application. Security is always something that is changing and evolving. In the past, we have gone over Node authentication using the great Passport npm package.
 Those articles used the session based authentication however, which has problems when we talk about scaling web services and creating an API that can be consumed across many devices and services.
 As a primer to this article, go ahead and get yourself familiar with token based authentication principles and the standard used for token based authentication,JSON Web Tokens.</description>

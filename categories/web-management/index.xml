@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Management on WebSnippet is a blog to share top quality open source resources for developers</title>
-    <link>/categories/web-management/</link>
+    <link>http://github.websnippet.io/categories/web-management/</link>
     <description>Recent content in Web Management on WebSnippet is a blog to share top quality open source resources for developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,53 +10,53 @@
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
     <lastBuildDate>Sat, 13 Jun 2015 09:12:43 +0000</lastBuildDate>
     
-	<atom:link href="/categories/web-management/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.websnippet.io/categories/web-management/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Font Loading Techniques</title>
-      <link>/post/font-loading-techniques/</link>
+      <link>http://github.websnippet.io/post/font-loading-techniques/</link>
       <pubDate>Sat, 13 Jun 2015 09:12:43 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/font-loading-techniques/</guid>
+      <guid>http://github.websnippet.io/post/font-loading-techniques/</guid>
       <description>It seems as though most websites use non-default fonts these days and who can blame them? System fonts are all pretty boring and custom fonts add a bit of flare and freshness to a site&amp;rsquo;s design. Web fonts are great and make the web a more beautiful space; however, loading them can be slow, which results in an unwanted side effect. Let me show you a strategy for faster font loading!</description>
     </item>
     
     <item>
       <title>An Interactive Drag and Drop Coloring Experiment</title>
-      <link>/post/an-interactive-drag-and-drop-coloring-experiment/</link>
+      <link>http://github.websnippet.io/post/an-interactive-drag-and-drop-coloring-experiment/</link>
       <pubDate>Mon, 01 Jun 2015 11:46:49 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/an-interactive-drag-and-drop-coloring-experiment/</guid>
+      <guid>http://github.websnippet.io/post/an-interactive-drag-and-drop-coloring-experiment/</guid>
       <description>Interactive Drag and Drop Coloring Concept is a little fun experiment where you can color a website mockup by dragging and dropping a color droplet from a palette. The idea is to simply drag a color from a color palette to a website mockup and color designated areas of it like sections or texts. You might have encountered customization tools before, but Codrops wanted to add some fun to this idea and make it enjoyable to use.</description>
     </item>
     
     <item>
       <title>Carnival – Unobtrusive Way to Add Comments to Website</title>
-      <link>/post/carnival-unobtrusive-way-to-add-comments-to-website/</link>
+      <link>http://github.websnippet.io/post/carnival-unobtrusive-way-to-add-comments-to-website/</link>
       <pubDate>Mon, 01 Jun 2015 11:44:57 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/carnival-unobtrusive-way-to-add-comments-to-website/</guid>
+      <guid>http://github.websnippet.io/post/carnival-unobtrusive-way-to-add-comments-to-website/</guid>
       <description>Carnival is an unobtrusive, developer-friendly way to add comments to any web site. Installation is easy. Once you’ve created a Site , just add a piece of HTML snippet to the bottom of your page, and then you are done.
 By default, a hidden sidebar will be added to any article elements. Within these elements, each p and pre element will receive a small indicator, visible on hover. When clicked, the sidebar will expand, allowing visitors to comment on that specific portion of your article.</description>
     </item>
     
     <item>
       <title>Legit: Git for Humans</title>
-      <link>/post/legit-git-for-humans/</link>
+      <link>http://github.websnippet.io/post/legit-git-for-humans/</link>
       <pubDate>Thu, 21 May 2015 12:11:19 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/legit-git-for-humans/</guid>
+      <guid>http://github.websnippet.io/post/legit-git-for-humans/</guid>
       <description>They haven&amp;rsquo;t re-created the git CLI tool in a GUI, they&amp;rsquo;ve created something different. They&amp;rsquo;ve created a tool that makes Git more accessible. Little things like auto-stashing when you switch branches will confuse git veterans, but it will make Git much easier to grok for newcomers because of the assumptions it makes about your Git workflow.
 Why not bring this innovation back to the command line?</description>
     </item>
     
     <item>
       <title>Step by Step Guide to Setup FeedBurner for Your Website</title>
-      <link>/post/step-by-step-guide-to-setup-feedburner-for-your-website/</link>
+      <link>http://github.websnippet.io/post/step-by-step-guide-to-setup-feedburner-for-your-website/</link>
       <pubDate>Tue, 19 May 2015 11:39:11 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/step-by-step-guide-to-setup-feedburner-for-your-website/</guid>
+      <guid>http://github.websnippet.io/post/step-by-step-guide-to-setup-feedburner-for-your-website/</guid>
       <description>Every major blog is using FeedBurner to burn their RSS feeds because it is a free feature rich system that you cannot turn down. FeedBurner provides statistics, feed optimization option, feed publication option and much more. Integrating FeedBurner and Google Analytics is a must for every blog. In this article, I will show you how you can setup your blog feeds with FeedBurner and use it to help take your blog to the next level.</description>
     </item>
     

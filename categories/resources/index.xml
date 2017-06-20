@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on WebSnippet is a blog to share top quality open source resources for developers</title>
-    <link>/categories/resources/</link>
+    <link>http://github.websnippet.io/categories/resources/</link>
     <description>Recent content in Resources on WebSnippet is a blog to share top quality open source resources for developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,149 +10,149 @@
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
     <lastBuildDate>Thu, 13 Aug 2015 14:12:01 +0000</lastBuildDate>
     
-	<atom:link href="/categories/resources/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.websnippet.io/categories/resources/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Best Web Hosting Platforms for Node.js Apps</title>
-      <link>/post/best-web-hosting-platforms-for-node-js-apps/</link>
+      <link>http://github.websnippet.io/post/best-web-hosting-platforms-for-node-js-apps/</link>
       <pubDate>Thu, 13 Aug 2015 14:12:01 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/best-web-hosting-platforms-for-node-js-apps/</guid>
+      <guid>http://github.websnippet.io/post/best-web-hosting-platforms-for-node-js-apps/</guid>
       <description>With the rise in popularity of JavaScript the web development is rising to new heights. The flexibility that JavaScript gives us with web applications and on the server was a dream to achieve just some year back. Node.js which has became a next big thing for developers is an open source and runtime environment focused on developing networking and server side applications. The Node.js applications are written in JavaScript and can be executed within Node.</description>
     </item>
     
     <item>
       <title>PHP Libraries for Developers</title>
-      <link>/post/php-libraries-for-developers/</link>
+      <link>http://github.websnippet.io/post/php-libraries-for-developers/</link>
       <pubDate>Thu, 13 Aug 2015 13:52:53 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/php-libraries-for-developers/</guid>
+      <guid>http://github.websnippet.io/post/php-libraries-for-developers/</guid>
       <description>These days, PHP is making a lot of buzz for being an effective server-side programming language for web development. PHP libraries perform a useful function of extending the core functionality of the language. A library is a vast collection of useful resources, such as pre-written codes, classes, values, message templates, configuration data and more. Currently, there are a bunch of PHP libraries that can execute web development with greater speed and efficiency.</description>
     </item>
     
     <item>
       <title>Google’s Roboto Font is Now Open Source</title>
-      <link>/post/google-s-roboto-font-is-now-open-source/</link>
+      <link>http://github.websnippet.io/post/google-s-roboto-font-is-now-open-source/</link>
       <pubDate>Sun, 07 Jun 2015 15:33:47 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/google-s-roboto-font-is-now-open-source/</guid>
+      <guid>http://github.websnippet.io/post/google-s-roboto-font-is-now-open-source/</guid>
       <description>Google introduced the Roboto font nearly four years ago as part of Android 4.0 Ice Cream Sandwich. Since then, it’s grown to be the default for Android and Chrome OS, and it’s a big part of Google’s overall Material Design language that we’re seeing spread across many of its web services as well. Google has announced that their signature font “Roboto” is now officially free to use by any e-reader company.</description>
     </item>
     
     <item>
       <title>Free Download: DO UI Kit with 250&#43; Components</title>
-      <link>/post/free-download-do-ui-kit-with-250-components/</link>
+      <link>http://github.websnippet.io/post/free-download-do-ui-kit-with-250-components/</link>
       <pubDate>Sun, 07 Jun 2015 15:31:53 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/free-download-do-ui-kit-with-250-components/</guid>
+      <guid>http://github.websnippet.io/post/free-download-do-ui-kit-with-250-components/</guid>
       <description>The DO UI kit is now available for free for Photoshop &amp;amp; Sketch! It’s got over 130 stunning screens, 10 complete themes, and 250+ components to mix and match to create stunning apps. They are all remixable and retina ready. Best of all, they look very clean and colorful, which makes it perfect fit for today’s flat aesthetic.</description>
     </item>
     
     <item>
       <title>Atomic – The Fastest Way to Design Beautiful Interactions</title>
-      <link>/post/atomic-the-fastest-way-to-design-beautiful-interactions/</link>
+      <link>http://github.websnippet.io/post/atomic-the-fastest-way-to-design-beautiful-interactions/</link>
       <pubDate>Sat, 06 Jun 2015 17:44:56 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/atomic-the-fastest-way-to-design-beautiful-interactions/</guid>
+      <guid>http://github.websnippet.io/post/atomic-the-fastest-way-to-design-beautiful-interactions/</guid>
       <description>As of today anyone can set up an account and start prototyping in seconds. Atomic approaches prototyping in the way designers think: design your different states as separate pages, then create automatic animations between them.
 Create your designs from scratch in Atomic, or bring your assets in from another drawing tool. Draw Hotspots over elements in your design and link pages together into a prototype. You can choose to animate these transitions between pages.</description>
     </item>
     
     <item>
       <title>An Interactive Drag and Drop Coloring Experiment</title>
-      <link>/post/an-interactive-drag-and-drop-coloring-experiment/</link>
+      <link>http://github.websnippet.io/post/an-interactive-drag-and-drop-coloring-experiment/</link>
       <pubDate>Mon, 01 Jun 2015 11:46:49 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/an-interactive-drag-and-drop-coloring-experiment/</guid>
+      <guid>http://github.websnippet.io/post/an-interactive-drag-and-drop-coloring-experiment/</guid>
       <description>Interactive Drag and Drop Coloring Concept is a little fun experiment where you can color a website mockup by dragging and dropping a color droplet from a palette. The idea is to simply drag a color from a color palette to a website mockup and color designated areas of it like sections or texts. You might have encountered customization tools before, but Codrops wanted to add some fun to this idea and make it enjoyable to use.</description>
     </item>
     
     <item>
       <title>Carnival – Unobtrusive Way to Add Comments to Website</title>
-      <link>/post/carnival-unobtrusive-way-to-add-comments-to-website/</link>
+      <link>http://github.websnippet.io/post/carnival-unobtrusive-way-to-add-comments-to-website/</link>
       <pubDate>Mon, 01 Jun 2015 11:44:57 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/carnival-unobtrusive-way-to-add-comments-to-website/</guid>
+      <guid>http://github.websnippet.io/post/carnival-unobtrusive-way-to-add-comments-to-website/</guid>
       <description>Carnival is an unobtrusive, developer-friendly way to add comments to any web site. Installation is easy. Once you’ve created a Site , just add a piece of HTML snippet to the bottom of your page, and then you are done.
 By default, a hidden sidebar will be added to any article elements. Within these elements, each p and pre element will receive a small indicator, visible on hover. When clicked, the sidebar will expand, allowing visitors to comment on that specific portion of your article.</description>
     </item>
     
     <item>
       <title>Top Free Books for Web Designers &amp; Developers</title>
-      <link>/post/top-free-books-for-web-designers-developers/</link>
+      <link>http://github.websnippet.io/post/top-free-books-for-web-designers-developers/</link>
       <pubDate>Wed, 27 May 2015 08:17:11 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/top-free-books-for-web-designers-developers/</guid>
+      <guid>http://github.websnippet.io/post/top-free-books-for-web-designers-developers/</guid>
       <description>There are thousands of books available for web designers and developers online. There has been no language, no point of discussion, or no trend that has not, at one time or another, been extensively explored and analyzed, and eventually published into a book. The great news is quite a lot of these books are available for free! And I have collected my top favorites for you!
 CSS &amp;amp; HTML Essential Learning A Guide to HTML5 and CSS3 by Ashley Menhennett A Guide to HTML5 and CSS3 covers the basics of web development and it’s a great starting point whether your plan is to make websites, HTML5 mobile apps or games.</description>
     </item>
     
     <item>
       <title>Top Websites for Graphic Designers to Explore Freebies</title>
-      <link>/post/top-websites-for-graphic-designers-to-explore-freebies/</link>
+      <link>http://github.websnippet.io/post/top-websites-for-graphic-designers-to-explore-freebies/</link>
       <pubDate>Sat, 23 May 2015 19:18:44 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/top-websites-for-graphic-designers-to-explore-freebies/</guid>
+      <guid>http://github.websnippet.io/post/top-websites-for-graphic-designers-to-explore-freebies/</guid>
       <description>Graphic and web designers are in constant search of new resources to bring freshness to their designing projects. After all, their job is about crafting wonderful pieces of appealing visual art by incorporating the use of the latest tools and resources. Boring repetition is a strict no-no. It is a creative field.
 No two websites, newsletters or brochures are identical to each other. It requires a great deal of effort to produce a graphic art which is original as well as appealing.</description>
     </item>
     
     <item>
       <title>Learn to Type Faster with Ratatype Typing Tutor</title>
-      <link>/post/learn-to-type-faster-with-ratatype-typing-tutor/</link>
+      <link>http://github.websnippet.io/post/learn-to-type-faster-with-ratatype-typing-tutor/</link>
       <pubDate>Thu, 21 May 2015 13:17:16 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/learn-to-type-faster-with-ratatype-typing-tutor/</guid>
+      <guid>http://github.websnippet.io/post/learn-to-type-faster-with-ratatype-typing-tutor/</guid>
       <description>Ratatype is an online typing tutor and a great website for people who want to type better. Start mastering your skills with us, challenge your friends or simply get a typing certificate. Typing is a more important skill than writing nowadays. And if you do it slow you are just wasting your time. Your time deserves much more than this.
 If you increase your typing speed by 30% you can save 20 minutes daily.</description>
     </item>
     
     <item>
       <title>Free Photoshop Mockups for Web Designer &amp; Developer</title>
-      <link>/post/free-photoshop-mockups-for-web-designer-and-developer/</link>
+      <link>http://github.websnippet.io/post/free-photoshop-mockups-for-web-designer-and-developer/</link>
       <pubDate>Thu, 21 May 2015 13:11:53 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/free-photoshop-mockups-for-web-designer-and-developer/</guid>
+      <guid>http://github.websnippet.io/post/free-photoshop-mockups-for-web-designer-and-developer/</guid>
       <description>Flat Apple Devices Mockup A huge collection of flat Apple devices mockups to showcase your responsive web designs. The PSD file includes iPhones, iPads, iMac and Macbook with different viewing angles and now even an Apple Watch!
 Free iPhone 5 Mockups When it comes to a mobile user interface design presentation these phone mock-ups will really come in handy. One of the important points to consider in UI design presentation is to make it looks natural as possible.</description>
     </item>
     
     <item>
       <title>Basscss - A Low Level CSS Toolkit</title>
-      <link>/post/basscss-a-low-level-css-toolkit/</link>
+      <link>http://github.websnippet.io/post/basscss-a-low-level-css-toolkit/</link>
       <pubDate>Thu, 21 May 2015 13:02:16 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/basscss-a-low-level-css-toolkit/</guid>
+      <guid>http://github.websnippet.io/post/basscss-a-low-level-css-toolkit/</guid>
       <description>Basscss is a lightweight collection of base element styles, immutable utilities, layout modules, and color styles designed for speed, clarity, performance, and scalability.
 Using clear, humanized naming conventions, Basscss is quick to internalize and easy to reason about while speeding up development time with more scalable, more readable code. Basscss strikes a balance between consistency and flexibility to allow for rapid prototyping and quick iterative changes when designing in the browser.</description>
     </item>
     
     <item>
       <title>Legit: Git for Humans</title>
-      <link>/post/legit-git-for-humans/</link>
+      <link>http://github.websnippet.io/post/legit-git-for-humans/</link>
       <pubDate>Thu, 21 May 2015 12:11:19 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/legit-git-for-humans/</guid>
+      <guid>http://github.websnippet.io/post/legit-git-for-humans/</guid>
       <description>They haven&amp;rsquo;t re-created the git CLI tool in a GUI, they&amp;rsquo;ve created something different. They&amp;rsquo;ve created a tool that makes Git more accessible. Little things like auto-stashing when you switch branches will confuse git veterans, but it will make Git much easier to grok for newcomers because of the assumptions it makes about your Git workflow.
 Why not bring this innovation back to the command line?</description>
     </item>
     
     <item>
       <title>Loaders Inspiration</title>
-      <link>/post/loaders-inspiration-muzli/</link>
+      <link>http://github.websnippet.io/post/loaders-inspiration-muzli/</link>
       <pubDate>Wed, 20 May 2015 11:26:40 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/loaders-inspiration-muzli/</guid>
+      <guid>http://github.websnippet.io/post/loaders-inspiration-muzli/</guid>
       <description>Loaders Inspiration. Preloaders for my personal collection.</description>
     </item>
     
     <item>
       <title>Exclusive Free Resources</title>
-      <link>/post/exclusive-free-resources-1001freedownloads/</link>
+      <link>http://github.websnippet.io/post/exclusive-free-resources-1001freedownloads/</link>
       <pubDate>Wed, 20 May 2015 11:20:20 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>/post/exclusive-free-resources-1001freedownloads/</guid>
+      <guid>http://github.websnippet.io/post/exclusive-free-resources-1001freedownloads/</guid>
       <description>At 1001FreeDownloads we scour the web in search for the best and most attractive free graphics for designers. Our site makes it easy and fun to search and find the graphics you need in an quick and easy to use platform. We have a collection of tens of thousands of files and we are constantly expanding our content. We currently feature thousands of free vectors, photos, brushes, gradients, PSDs, fonts and we have much more to come.</description>
     </item>
     
