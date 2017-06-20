@@ -5,8 +5,8 @@ description: 'In this article, we will go through different UI bugs from real-wo
 slug: "handling-long-unexpected-text-content-in-css"
 categories: [ "Web-Development", "Development" ]
 tags: ["CSS"]
-thumbnail: ""
-image: ""
+thumbnail: "https://scontent.xx.fbcdn.net/v/t1.0-0/c78.0.200.200/p200x200/19399187_1233213250123336_206476419801076325_n.jpg?oh=7b977c5dc6be37a6e3f7e6a1e5489081&oe=59D251E8"
+image: "https://scontent.xx.fbcdn.net/v/t1.0-9/19399187_1233213250123336_206476419801076325_n.jpg?oh=4e39a538dc47d7e40992d6527b02e24c&oe=59E9C846"
 source: ""
 ---
 
@@ -57,12 +57,27 @@ It is good for single line text content, such as titles, but for multi-line cont
 
 Words may be broken at arbitrary points if there are no otherwise-acceptable break points in the line. It works very well for the multi-line contents, such as articles or block of texts. In this case, it does not brake word `the` into `th` and `e`, instead moves to next line, if the word is longer than the container width then it will break the word at arbitrary points.
 
+As no one likes to specify `width`(by my assumption), We are going to improve it in the next solution.
+
+## Without specifying width
+
+As you can notice last example works well but we have to specify `width` property.
+We can make it better without specifying `width` property in pixels.
+We need add two more CSS properties: `table-layout: fixed;` and `display: table;`,
+otherwise we have to wrap it into `table` element with one column and one row.
+
+```
+.article{
+    overflow-wrap: break-word;
+    /* the following are required for overflow-wrap/word-wrap */
+    table-layout: fixed;
+    word-break: normal;
+    display: table;
+    width: 100%;
+}
+```
 
 Here is the result:
 
 <iframe src="http://jsfiddle.net/Mirodil/qc38ky3v/embedded/result,html,css/" width="100%" height="450">
 </iframe>
-
-
-
-
