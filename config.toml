@@ -1,4 +1,6 @@
-baseURL = "/"
+baseURL = "http://github.websnippet.io/"
+# canonifyURLs = true
+# relativeurls = false
 languageCode = "en-us"
 title = "WebSnippet is a blog to share top quality open source resources for developers"
 paginate = "10" # Number of posts per page
