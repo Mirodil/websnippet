@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p --config _scripts/webpack.config.js",
     "publish": "sh _scripts/publish_toghpages.sh",
-    "post": "hugo new -f yaml post/"
+    "post": "hugo new -f yaml post/",
+    "start": "hugo server -D"
   },
   "repository": {
     "type": "git",
