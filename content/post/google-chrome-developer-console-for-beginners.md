@@ -6,8 +6,8 @@ lastmod: "2016-12-04T23:38:59.139Z"
 slug: "google-chrome-developer-console-for-beginners"
 categories: ["Web-Development", "Development"]
 tags: ["JavaScript"]
-thumbnail: "http://i963.photobucket.com/albums/ae120/Mirodil/maxresdefault.jpg"
-image: "http://i963.photobucket.com/albums/ae120/Mirodil/maxresdefault.jpg"
+thumbnail: "https://1.bp.blogspot.com/-FX8rmybUqyw/Wg-SPxeIq9I/AAAAAAAAD1Y/drVWmWMzfwMihimUFrr2hBcIFes7Z8G0wCLcBGAs/s400/maxresdefault.JPG"
+image: "https://1.bp.blogspot.com/-FX8rmybUqyw/Wg-SPxeIq9I/AAAAAAAAD1Y/drVWmWMzfwMihimUFrr2hBcIFes7Z8G0wCLcBGAs/s1600/maxresdefault.JPG"
 source: ""
 ---
 
@@ -18,7 +18,7 @@ if you familar with jQuery, select element is simlar `$(‘.class’)` or `$(‘
 
 Here is another construction `$$`, which select all elements. Its use looks like `$$(‘tagName’)` or `$$(‘.class’)`. This construction is alias for `document.querySelectorAll`. 
 
-![](http://i963.photobucket.com/albums/ae120/Mirodil/google-chrome-console-developer-1.png)​
+![](https://1.bp.blogspot.com/-5rEZX1bdFUo/Wg-SPsG9pCI/AAAAAAAAD1c/BdjLtQmKgB8T8hKhkNlaymOJkLSHg2aGACEwYBhgL/s1600/google-chrome-console-developer-1.png)​
 
 ## 2\. The list of event handlers attached to an element
 
@@ -60,7 +60,7 @@ Suppose we have an array of objects:
 
 and you can use `console.table(variableName)` to print variable.
 
-![](http://i963.photobucket.com/albums/ae120/Mirodil/google-chrome-developer-console-for-beginners-2.png)
+![](https://3.bp.blogspot.com/-y9mAHRXaK4k/Wg-UTcpWaHI/AAAAAAAAD1w/pEA1xtuM-WMGC-OMrNnEeYwX3oRkaroqgCLcBGAs/s1600/google-chrome-developer-console-for-beginners-2.png)
 
 ## 6 Inspect Element
 

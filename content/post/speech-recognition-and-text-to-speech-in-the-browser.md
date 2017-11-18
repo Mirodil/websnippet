@@ -6,8 +6,8 @@ lastmod: "2016-08-17T03:11:47.762Z"
 slug: "speech-recognition-and-text-to-speech-in-the-browser"
 categories: ["Web-Development", "Development"]
 tags: ["JavaScript"]
-thumbnail: "http://i963.photobucket.com/albums/ae120/Mirodil/Voice-Processing1.jpg"
-image: "http://i963.photobucket.com/albums/ae120/Mirodil/Voice-Processing1.jpg"
+thumbnail: "https://1.bp.blogspot.com/-OLv2IdZ2vyc/Wg-TMudXGAI/AAAAAAAAD1o/QDFITC2ou7kXhoctnS1EgfiJjQxx7cHtQCLcBGAs/s400/Voice-Processing1.JPG"
+image: "https://1.bp.blogspot.com/-OLv2IdZ2vyc/Wg-TMudXGAI/AAAAAAAAD1o/QDFITC2ou7kXhoctnS1EgfiJjQxx7cHtQCLcBGAs/s1600/Voice-Processing1.JPG"
 source: ""
 ---
 

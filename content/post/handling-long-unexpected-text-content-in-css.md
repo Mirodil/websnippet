@@ -5,8 +5,8 @@ description: 'In this article, we will go through different UI bugs from real-wo
 slug: "handling-long-unexpected-text-content-in-css"
 categories: [ "Web-Development", "Development" ]
 tags: ["CSS"]
-thumbnail: "https://scontent.xx.fbcdn.net/v/t1.0-0/c78.0.200.200/p200x200/19399187_1233213250123336_206476419801076325_n.jpg?oh=7b977c5dc6be37a6e3f7e6a1e5489081&oe=59D251E8"
-image: "https://scontent.xx.fbcdn.net/v/t1.0-9/19399187_1233213250123336_206476419801076325_n.jpg?oh=4e39a538dc47d7e40992d6527b02e24c&oe=59E9C846"
+thumbnail: "https://4.bp.blogspot.com/-seJJbpJWRwM/Wg2v8-oOmXI/AAAAAAAAD0s/5JoNHCDf_h4svjywhHH0M2kVh0AXzwJRQCLcBGAs/s400/html-and-css.jpg"
+image: "https://4.bp.blogspot.com/-seJJbpJWRwM/Wg2v8-oOmXI/AAAAAAAAD0s/5JoNHCDf_h4svjywhHH0M2kVh0AXzwJRQCLcBGAs/s1600/html-and-css.jpg"
 source: ""
 ---
 
