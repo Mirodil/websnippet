@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1000 on WebSnippet is a blog to share top quality open source resources for developers</title>
-    <link>https://mirodil.github.io/websnippet/1000/</link>
+    <link>https://websnippet.io/1000/</link>
     <description>Recent content in 1000 on WebSnippet is a blog to share top quality open source resources for developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>mirodil@websnippet.io (Mirodil)</managingEditor>
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
     
-	<atom:link href="https://mirodil.github.io/websnippet/1000/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://websnippet.io/1000/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

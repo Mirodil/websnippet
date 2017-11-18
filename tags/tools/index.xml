@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on WebSnippet is a blog to share top quality open source resources for developers</title>
-    <link>https://mirodil.github.io/websnippet/tags/tools/</link>
+    <link>https://websnippet.io/tags/tools/</link>
     <description>Recent content in Tools on WebSnippet is a blog to share top quality open source resources for developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
     <lastBuildDate>Fri, 22 May 2015 17:13:30 +0000</lastBuildDate>
     
-	<atom:link href="https://mirodil.github.io/websnippet/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://websnippet.io/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to Center in CSS</title>
-      <link>https://mirodil.github.io/websnippet/post/how-to-center-in-css-tools/</link>
+      <link>https://websnippet.io/post/how-to-center-in-css-tools/</link>
       <pubDate>Fri, 22 May 2015 17:13:30 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/post/how-to-center-in-css-tools/</guid>
+      <guid>https://websnippet.io/post/how-to-center-in-css-tools/</guid>
       <description>Centering in CSS is a pain in the ass. There seems to be a gazillion ways to do it, depending on a variety of factors. This consolidates them and gives you the code you need for each situation.</description>
     </item>
     

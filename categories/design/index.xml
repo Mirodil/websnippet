@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on WebSnippet is a blog to share top quality open source resources for developers</title>
-    <link>https://mirodil.github.io/websnippet/categories/design/</link>
+    <link>https://websnippet.io/categories/design/</link>
     <description>Recent content in Design on WebSnippet is a blog to share top quality open source resources for developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,82 +10,82 @@
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
     <lastBuildDate>Sun, 07 Jun 2015 15:33:47 +0000</lastBuildDate>
     
-	<atom:link href="https://mirodil.github.io/websnippet/categories/design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://websnippet.io/categories/design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Google’s Roboto Font is Now Open Source</title>
-      <link>https://mirodil.github.io/websnippet/post/google-s-roboto-font-is-now-open-source/</link>
+      <link>https://websnippet.io/post/google-s-roboto-font-is-now-open-source/</link>
       <pubDate>Sun, 07 Jun 2015 15:33:47 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/post/google-s-roboto-font-is-now-open-source/</guid>
+      <guid>https://websnippet.io/post/google-s-roboto-font-is-now-open-source/</guid>
       <description>Google introduced the Roboto font nearly four years ago as part of Android 4.0 Ice Cream Sandwich. Since then, it’s grown to be the default for Android and Chrome OS, and it’s a big part of Google’s overall Material Design language that we’re seeing spread across many of its web services as well. Google has announced that their signature font “Roboto” is now officially free to use by any e-reader company.</description>
     </item>
     
     <item>
       <title>Free Download: DO UI Kit with 250&#43; Components</title>
-      <link>https://mirodil.github.io/websnippet/post/free-download-do-ui-kit-with-250-components/</link>
+      <link>https://websnippet.io/post/free-download-do-ui-kit-with-250-components/</link>
       <pubDate>Sun, 07 Jun 2015 15:31:53 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/post/free-download-do-ui-kit-with-250-components/</guid>
+      <guid>https://websnippet.io/post/free-download-do-ui-kit-with-250-components/</guid>
       <description>The DO UI kit is now available for free for Photoshop &amp;amp; Sketch! It’s got over 130 stunning screens, 10 complete themes, and 250+ components to mix and match to create stunning apps. They are all remixable and retina ready. Best of all, they look very clean and colorful, which makes it perfect fit for today’s flat aesthetic.</description>
     </item>
     
     <item>
       <title>Create Tooltip Style Toolbars with Toolbar.js</title>
-      <link>https://mirodil.github.io/websnippet/post/create-tooltip-style-toolbars-with-toolbar-js/</link>
+      <link>https://websnippet.io/post/create-tooltip-style-toolbars-with-toolbar-js/</link>
       <pubDate>Sat, 06 Jun 2015 17:45:59 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/post/create-tooltip-style-toolbars-with-toolbar-js/</guid>
+      <guid>https://websnippet.io/post/create-tooltip-style-toolbars-with-toolbar-js/</guid>
       <description>Toolbar.js is a jQuery plugin that creates tooltip style toolbars. It allows you to quickly create tooltip style toolbars for use in web applications and websites. The toolbar is easily customisable using Font Awesome icons and provides flexibility around the toolbars display and number of icons.
 You can run as many toolbars as required. Toolbars can be attached to any element required. Plenty of options to customised how your toolbar functions including position, animations and events.</description>
     </item>
     
     <item>
       <title>Atomic – The Fastest Way to Design Beautiful Interactions</title>
-      <link>https://mirodil.github.io/websnippet/post/atomic-the-fastest-way-to-design-beautiful-interactions/</link>
+      <link>https://websnippet.io/post/atomic-the-fastest-way-to-design-beautiful-interactions/</link>
       <pubDate>Sat, 06 Jun 2015 17:44:56 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/post/atomic-the-fastest-way-to-design-beautiful-interactions/</guid>
+      <guid>https://websnippet.io/post/atomic-the-fastest-way-to-design-beautiful-interactions/</guid>
       <description>As of today anyone can set up an account and start prototyping in seconds. Atomic approaches prototyping in the way designers think: design your different states as separate pages, then create automatic animations between them.
 Create your designs from scratch in Atomic, or bring your assets in from another drawing tool. Draw Hotspots over elements in your design and link pages together into a prototype. You can choose to animate these transitions between pages.</description>
     </item>
     
     <item>
       <title>An Interactive Drag and Drop Coloring Experiment</title>
-      <link>https://mirodil.github.io/websnippet/post/an-interactive-drag-and-drop-coloring-experiment/</link>
+      <link>https://websnippet.io/post/an-interactive-drag-and-drop-coloring-experiment/</link>
       <pubDate>Mon, 01 Jun 2015 11:46:49 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/post/an-interactive-drag-and-drop-coloring-experiment/</guid>
+      <guid>https://websnippet.io/post/an-interactive-drag-and-drop-coloring-experiment/</guid>
       <description>Interactive Drag and Drop Coloring Concept is a little fun experiment where you can color a website mockup by dragging and dropping a color droplet from a palette. The idea is to simply drag a color from a color palette to a website mockup and color designated areas of it like sections or texts. You might have encountered customization tools before, but Codrops wanted to add some fun to this idea and make it enjoyable to use.</description>
     </item>
     
     <item>
       <title>Top Websites for Graphic Designers to Explore Freebies</title>
-      <link>https://mirodil.github.io/websnippet/post/top-websites-for-graphic-designers-to-explore-freebies/</link>
+      <link>https://websnippet.io/post/top-websites-for-graphic-designers-to-explore-freebies/</link>
       <pubDate>Sat, 23 May 2015 19:18:44 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/post/top-websites-for-graphic-designers-to-explore-freebies/</guid>
+      <guid>https://websnippet.io/post/top-websites-for-graphic-designers-to-explore-freebies/</guid>
       <description>Graphic and web designers are in constant search of new resources to bring freshness to their designing projects. After all, their job is about crafting wonderful pieces of appealing visual art by incorporating the use of the latest tools and resources. Boring repetition is a strict no-no. It is a creative field.
 No two websites, newsletters or brochures are identical to each other. It requires a great deal of effort to produce a graphic art which is original as well as appealing.</description>
     </item>
     
     <item>
       <title>Free Photoshop Mockups for Web Designer &amp; Developer</title>
-      <link>https://mirodil.github.io/websnippet/post/free-photoshop-mockups-for-web-designer-and-developer/</link>
+      <link>https://websnippet.io/post/free-photoshop-mockups-for-web-designer-and-developer/</link>
       <pubDate>Thu, 21 May 2015 13:11:53 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/post/free-photoshop-mockups-for-web-designer-and-developer/</guid>
+      <guid>https://websnippet.io/post/free-photoshop-mockups-for-web-designer-and-developer/</guid>
       <description>Flat Apple Devices Mockup A huge collection of flat Apple devices mockups to showcase your responsive web designs. The PSD file includes iPhones, iPads, iMac and Macbook with different viewing angles and now even an Apple Watch!
 Free iPhone 5 Mockups When it comes to a mobile user interface design presentation these phone mock-ups will really come in handy. One of the important points to consider in UI design presentation is to make it looks natural as possible.</description>
     </item>
     
     <item>
       <title>3 RESPONSIVE DESIGN DISASTERS — AND HOW TO AVOID THEM</title>
-      <link>https://mirodil.github.io/websnippet/post/3-responsive-design-disasters-and-how-to-avoid-them-webdesignerdepot/</link>
+      <link>https://websnippet.io/post/3-responsive-design-disasters-and-how-to-avoid-them-webdesignerdepot/</link>
       <pubDate>Wed, 20 May 2015 11:29:37 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/post/3-responsive-design-disasters-and-how-to-avoid-them-webdesignerdepot/</guid>
+      <guid>https://websnippet.io/post/3-responsive-design-disasters-and-how-to-avoid-them-webdesignerdepot/</guid>
       <description>Responsive design methods are very helpful to developers because they allow us to serve content to the widest range of devices without having to maintain separate versions of the site and without some of the negative drawbacks to other methods such as scaling and fluid layouts.
 This article will highlight the top 3 mistakes designers encounter with responsive designs, and will provide some strategies for avoiding these mistakes.
 There is a lot of confusion over these terms and designers often incorrectly use them interchangeably.</description>
@@ -93,19 +93,19 @@ There is a lot of confusion over these terms and designers often incorrectly use
     
     <item>
       <title>Loaders Inspiration</title>
-      <link>https://mirodil.github.io/websnippet/post/loaders-inspiration-muzli/</link>
+      <link>https://websnippet.io/post/loaders-inspiration-muzli/</link>
       <pubDate>Wed, 20 May 2015 11:26:40 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/post/loaders-inspiration-muzli/</guid>
+      <guid>https://websnippet.io/post/loaders-inspiration-muzli/</guid>
       <description>Loaders Inspiration. Preloaders for my personal collection.</description>
     </item>
     
     <item>
       <title>Exclusive Free Resources</title>
-      <link>https://mirodil.github.io/websnippet/post/exclusive-free-resources-1001freedownloads/</link>
+      <link>https://websnippet.io/post/exclusive-free-resources-1001freedownloads/</link>
       <pubDate>Wed, 20 May 2015 11:20:20 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/post/exclusive-free-resources-1001freedownloads/</guid>
+      <guid>https://websnippet.io/post/exclusive-free-resources-1001freedownloads/</guid>
       <description>At 1001FreeDownloads we scour the web in search for the best and most attractive free graphics for designers. Our site makes it easy and fun to search and find the graphics you need in an quick and easy to use platform. We have a collection of tens of thousands of files and we are constantly expanding our content. We currently feature thousands of free vectors, photos, brushes, gradients, PSDs, fonts and we have much more to come.</description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on WebSnippet is a blog to share top quality open source resources for developers</title>
-    <link>https://mirodil.github.io/websnippet/tags/</link>
+    <link>https://websnippet.io/tags/</link>
     <description>Recent content in Tags on WebSnippet is a blog to share top quality open source resources for developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,87 +10,87 @@
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
     <lastBuildDate>Thu, 01 Sep 2016 16:24:54 +0000</lastBuildDate>
     
-	<atom:link href="https://mirodil.github.io/websnippet/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://websnippet.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>.Net</title>
-      <link>https://mirodil.github.io/websnippet/tags/.net/</link>
+      <link>https://websnippet.io/tags/.net/</link>
       <pubDate>Thu, 01 Sep 2016 16:24:54 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/tags/.net/</guid>
+      <guid>https://websnippet.io/tags/.net/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Angularjs</title>
-      <link>https://mirodil.github.io/websnippet/tags/angularjs/</link>
+      <link>https://websnippet.io/tags/angularjs/</link>
       <pubDate>Tue, 02 Jun 2015 07:26:03 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/tags/angularjs/</guid>
+      <guid>https://websnippet.io/tags/angularjs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Css</title>
-      <link>https://mirodil.github.io/websnippet/tags/css/</link>
+      <link>https://websnippet.io/tags/css/</link>
       <pubDate>Mon, 19 Jun 2017 18:32:36 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/tags/css/</guid>
+      <guid>https://websnippet.io/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Html</title>
-      <link>https://mirodil.github.io/websnippet/tags/html/</link>
+      <link>https://websnippet.io/tags/html/</link>
       <pubDate>Wed, 27 May 2015 08:17:11 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/tags/html/</guid>
+      <guid>https://websnippet.io/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>https://mirodil.github.io/websnippet/tags/javascript/</link>
+      <link>https://websnippet.io/tags/javascript/</link>
       <pubDate>Wed, 30 Nov 2016 18:05:08 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/tags/javascript/</guid>
+      <guid>https://websnippet.io/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile</title>
-      <link>https://mirodil.github.io/websnippet/tags/mobile/</link>
+      <link>https://websnippet.io/tags/mobile/</link>
       <pubDate>Fri, 22 May 2015 13:08:33 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/tags/mobile/</guid>
+      <guid>https://websnippet.io/tags/mobile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Node.js</title>
-      <link>https://mirodil.github.io/websnippet/tags/node.js/</link>
+      <link>https://websnippet.io/tags/node.js/</link>
       <pubDate>Sun, 27 Mar 2016 05:46:51 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/tags/node.js/</guid>
+      <guid>https://websnippet.io/tags/node.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>React</title>
-      <link>https://mirodil.github.io/websnippet/tags/react/</link>
+      <link>https://websnippet.io/tags/react/</link>
       <pubDate>Wed, 20 May 2015 11:32:24 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/tags/react/</guid>
+      <guid>https://websnippet.io/tags/react/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tools</title>
-      <link>https://mirodil.github.io/websnippet/tags/tools/</link>
+      <link>https://websnippet.io/tags/tools/</link>
       <pubDate>Fri, 22 May 2015 17:13:30 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>https://mirodil.github.io/websnippet/tags/tools/</guid>
+      <guid>https://websnippet.io/tags/tools/</guid>
       <description></description>
     </item>
     
