@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools and Resources on WebSnippet is a blog to share top quality open source resources for developers</title>
-    <link>http://github.websnippet.io/tools-and-resources/</link>
+    <link>https://mirodil.github.io/websnippet/tools-and-resources/</link>
     <description>Recent content in Tools and Resources on WebSnippet is a blog to share top quality open source resources for developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>mirodil@websnippet.io (Mirodil)</managingEditor>
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
     
-	<atom:link href="http://github.websnippet.io/tools-and-resources/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mirodil.github.io/websnippet/tools-and-resources/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

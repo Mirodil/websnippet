@@ -6,16 +6,17 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
   <title> JavaScript Classes - ES6 - Web Resources | WebSnippet </title>
   
-  <meta name="generator" content="Hugo 0.21" />
+  <meta name="generator" content="Hugo 0.30.2" />
   <meta property="og:title" content="JavaScript Classes - ES6" />
 <meta property="og:description" content="It’s official, the long wait is finally over, as ECMAScript 6 has been approved as a new standard. The anticipation for this approval has been running wild in the community for months, and years for others. While the evolutionary progress of the language was slow at first, the last few years have seen an incredible growth rate.
 A lot of developers and developer publications out there have started to write more concisely about the ES6 standard, and what kind of changes one can expect. The new standard is known under the names of ECMAScript 2015, ES6, and JavaScript Harmony." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://github.websnippet.io/post/javascript-classes-es6/" />
+<meta property="og:url" content="https://mirodil.github.io/websnippet/post/javascript-classes-es6/" />
 
 
 
 <meta property="article:published_time" content="2015-06-24T07:10:42&#43;00:00"/>
+
 <meta property="article:modified_time" content="2015-07-05T06:21:05&#43;00:00"/>
 
 
@@ -28,21 +29,22 @@ A lot of developers and developer publications out there have started to write m
 
 
 
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/images/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-  <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all" />
+  <link rel="shortcut icon" href="/websnippet/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="/websnippet/images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/websnippet/images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/websnippet/images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/websnippet/images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/websnippet/images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/websnippet/images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/websnippet/images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/websnippet/images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/websnippet/images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/websnippet/images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/websnippet/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/websnippet/images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/websnippet/images/favicon-16x16.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/c7d199424f.css">
+  <link rel="stylesheet" href="/websnippet/css/styles.css" type="text/css" media="all" />
   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds2.feedburner.com/WebSnippet" />
   
   
@@ -54,9 +56,9 @@ A lot of developers and developer publications out there have started to write m
         <div class="col-md-3">
             <header>
     <div class="logo">
-        <a href="/">
-                Web <span class="text-danger">{</span><span class="snippet">Snippet</span><span class="text-danger">}</span>
-            </a>
+        <a href="/websnippet/">
+            Web <span class="text-danger">{</span><span class="snippet">Snippet</span><span class="text-danger">}</span>
+        </a>
     </div>
     <hr />
     <div class="social">
@@ -79,11 +81,11 @@ A lot of developers and developer publications out there have started to write m
     </div>
     <hr />
     <ul class="nav nav-stacked">
-        <li role="presentation"><a href="/" title="">Home</a></li>
-        <li role="presentation"><a href="/tools-and-resources" title="Tools and Resources">Tools &amp; Resources</a></li>
-        <li role="presentation"><a href="/about" title="About">About</a></li>
-        <li role="presentation"><a href="/contact" title="Support">Support</a></li>
-        <li role="presentation"><a href="/contact" title="Contacts">Contacts</a></li>
+        <li role="presentation"><a href="/websnippet/" title="">Home</a></li>
+        <li role="presentation"><a href="/websnippet/tools-and-resources" title="Tools and Resources">Tools &amp; Resources</a></li>
+        <li role="presentation"><a href="/websnippet/about" title="About">About</a></li>
+        <li role="presentation"><a href="/websnippet/contact" title="Support">Support</a></li>
+        <li role="presentation"><a href="/websnippet/contact" title="Contacts">Contacts</a></li>
     </ul>
 </header>
         </div>
@@ -91,7 +93,7 @@ A lot of developers and developer publications out there have started to write m
             <article class="post">
                 <div class="page-header">
                     <h1>
-                        <a href="/post/javascript-classes-es6/" title="JavaScript Classes - ES6">
+                        <a href="/websnippet/post/javascript-classes-es6/" title="JavaScript Classes - ES6">
                             JavaScript Classes - ES6
                         </a>
                     </h1>
@@ -105,16 +107,16 @@ A lot of developers and developer publications out there have started to write m
                     <span>
                         <i class="fa fa-bookmark"></i>
                         
-                            <a href="/categories/web-development" title="Web-Development" rel="category">
+                            <a href="/websnippet/categories/web-development" title="Web-Development" rel="category">
                                 <strong>Web-Development</strong></a>,
                         
-                            <a href="/categories/development" title="Development" rel="category">
+                            <a href="/websnippet/categories/development" title="Development" rel="category">
                                 <strong>Development</strong></a>
                         
                     </span>
                     <span class="pull-right">
                         <i class="fa fa-comments"></i>
-                        <a href="/post/javascript-classes-es6/" title="JavaScript Classes - ES6">0 comment</a>
+                        <a href="/websnippet/post/javascript-classes-es6/" title="JavaScript Classes - ES6">0 comment</a>
                     </span>
                 </div>
                 <div class="content">
@@ -318,37 +320,37 @@ for (let x of r.dimensions()) {
     <div class="panel-body">
         <nav>
             <h5>
-                <a href="/categories/design" title="Design">
+                <a href="/websnippet/categories/design" title="Design">
                     Design (10)
                 </a>
             </h5>
             <h5>
-                <a href="/categories/development" title="Development">
+                <a href="/websnippet/categories/development" title="Development">
                     Development (38)
                 </a>
             </h5>
             <h5>
-                <a href="/categories/mobile-development" title="Mobile-Development">
+                <a href="/websnippet/categories/mobile-development" title="Mobile-Development">
                     Mobile-Development (1)
                 </a>
             </h5>
             <h5>
-                <a href="/categories/resources" title="Resources">
+                <a href="/websnippet/categories/resources" title="Resources">
                     Resources (15)
                 </a>
             </h5>
             <h5>
-                <a href="/categories/tools" title="Tools">
+                <a href="/websnippet/categories/tools" title="Tools">
                     Tools (1)
                 </a>
             </h5>
             <h5>
-                <a href="/categories/web-development" title="Web-Development">
+                <a href="/websnippet/categories/web-development" title="Web-Development">
                     Web-Development (37)
                 </a>
             </h5>
             <h5>
-                <a href="/categories/web-management" title="Web-Management">
+                <a href="/websnippet/categories/web-management" title="Web-Management">
                     Web-Management (5)
                 </a>
             </h5>
@@ -363,31 +365,31 @@ for (let x of r.dimensions()) {
 	<div class="panel-body">
 		<nav>
 		<h5>
-			<a href="/tags/.net" title=".net">.net (2)</a>
+			<a href="/websnippet/tags/.net" title=".net">.net (2)</a>
 		</h5>
 		<h5>
-			<a href="/tags/angularjs" title="angularjs">angularjs (4)</a>
+			<a href="/websnippet/tags/angularjs" title="angularjs">angularjs (4)</a>
 		</h5>
 		<h5>
-			<a href="/tags/css" title="css">css (7)</a>
+			<a href="/websnippet/tags/css" title="css">css (7)</a>
 		</h5>
 		<h5>
-			<a href="/tags/html" title="html">html (4)</a>
+			<a href="/websnippet/tags/html" title="html">html (4)</a>
 		</h5>
 		<h5>
-			<a href="/tags/javascript" title="javascript">javascript (26)</a>
+			<a href="/websnippet/tags/javascript" title="javascript">javascript (26)</a>
 		</h5>
 		<h5>
-			<a href="/tags/mobile" title="mobile">mobile (1)</a>
+			<a href="/websnippet/tags/mobile" title="mobile">mobile (1)</a>
 		</h5>
 		<h5>
-			<a href="/tags/node.js" title="node.js">node.js (8)</a>
+			<a href="/websnippet/tags/node.js" title="node.js">node.js (8)</a>
 		</h5>
 		<h5>
-			<a href="/tags/react" title="react">react (1)</a>
+			<a href="/websnippet/tags/react" title="react">react (1)</a>
 		</h5>
 		<h5>
-			<a href="/tags/tools" title="tools">tools (1)</a>
+			<a href="/websnippet/tags/tools" title="tools">tools (1)</a>
 		</h5>
 		</nav>
 	</div>

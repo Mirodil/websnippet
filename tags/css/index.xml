@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Css on WebSnippet is a blog to share top quality open source resources for developers</title>
-    <link>http://github.websnippet.io/tags/css/</link>
+    <link>https://mirodil.github.io/websnippet/tags/css/</link>
     <description>Recent content in Css on WebSnippet is a blog to share top quality open source resources for developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,34 +10,34 @@
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
     <lastBuildDate>Mon, 19 Jun 2017 18:32:36 +0000</lastBuildDate>
     
-	<atom:link href="http://github.websnippet.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mirodil.github.io/websnippet/tags/css/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Handling long unexpected text content in CSS</title>
-      <link>http://github.websnippet.io/post/handling-long-unexpected-text-content-in-css/</link>
+      <link>https://mirodil.github.io/websnippet/post/handling-long-unexpected-text-content-in-css/</link>
       <pubDate>Mon, 19 Jun 2017 18:32:36 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/handling-long-unexpected-text-content-in-css/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/handling-long-unexpected-text-content-in-css/</guid>
       <description>When we write CSS, sometimes we forget about edge cases in the designs. For example, when the content is longer than we expected or has long word or link enough and we didn&amp;rsquo;t account for that possibility. We can&amp;rsquo;t guarantee that our CSS will always work as expected, but at least we can reduce that by testing different types of the text content.
 Sometimes there are long words in an article or in a block.</description>
     </item>
     
     <item>
       <title>Example Product Comparison Layout &amp; Effect</title>
-      <link>http://github.websnippet.io/post/example-product-comparison-layout-effect/</link>
+      <link>https://mirodil.github.io/websnippet/post/example-product-comparison-layout-effect/</link>
       <pubDate>Sat, 06 Jun 2015 17:26:19 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/example-product-comparison-layout-effect/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/example-product-comparison-layout-effect/</guid>
       <description>This Blueprint is a responsive product grid layout with comparison functionality. A maximum of three items can be selected for the product comparison. The comparison view shows flexbox-powered columns or rows (depending on the viewport size) that appear with a slide-in effect. There are a couple of example media queries for smaller viewports.</description>
     </item>
     
     <item>
       <title>CSS Transition in Examples</title>
-      <link>http://github.websnippet.io/post/css-transition-in-examples/</link>
+      <link>https://mirodil.github.io/websnippet/post/css-transition-in-examples/</link>
       <pubDate>Mon, 01 Jun 2015 16:23:47 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/css-transition-in-examples/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/css-transition-in-examples/</guid>
       <description>We will create the basic examples to show your how CSS Transition works. CSS transitions let you decide which properties to animate, when the animation will start, how long the transition will last, and how the transition will run.
 Basic Animation The transition property is a shorthand property used to represent up to four transition-related longhand properties:
 .selector { transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay]; }  These transition properties allow elements to change values over a specified duration, animating the property changes, rather than having them occur immediately.</description>
@@ -45,38 +45,38 @@ Basic Animation The transition property is a shorthand property used to represen
     
     <item>
       <title>Top Free Books for Web Designers &amp; Developers</title>
-      <link>http://github.websnippet.io/post/top-free-books-for-web-designers-developers/</link>
+      <link>https://mirodil.github.io/websnippet/post/top-free-books-for-web-designers-developers/</link>
       <pubDate>Wed, 27 May 2015 08:17:11 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/top-free-books-for-web-designers-developers/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/top-free-books-for-web-designers-developers/</guid>
       <description>There are thousands of books available for web designers and developers online. There has been no language, no point of discussion, or no trend that has not, at one time or another, been extensively explored and analyzed, and eventually published into a book. The great news is quite a lot of these books are available for free! And I have collected my top favorites for you!
 CSS &amp;amp; HTML Essential Learning A Guide to HTML5 and CSS3 by Ashley Menhennett A Guide to HTML5 and CSS3 covers the basics of web development and it’s a great starting point whether your plan is to make websites, HTML5 mobile apps or games.</description>
     </item>
     
     <item>
       <title>How to Center in CSS</title>
-      <link>http://github.websnippet.io/post/how-to-center-in-css-tools/</link>
+      <link>https://mirodil.github.io/websnippet/post/how-to-center-in-css-tools/</link>
       <pubDate>Fri, 22 May 2015 17:13:30 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/how-to-center-in-css-tools/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/how-to-center-in-css-tools/</guid>
       <description>Centering in CSS is a pain in the ass. There seems to be a gazillion ways to do it, depending on a variety of factors. This consolidates them and gives you the code you need for each situation.</description>
     </item>
     
     <item>
       <title>The Top Hybrid Mobile Application Frameworks</title>
-      <link>http://github.websnippet.io/post/the-top-hybrid-mobile-application-frameworks/</link>
+      <link>https://mirodil.github.io/websnippet/post/the-top-hybrid-mobile-application-frameworks/</link>
       <pubDate>Fri, 22 May 2015 13:08:33 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/the-top-hybrid-mobile-application-frameworks/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/the-top-hybrid-mobile-application-frameworks/</guid>
       <description>An HTML application is very attractive if you need to support many types of devices and platforms and you either don&amp;rsquo;t have the internal resources to develop and maintain native applications or you don&amp;rsquo;t have the budget to pay someone to do it for you. It&amp;rsquo;s also a tempting option to just reuse a responsive web application that may already exist and save yourself the headache of a new project.</description>
     </item>
     
     <item>
       <title>Basscss - A Low Level CSS Toolkit</title>
-      <link>http://github.websnippet.io/post/basscss-a-low-level-css-toolkit/</link>
+      <link>https://mirodil.github.io/websnippet/post/basscss-a-low-level-css-toolkit/</link>
       <pubDate>Thu, 21 May 2015 13:02:16 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/basscss-a-low-level-css-toolkit/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/basscss-a-low-level-css-toolkit/</guid>
       <description>Basscss is a lightweight collection of base element styles, immutable utilities, layout modules, and color styles designed for speed, clarity, performance, and scalability.
 Using clear, humanized naming conventions, Basscss is quick to internalize and easy to reason about while speeding up development time with more scalable, more readable code. Basscss strikes a balance between consistency and flexibility to allow for rapid prototyping and quick iterative changes when designing in the browser.</description>
     </item>

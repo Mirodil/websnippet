@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on WebSnippet is a blog to share top quality open source resources for developers</title>
-    <link>http://github.websnippet.io/categories/</link>
+    <link>https://mirodil.github.io/websnippet/categories/</link>
     <description>Recent content in Categories on WebSnippet is a blog to share top quality open source resources for developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>mirodil@websnippet.io (Mirodil)</managingEditor>
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
     
-	<atom:link href="http://github.websnippet.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mirodil.github.io/websnippet/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Design</title>
-      <link>http://github.websnippet.io/categories/design/</link>
+      <link>https://mirodil.github.io/websnippet/categories/design/</link>
       <pubDate>Sun, 07 Jun 2015 15:33:47 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/categories/design/</guid>
+      <guid>https://mirodil.github.io/websnippet/categories/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>http://github.websnippet.io/categories/development/</link>
+      <link>https://mirodil.github.io/websnippet/categories/development/</link>
       <pubDate>Mon, 19 Jun 2017 18:32:36 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/categories/development/</guid>
+      <guid>https://mirodil.github.io/websnippet/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile Development</title>
-      <link>http://github.websnippet.io/categories/mobile-development/</link>
+      <link>https://mirodil.github.io/websnippet/categories/mobile-development/</link>
       <pubDate>Fri, 22 May 2015 13:08:33 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/categories/mobile-development/</guid>
+      <guid>https://mirodil.github.io/websnippet/categories/mobile-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Resources</title>
-      <link>http://github.websnippet.io/categories/resources/</link>
+      <link>https://mirodil.github.io/websnippet/categories/resources/</link>
       <pubDate>Thu, 13 Aug 2015 14:12:01 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/categories/resources/</guid>
+      <guid>https://mirodil.github.io/websnippet/categories/resources/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tools</title>
-      <link>http://github.websnippet.io/categories/tools/</link>
+      <link>https://mirodil.github.io/websnippet/categories/tools/</link>
       <pubDate>Thu, 21 May 2015 13:17:16 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/categories/tools/</guid>
+      <guid>https://mirodil.github.io/websnippet/categories/tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Development</title>
-      <link>http://github.websnippet.io/categories/web-development/</link>
+      <link>https://mirodil.github.io/websnippet/categories/web-development/</link>
       <pubDate>Mon, 19 Jun 2017 18:32:36 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/categories/web-development/</guid>
+      <guid>https://mirodil.github.io/websnippet/categories/web-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Management</title>
-      <link>http://github.websnippet.io/categories/web-management/</link>
+      <link>https://mirodil.github.io/websnippet/categories/web-management/</link>
       <pubDate>Sat, 13 Jun 2015 09:12:43 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/categories/web-management/</guid>
+      <guid>https://mirodil.github.io/websnippet/categories/web-management/</guid>
       <description></description>
     </item>
     

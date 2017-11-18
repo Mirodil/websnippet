@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angularjs on WebSnippet is a blog to share top quality open source resources for developers</title>
-    <link>http://github.websnippet.io/tags/angularjs/</link>
+    <link>https://mirodil.github.io/websnippet/tags/angularjs/</link>
     <description>Recent content in Angularjs on WebSnippet is a blog to share top quality open source resources for developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,35 +10,35 @@
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
     <lastBuildDate>Tue, 02 Jun 2015 07:26:03 +0000</lastBuildDate>
     
-	<atom:link href="http://github.websnippet.io/tags/angularjs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mirodil.github.io/websnippet/tags/angularjs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Top Tips to Improve AngularJS Performance</title>
-      <link>http://github.websnippet.io/post/top-tips-to-improve-angularjs-performance/</link>
+      <link>https://mirodil.github.io/websnippet/post/top-tips-to-improve-angularjs-performance/</link>
       <pubDate>Tue, 02 Jun 2015 07:26:03 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/top-tips-to-improve-angularjs-performance/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/top-tips-to-improve-angularjs-performance/</guid>
       <description>Minimize/Avoid Watchers Usually, if your Angular app is slow, it means that you either have too many watcher, or those watchers are working harder then they should.
 Angular uses dirty checking to keep track of all the changes in app. This means it will have to go through every watcher to check if they need to be updated (call the digest cycle). If one of the watcher is relied upon by another watcher, Angular would have to re-run the digest cycle again, to make sure that all of the changes has propagated.</description>
     </item>
     
     <item>
       <title>Another One Way to Create a Multilingual AngularJS Application</title>
-      <link>http://github.websnippet.io/post/another-one-way-to-create-a-multilingual-angularjs-application/</link>
+      <link>https://mirodil.github.io/websnippet/post/another-one-way-to-create-a-multilingual-angularjs-application/</link>
       <pubDate>Fri, 22 May 2015 11:12:26 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/another-one-way-to-create-a-multilingual-angularjs-application/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/another-one-way-to-create-a-multilingual-angularjs-application/</guid>
       <description>The rise of multilingual user interface has bought an interesting shift in the way complex information is perceived by today’s web users. These days, a variety of web projects demand the use of multilingual graphical interface to cater the needs of an international audience. Creating a unique international application requires you to make use of translated resource strings which ultimately lets you render the data using locale-sensitive objects.
 Designing a mobile application interface that supports a great deal of languages can help you make headways to the international market in the quickest possible manner.</description>
     </item>
     
     <item>
       <title>Facebook authentication in AngularJS web application</title>
-      <link>http://github.websnippet.io/post/facebook-authentication-in-angularjs-web-application/</link>
+      <link>https://mirodil.github.io/websnippet/post/facebook-authentication-in-angularjs-web-application/</link>
       <pubDate>Wed, 20 May 2015 10:25:41 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/facebook-authentication-in-angularjs-web-application/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/facebook-authentication-in-angularjs-web-application/</guid>
       <description>In this post we are trying to implement a login system based on the Facebook’s authentication system.
 Authentication with Facebook When I started to work on the facebook authentication I was not a big expert in the matter of Facebook’s api in this case I think that the smarter thing you can do is start reading the Facebook’s document about Facebook’s authentication system.
 You’ll discover that Facebook makes available different ways to authenticate the users of your website, or application, on the basis of the device they are using (Web, iOS or Android), and even for a web app is possible to choose between two different flows: with or without JavaScript SDK.</description>
@@ -46,10 +46,10 @@ You’ll discover that Facebook makes available different ways to authenticate t
     
     <item>
       <title>AngularJS Constants</title>
-      <link>http://github.websnippet.io/post/angularjs-constants/</link>
+      <link>https://mirodil.github.io/websnippet/post/angularjs-constants/</link>
       <pubDate>Tue, 19 May 2015 11:57:48 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/angularjs-constants/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/angularjs-constants/</guid>
       <description>I’m working with AngularJS for almost a year and I’ve decided to share my experience and get feedback from the community. If you consider that something is wrong or could be improved, just leave a message in this post.
 Constants AngularJS offers a provider for constants that despite is not very popular it could save you hours of debugging.
 Let’s see an example about how Constants works and will be used.</description>

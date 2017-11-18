@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Html on WebSnippet is a blog to share top quality open source resources for developers</title>
-    <link>http://github.websnippet.io/tags/html/</link>
+    <link>https://mirodil.github.io/websnippet/tags/html/</link>
     <description>Recent content in Html on WebSnippet is a blog to share top quality open source resources for developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,44 +10,44 @@
     <webMaster>mirodil@websnippet.io (Mirodil)</webMaster>
     <lastBuildDate>Wed, 27 May 2015 08:17:11 +0000</lastBuildDate>
     
-	<atom:link href="http://github.websnippet.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mirodil.github.io/websnippet/tags/html/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Top Free Books for Web Designers &amp; Developers</title>
-      <link>http://github.websnippet.io/post/top-free-books-for-web-designers-developers/</link>
+      <link>https://mirodil.github.io/websnippet/post/top-free-books-for-web-designers-developers/</link>
       <pubDate>Wed, 27 May 2015 08:17:11 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/top-free-books-for-web-designers-developers/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/top-free-books-for-web-designers-developers/</guid>
       <description>There are thousands of books available for web designers and developers online. There has been no language, no point of discussion, or no trend that has not, at one time or another, been extensively explored and analyzed, and eventually published into a book. The great news is quite a lot of these books are available for free! And I have collected my top favorites for you!
 CSS &amp;amp; HTML Essential Learning A Guide to HTML5 and CSS3 by Ashley Menhennett A Guide to HTML5 and CSS3 covers the basics of web development and it’s a great starting point whether your plan is to make websites, HTML5 mobile apps or games.</description>
     </item>
     
     <item>
       <title>HTML5 File Upload without jQuery</title>
-      <link>http://github.websnippet.io/post/html5-file-upload-without-jquery/</link>
+      <link>https://mirodil.github.io/websnippet/post/html5-file-upload-without-jquery/</link>
       <pubDate>Wed, 27 May 2015 07:03:15 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/html5-file-upload-without-jquery/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/html5-file-upload-without-jquery/</guid>
       <description>In this blog post, I’ll explain how to use HTML 5, to read information about file(s) selected by users, and to upload the file(s) on a server. You might want to do is let the user upload the selected file or files to a server. This can be done asynchronously very easily.
 The File API is one of the most interesting features added with HTML 5. Now we can fetch and display file(s) information before they are uploaded on the server, and we can send them without posting a form.</description>
     </item>
     
     <item>
       <title>The Top Hybrid Mobile Application Frameworks</title>
-      <link>http://github.websnippet.io/post/the-top-hybrid-mobile-application-frameworks/</link>
+      <link>https://mirodil.github.io/websnippet/post/the-top-hybrid-mobile-application-frameworks/</link>
       <pubDate>Fri, 22 May 2015 13:08:33 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/the-top-hybrid-mobile-application-frameworks/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/the-top-hybrid-mobile-application-frameworks/</guid>
       <description>An HTML application is very attractive if you need to support many types of devices and platforms and you either don&amp;rsquo;t have the internal resources to develop and maintain native applications or you don&amp;rsquo;t have the budget to pay someone to do it for you. It&amp;rsquo;s also a tempting option to just reuse a responsive web application that may already exist and save yourself the headache of a new project.</description>
     </item>
     
     <item>
       <title>Create Cross Platform Desktop Applications with Electron</title>
-      <link>http://github.websnippet.io/post/create-cross-platform-desktop-applications-with-electron/</link>
+      <link>https://mirodil.github.io/websnippet/post/create-cross-platform-desktop-applications-with-electron/</link>
       <pubDate>Thu, 21 May 2015 12:50:32 +0000</pubDate>
       <author>mirodil@websnippet.io (Mirodil)</author>
-      <guid>http://github.websnippet.io/post/create-cross-platform-desktop-applications-with-electron/</guid>
+      <guid>https://mirodil.github.io/websnippet/post/create-cross-platform-desktop-applications-with-electron/</guid>
       <description>The Electron framework lets you write cross-platform desktop applications using JavaScript, HTML and CSS. It is based on io.js and Chromium and is used in the Atom editor. You can use HTML, CSS, and JavaScript with Chromium and Node.js to build your app.Electron is open source; mantained by GitHub and an active community. Best of all, Electron apps build and run on Mac, Windows, and Linux.</description>
     </item>
     
