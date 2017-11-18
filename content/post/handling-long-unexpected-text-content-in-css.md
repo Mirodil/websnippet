@@ -79,5 +79,5 @@ otherwise we have to wrap it into `table` element with one column and one row.
 
 Here is the result:
 
-<iframe src="http://jsfiddle.net/Mirodil/qc38ky3v/embedded/result,html,css/" width="100%" height="450">
+<iframe src="https://jsfiddle.net/Mirodil/qc38ky3v/embedded/result,html,css/" width="100%" height="450">
 </iframe>
