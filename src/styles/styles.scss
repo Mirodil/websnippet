@@ -10,7 +10,7 @@ $panel-border-radius: 0;
 @import "~bootstrap-sass/assets/stylesheets/bootstrap/normalize";
 @import "~bootstrap-sass/assets/stylesheets/bootstrap/print";
 // @import "~bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
-@import "~font-awesome/scss/font-awesome";
+// @import "~font-awesome/scss/font-awesome";
 
 // Core CSS
 @import "~bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
@@ -168,10 +168,10 @@ hr {
         padding: $padding-small-horizontal 0;
 
         .img-thumbnail {
-            width: 200px;
-            height: 150px;
-            float: left;
-            margin: 0 $padding-small-horizontal $padding-small-vertical $padding-small-vertical;
+            //width: 200px;
+            min-height: 150px;
+            //float: left;
+            //margin: 0 $padding-small-horizontal $padding-small-vertical $padding-small-vertical;
         }
 
         img {

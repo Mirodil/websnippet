@@ -1,8 +1,8 @@
 <header>
     <div class="logo">
-        <a href="/">
-                Web <span class="text-danger">{</span><span class="snippet">Snippet</span><span class="text-danger">}</span>
-            </a>
+        <a href="{{ "/" | relLangURL }}">
+            Web <span class="text-danger">{</span><span class="snippet">Snippet</span><span class="text-danger">}</span>
+        </a>
     </div>
     <hr />
     <div class="social">
@@ -25,10 +25,10 @@
     </div>
     <hr />
     <ul class="nav nav-stacked">
-        <li role="presentation"><a href="/" title="">Home</a></li>
-        <li role="presentation"><a href="/tools-and-resources" title="Tools and Resources">Tools &amp; Resources</a></li>
-        <li role="presentation"><a href="/about" title="About">About</a></li>
-        <li role="presentation"><a href="/contact" title="Support">Support</a></li>
-        <li role="presentation"><a href="/contact" title="Contacts">Contacts</a></li>
+        <li role="presentation"><a href="{{ "/" | relLangURL }}" title="">Home</a></li>
+        <li role="presentation"><a href="{{ "/tools-and-resources" | relLangURL }}" title="Tools and Resources">Tools &amp; Resources</a></li>
+        <li role="presentation"><a href="{{ "/about" | relLangURL }}" title="About">About</a></li>
+        <li role="presentation"><a href="{{ "/contact" | relLangURL }}" title="Support">Support</a></li>
+        <li role="presentation"><a href="{{ "/contact" | relLangURL }}" title="Contacts">Contacts</a></li>
     </ul>
 </header>

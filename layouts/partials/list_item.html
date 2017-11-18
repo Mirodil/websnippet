@@ -34,46 +34,50 @@
             <div class="blue"></div>
             <div class="gray"></div>
         </div>
-        <p>
-			{{- if .Params.thumbnail }}
-            <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" class="img-thumbnail">
-			{{- else }}
-			<img src="http://placehold.it/200x150" alt="{{ .Title }}" class="img-thumbnail">
-			{{- end }}
-			{{- if .Params.Description }}
+        <div class="row">
+            <div class="col-xs-12 col-md-4 text-center">
+                {{- if .Params.thumbnail }}
+                <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}"/>
+                {{- else }}
+                <img src="http://placehold.it/200x150" alt="{{ .Title }}"/>
+                {{- end }}
+            </div>
+            <div class="col-xs-12 col-md-8">
+                {{- if .Params.Description }}
 				{{ .Params.Description }}
-			{{- else }}
-				{{ .Summary }}
-			{{- end }}
-        </p>
-        <div class="col-md-12 clearfix">
-            <a href="{{ .RelPermalink }}" class="more pull-right">Continue reading &rarr;</a>
+                {{- else }}
+                    {{ .Summary }}
+                {{- end }}
+            </div>
+            <div class="col-md-12 clearfix">
+                <a href="{{ .RelPermalink }}" class="more pull-right">Continue reading &rarr;</a>
+            </div>
         </div>
         <div class="row share">
-            <div class="col-md-2 col-xs-6  text-right">Share this:</div>
-            <div class="col-md-2 col-xs-6 text-center">
+            <div class="col-md-2 col-xs-4 text-right">Share this:</div>
+            <div class="col-md-2 col-xs-1 text-center">
                 <a href="https://www.facebook.com/sharer/sharer.php?u={{ .RelPermalink }}" target="_blank" rel="nofollow" title="{{ .Title }}">
-                    <i class="fa fa-facebook"></i> Facebook
+                    <i class="fa fa-facebook"></i> <span class="hidden-xs">Facebook</span>
                 </a>
             </div>
-            <div class="col-md-2 col-xs-6 text-center">
+            <div class="col-md-2 col-xs-1 text-center">
                 <a href="https://twitter.com/home?status={{ .Title }}+{{ .RelPermalink }}" target="_blank" rel="nofollow" title="{{ .Title }}">
-                    <i class="fa fa-twitter"></i> Twitter
+                    <i class="fa fa-twitter"></i> <span class="hidden-xs">Twitter</span>
                 </a>
             </div>
-            <div class="col-md-2 col-xs-6 text-center">
+            <div class="col-md-2 col-xs-1 text-center">
                 <a href="https://plus.google.com/share?url={{ .RelPermalink }}" target="_blank" rel="nofollow" title="{{ .Title }}">
-                    <i class="fa fa-google-plus"></i> Google+
+                    <i class="fa fa-google-plus"></i> <span class="hidden-xs">Google+</span>
                 </a>
             </div>
-            <div class="col-md-2 col-xs-6 text-center">
+            <div class="col-md-2 col-xs-1 text-center">
                 <a href="http://www.stumbleupon.com/submit?url={{ .RelPermalink }}&amp;title={{ .Title }}" target="_blank" rel="nofollow" title="{{ .Title }}">
-                    <i class="fa fa-stumbleupon"></i> Stumble
+                    <i class="fa fa-stumbleupon"></i> <span class="hidden-xs">Stumble</span>
                 </a>
             </div>
-            <div class="col-md-2 col-xs-6 text-center">
+            <div class="col-md-2 col-xs-1 text-center">
                 <a href="http://digg.com/submit?url={{ .RelPermalink }}&amp;title={{ .Title }}" target="_blank" rel="nofollow" title="{{ .Title }}">
-                    <i class="fa fa-digg"></i> Digg
+                    <i class="fa fa-digg"></i> <span class="hidden-xs">Digg</span>
                 </a>
             </div>
         </div>

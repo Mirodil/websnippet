@@ -1,4 +1,4 @@
-baseURL = "http://github.websnippet.io/"
+baseURL = "https://mirodil.github.io/websnippet/"
 # canonifyURLs = true
 # relativeurls = false
 languageCode = "en-us"
