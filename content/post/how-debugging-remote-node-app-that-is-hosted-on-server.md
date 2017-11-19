@@ -6,8 +6,8 @@ lastmod: "2015-07-10T17:58:43.561Z"
 slug: "how-debugging-remote-node-app-that-is-hosted-on-server"
 categories: ["Web-Development", "Development"]
 tags: ["Node.JS","JavaScript"]
-thumbnail: "http://i963.photobucket.com/albums/ae120/Mirodil/WebSnippet/js-black_1.png"
-image: "http://i963.photobucket.com/albums/ae120/Mirodil/WebSnippet/js-black_1.png"
+thumbnail: "https://4.bp.blogspot.com/-7MAprVlRStM/WhDHFUgkVjI/AAAAAAAAD2U/jM7qXCeg3dkPG_Hd6QC605xhWAC7JjM_QCLcBGAs/s400/js-black_1.png"
+image: "https://4.bp.blogspot.com/-7MAprVlRStM/WhDHFUgkVjI/AAAAAAAAD2U/jM7qXCeg3dkPG_Hd6QC605xhWAC7JjM_QCLcBGAs/s1600/js-black_1.png"
 source: ""
 ---
 
@@ -29,14 +29,14 @@ Destination: [hostname of ccis machine]:[port on ccis machine]
 Click Add.   
 It would look like this if I wanted to forward port 5858 on the webserver to 5858 on my local machine:
 
-![](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1436549884873_zps3qaqlohi.png)
+![](https://4.bp.blogspot.com/-TaSOvV448KA/WhDJyVYJfoI/AAAAAAAAD2s/qLU76_r1DyEHfhlM4kCSlQNeLmWj6CdnQCLcBGAs/s1600/1436549884873_zps3qaqlohi.png)
 
 Clicking Add will add it to the list of forwarded ports:  
-![](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1436549938426_zps0pewmatg.png)
+![](https://4.bp.blogspot.com/-2VYJpXOZ3pU/WhDJyRp7bQI/AAAAAAAAD2o/1ePm3R9R4Low8m39QQSJ-lRPLCqxjDw-gCLcBGAs/s1600/1436549938426_zps0pewmatg.png)
 
 After setting up the port tunnel, select Session from the category list on the left side.  
 Enter `login.ccs.neu.edu` in the Host Name (or IP Address) field and click the Open button at the bottom right.  
-![](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1436549964122_zpsovegyxzj.png)
+![](https://4.bp.blogspot.com/-9TKqLoULop0/WhDJyCCzEkI/AAAAAAAAD2k/rWyLs93vb8ILyJDewi0h8f_foPBR3oaBQCLcBGAs/s1600/1436549964122_zpsovegyxzj.png)
 
 Select Yes if prompted with this window.   
 And you will be inside your server, then you have to run your node app with debug flag in PuTTY terminal:

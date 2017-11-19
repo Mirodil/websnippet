@@ -8,8 +8,8 @@ lastmod: "2015-07-05T06:23:49.598Z"
 slug: "javascript-concise-methods-es6"
 categories: ["Web-Development", "Development"]
 tags: ["JavaScript"]
-thumbnail: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/th_1434947211044_zpsy4kd327q.jpeg"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1434947211044_zpsy4kd327q.jpeg"
+thumbnail: "https://2.bp.blogspot.com/-E98DedRkHR4/WhDMZGkeuNI/AAAAAAAAD3M/gIgMNbULznkvrrlyoiRpOpT-L0wOFhtfQCLcBGAs/s400/ecmascript6.JPG"
+image: "https://2.bp.blogspot.com/-E98DedRkHR4/WhDMZGkeuNI/AAAAAAAAD3M/gIgMNbULznkvrrlyoiRpOpT-L0wOFhtfQCLcBGAs/s1600/ecmascript6.JPG"
 source: ""
 ---
 

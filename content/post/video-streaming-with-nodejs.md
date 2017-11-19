@@ -6,8 +6,8 @@ lastmod: "2016-04-21T21:19:40.230Z"
 slug: "video-streaming-with-nodejs"
 categories: ["Web-Development", "Development"]
 tags: ["Node.JS"]
-thumbnail: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/th_1439474992928_zpsnoxrvj9r.png"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1439474992928_zpsnoxrvj9r.png"
+thumbnail: "https://4.bp.blogspot.com/-9tcBliK6fN4/WhDK9gRtsTI/AAAAAAAAD24/QWBZCzXmABQAxZkRCUNOI4gjcjO7EHLSgCLcBGAs/s400/nodejs.png"
+image: "https://4.bp.blogspot.com/-9tcBliK6fN4/WhDK9gRtsTI/AAAAAAAAD24/QWBZCzXmABQAxZkRCUNOI4gjcjO7EHLSgCLcBGAs/s1600/nodejs.png"
 source: ""
 ---
 

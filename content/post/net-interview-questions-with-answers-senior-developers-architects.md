@@ -6,8 +6,8 @@ lastmod: "2016-09-01T16:53:56.850Z"
 slug: "net-interview-questions-with-answers-senior-developers-architects"
 categories: ["Web-Development", "Development"]
 tags: [".NET"]
-thumbnail: ""
-image: ""
+thumbnail: "https://3.bp.blogspot.com/-L105BogpSO4/WhCdlPdIfuI/AAAAAAAAD2E/gBYZvPb4zEsnSMn8afHGLvQpGiAzadM7gCLcBGAs/s400/Microsoft-dotNET-logo.jpg"
+image: "https://3.bp.blogspot.com/-L105BogpSO4/WhCdlPdIfuI/AAAAAAAAD2E/gBYZvPb4zEsnSMn8afHGLvQpGiAzadM7gCLcBGAs/s1600/Microsoft-dotNET-logo.jpg"
 source: ""
 ---
 

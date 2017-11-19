@@ -7,8 +7,8 @@ lastmod: "2015-08-13T13:52:53.869Z"
 slug: "php-libraries-for-developers"
 categories: ["Resources"]
 tags: []
-thumbnail: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/php_zps3ksi8v8j.png"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/php_zps3ksi8v8j.png"
+thumbnail: "https://2.bp.blogspot.com/-_cjrAA9tyJM/WhDL1H7_amI/AAAAAAAAD3A/gTF8w_aHOgoeciAUB_zMt8HZP70uE1HsACLcBGAs/s400/php.png"
+image: "https://2.bp.blogspot.com/-_cjrAA9tyJM/WhDL1H7_amI/AAAAAAAAD3A/gTF8w_aHOgoeciAUB_zMt8HZP70uE1HsACLcBGAs/s1600/php.png"
 source: ""
 ---
 

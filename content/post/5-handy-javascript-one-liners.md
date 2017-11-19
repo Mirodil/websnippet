@@ -6,8 +6,8 @@ lastmod: "2016-05-17T00:46:55.892Z"
 slug: "5-handy-javascript-one-liners"
 categories: ["Web-Development", "Development"]
 tags: ["JavaScript"]
-thumbnail: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/th_1433693516339_zpsor3v2pza.png"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1433693516339_zpsor3v2pza.png"
+thumbnail: "https://2.bp.blogspot.com/-k0RYC7NXty4/WhDKfhg_TnI/AAAAAAAAD20/4PH54d0axJEQkfOHzsnKaFAnjvpOVFMrwCLcBGAs/s400/1433693516339_zpsor3v2pza.png"
+image: "https://2.bp.blogspot.com/-k0RYC7NXty4/WhDKfhg_TnI/AAAAAAAAD20/4PH54d0axJEQkfOHzsnKaFAnjvpOVFMrwCLcBGAs/s1600/1433693516339_zpsor3v2pza.png"
 source: "https://gist.github.com/nepsilon/066098f6b5be23cd39bdca6676aef323"
 ---
 
