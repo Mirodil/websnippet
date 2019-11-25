@@ -1,6 +1,4 @@
 public
 node_modules
 .vscode
-static/css/*
-static/fonts/*
-static/js/*
+old/*
