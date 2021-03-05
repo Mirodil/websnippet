@@ -70,14 +70,7 @@ At a high level, we need to store files and their metadata information like File
 
 As shown in the diagram below, Block servers will work with the clients to upload/download files from cloud storage and Metadata servers will keep metadata of files updated in a SQL or NoSQL database. Synchronization servers will handle the workflow of notifying all clients about different changes for synchronization.
 
-```
-	|------>[Block Servers]---------->[Clound Storage]
-	|			 |---------------------------
-	|										↓
-[client]--->[Metadata Server]-------->[Metadata Storage]
-	↑				↓
-	|-------[Notification Server]
-```
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggTFJcbiAgICBBW0NsaWVudF1cbiAgICBCW01ldGFkYXRhIFNlcnZlcl1cbiAgICBDW0Jsb2NrIFNlcnZlcnNdXG4gICAgRFtDbG91bmQgU3RvcmFnZV1cbiAgICBFW01ldGFkYXRhIFN0b3JhZ2VdXG4gICAgRltOb3RpZmljYXRpb24gU2VydmVyXVxuICAgIEEgLS0-IHx1cGxvYWQvZG93bmxvYWQgZmlsZXN8IENcbiAgICBBIC0tPnxtZXRhZGF0YSBvZiBmaWxlcyB1cGRhdGVkfCBCXG4gICAgRiAtLT4gfG5vdGlmeWluZyBhbGwgY2xpZW50c3wgQVxuICAgIEMgLS0-IERcbiAgICBDIC0tPiBFXG4gICAgQiAtLT4gRlxuICAgIEIgLS0-IEVcbiAgICBcbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggTFJcbiAgICBBW0NsaWVudF1cbiAgICBCW01ldGFkYXRhIFNlcnZlcl1cbiAgICBDW0Jsb2NrIFNlcnZlcnNdXG4gICAgRFtDbG91bmQgU3RvcmFnZV1cbiAgICBFW01ldGFkYXRhIFN0b3JhZ2VdXG4gICAgRltOb3RpZmljYXRpb24gU2VydmVyXVxuICAgIEEgLS0-IHx1cGxvYWQvZG93bmxvYWQgZmlsZXN8IENcbiAgICBBIC0tPnxtZXRhZGF0YSBvZiBmaWxlcyB1cGRhdGVkfCBCXG4gICAgRiAtLT4gfG5vdGlmeWluZyBhbGwgY2xpZW50c3wgQVxuICAgIEMgLS0-IERcbiAgICBDIC0tPiBFXG4gICAgQiAtLT4gRlxuICAgIEIgLS0-IEVcbiAgICBcbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
 
 ### 6. Component Design
 Let’s go through the major components of our system one by one:
