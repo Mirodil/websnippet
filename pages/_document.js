@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 
 class WebSnippet extends Document {
     static async getInitialProps(ctx) {
-        // console.log('>>>>>>>>>>>', ctx);
         const initialProps = await Document.getInitialProps(ctx)
         return { ...initialProps }
     }
@@ -16,7 +15,7 @@ class WebSnippet extends Document {
                 <Head>
                     <meta charSet="utf-8" />
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-                    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+                    {/* <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" /> */}
                     <link rel="shortcut icon" href="/favicon.ico" />
                     <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png" />
                     <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png" />

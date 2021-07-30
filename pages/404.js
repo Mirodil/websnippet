@@ -1,5 +1,5 @@
 
-export default function () {
+export default function Custom404() {
     return (
         <div className="container">
             <div className="row">

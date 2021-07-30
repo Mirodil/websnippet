@@ -1,14 +1,14 @@
 function url(page, base = '/') {
     if (page === 1) {
-        return '/';
+        return base;
     }
-    return `/page/${page}`;
+    return `${base}${base.endsWith('/') ? '' : '/'}page/${page}`;
 }
 
 export default function Pagination({ page, total, base = '/' }) {
     let prev = (
         <li key="previous">
-            <a href={url(page-1, base)} aria-label="Previous">
+            <a href={url(page - 1, base)} aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
             </a>
         </li>

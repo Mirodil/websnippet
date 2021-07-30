@@ -2,7 +2,7 @@
 function Category({ name, count }) {
     return (
         <h5>
-            <a href={`categories/${name}`} title={name}>
+            <a href={`/categories/${name.toLowerCase()}`} title={name}>
                 {name} ({count})
             </a>
         </h5>

@@ -10,7 +10,7 @@ function Category({ name, i, count }) {
     const addComma = (i) => i + 1 < count ? ', ' : '';
     return (
         <>
-            <a href={`categories/${name}`} title={name} rel="category">
+            <a href={`/categories/${name}`} title={name} rel="category">
                 <strong>{name}</strong>
             </a>
             {addComma(i)}
@@ -85,7 +85,7 @@ export async function getStaticProps({ params }) {
     const content = await import(`../../posts/${slug}.md`);
     const post = matter(content.default);
     const { categories, tags } = load({ page: 1 });
-    console.log(post.data);
+
     return {
         props: {
             ...post.data,

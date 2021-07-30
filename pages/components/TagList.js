@@ -1,7 +1,7 @@
 function Tag({ name, count }) {
     return (
         <h5>
-            <a href={`tags/${name}`} title={name}>{name} ({count})</a>
+            <a href={`/tags/${name.toLowerCase()}`} title={name}>{name} ({count})</a>
         </h5>
     );
 }
