@@ -1,7 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import config from '../config.json';
 // import Head from './components/Head';
-import Footer from './components/Footer';
+import Footer from '../components/Footer';
 
 class WebSnippet extends Document {
     static async getInitialProps(ctx) {

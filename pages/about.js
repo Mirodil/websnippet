@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import ReactMarkdown from 'react-markdown';
 import config from '../config';
-import Layout from './components/Layout';
+import Layout from '../components/Layout';
 import load from '../store/load';
-import Share from './components/Share';
+import Share from '../components/Share';
 
 const content = `
 WebSnippet is a blog dedicated to share top quality open source resources for web developer, mobile apps developer and web designer daily. As a web designer, you’ll find some of the best free icons, stock photos, brushes, fonts and design inspirations. As mobile apps developer, you'll find some useful tools, code snippets, free icons and many more. As a web developer, you’ll also find web tricks, code snippets, some of the best JavaScript components like modal windows, menus, galleries, tooltips, charts plugins and a lot more …

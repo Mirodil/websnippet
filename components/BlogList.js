@@ -1,6 +1,5 @@
+import urlize from '../utils/urlize';
 import Share from './Share';
-import urlize from '../../utils/urlize';
-
 import DateTime from './DateTime';
 
 function Tag({ name, i, count }) {

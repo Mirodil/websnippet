@@ -4,3 +4,4 @@ static/css/*
 static/fonts/*
 static/js/*
 .next
+build

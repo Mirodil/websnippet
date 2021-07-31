@@ -1,10 +1,10 @@
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
-import Layout from '../components/Layout';
+import Layout from '../../components/Layout';
 import slugs from '../../store/slugs';
 import load from '../../store/load';
-import DateTime from '../components/DateTime';
-import Share from '../components/Share';
+import DateTime from '../../components/DateTime';
+import Share from '../../components/Share';
 
 function Category({ name, i, count }) {
     const addComma = (i) => i + 1 < count ? ', ' : '';

@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import config from '../../config';
 import load from '../../store/load';
-import Layout from '../components/Layout';
-import BlogList from '../components/BlogList';
-import Pagination from '../components/Pagination';
+import Layout from '../../components/Layout';
+import BlogList from '../../components/BlogList';
+import Pagination from '../../components/Pagination';
 
 export default function Page({ categories, tags, posts, paginator }) {
     return (

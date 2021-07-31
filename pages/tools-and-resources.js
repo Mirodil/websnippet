@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import ReactMarkdown from 'react-markdown';
 import config from '../config';
-import Layout from './components/Layout';
+import Layout from '../components/Layout';
 import load from '../store/load';
-import Share from './components/Share';
+import Share from '../components/Share';
 
 
 
