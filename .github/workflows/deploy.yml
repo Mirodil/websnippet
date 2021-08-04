@@ -28,23 +28,12 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - name: Deleting old publication
-        run: |
-          mkdir build
-          git worktree prune
-          rm -rf .git/worktrees/build/
-      
-      - name: Checking out gh-pages branch into build
-        run: git worktree add -B gh-pages build gh-pages
-      
-      - name: Removing existing files from build folder
-        run: rm -rf build/*
 
       - name: Generating static site
         run: npm run build
-
-      - name: Updating gh-pages branch
-        run: cd build && git add --all && git commit -m "Publishing to gh-pages"
-
-      - name: Publish
-        run: git push -f origin gh-pages
+      
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
