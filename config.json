@@ -1,0 +1,26 @@
+{
+    "baseURL": "https://websnippet.io/",
+    "languageCode": "en-us",
+    "title": "WebSnippet is a blog to share top quality open source resources for developers",
+    "paginate": "10",
+    "googleAnalytics": "UA-63282481-1",
+    "disqusShortname": "websnippet-io",
+    "params": {
+        "name": "WebSnippet",
+        "opengraph": true
+    },
+    "author": {
+        "name": "Mirodil",
+        "email": "mirodil@websnippet.io"
+    },
+    "sitemap": {
+        "changefreq": "weekly",
+        "priority": 0.5,
+        "filename": "sitemap.xml"
+    },
+    "taxonomies": {
+        "tag": "tags",
+        "category": "categories"
+    },
+    "rssLimit": 1000
+}
