@@ -1,217 +1,43 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-  <title> HTML5 File Upload without jQuery - Web Resources | WebSnippet </title>
-  
-  <meta name="generator" content="Hugo 0.30.2" />
-  <meta property="og:title" content="HTML5 File Upload without jQuery" />
-<meta property="og:description" content="In this blog post, I’ll explain how to use HTML 5, to read information about file(s) selected by users, and to upload the file(s) on a server. You might want to do is let the user upload the selected file or files to a server. This can be done asynchronously very easily." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://websnippet.io/post/html5-file-upload-without-jquery/" />
+<!DOCTYPE html><html lang="en-us"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><link rel="shortcut icon" href="/favicon.ico"/><link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png"/><link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png"/><link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png"/><link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png"/><link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png"/><link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png"/><link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png"/><link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png"/><link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png"/><link rel="icon" type="image/png" sizes="192x192" href="/images/android-icon-192x192.png"/><link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png"/><link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"/><link rel="stylesheet" href="https://use.fontawesome.com/c7d199424f.css"/><link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds2.feedburner.com/WebSnippet"/><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/9670e7c0f595ce4564ea.css" as="style"/><link rel="stylesheet" href="/_next/static/css/9670e7c0f595ce4564ea.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-a54b4f32bdc1ef890ddd.js"></script><script src="/_next/static/chunks/webpack-61095c13c5984b221292.js" defer=""></script><script src="/_next/static/chunks/framework-2191d16384373197bc0a.js" defer=""></script><script src="/_next/static/chunks/main-49bcd45faeefa7f6716c.js" defer=""></script><script src="/_next/static/chunks/pages/_app-acb08fab9f1c222b1368.js" defer=""></script><script src="/_next/static/chunks/724-6d750a57714866617c3d.js" defer=""></script><script src="/_next/static/chunks/pages/post/%5Bslug%5D-a28104542e64fbbe7064.js" defer=""></script><script src="/_next/static/1DBarU4E01zFtGq8RaKtI/_buildManifest.js" defer=""></script><script src="/_next/static/1DBarU4E01zFtGq8RaKtI/_ssgManifest.js" defer=""></script></head><body><div id="__next"><div class="container-fluid"><div class="row"><div class="col-md-3"><header><div class="logo"><a href="/">Web <span class="text-danger">{</span><span class="snippet">Snippet</span><span class="text-danger">}</span></a></div><hr/><div class="social"><a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i><span class="sr-only">facebook</span></a><a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i><span class="sr-only">twitter</span></a><a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i><span class="sr-only">google+</span></a><a href="http://feeds2.feedburner.com/WebSnippet" title="rss"><i class="fa fa-rss" aria-hidden="true"></i><span class="sr-only">rss</span></a></div><hr/><ul class="nav nav-stacked"><li role="presentation"><a href="/" title="">Home</a></li><li role="presentation"><a href="/tools-and-resources" title="Tools and Resources">Tools &amp; Resources</a></li><li role="presentation"><a href="/about" title="About">About</a></li><li role="presentation"><a href="/contact" title="Support">Support</a></li><li role="presentation"><a href="/contact" title="Contacts">Contacts</a></li></ul></header></div><div class="col-md-6"><article class="post"><div class="page-header"><h1><a href="/post/html5-file-upload-without-jquery" title="HTML5 File Upload without jQuery">HTML5 File Upload without jQuery</a></h1></div><div class="meta text-muted"><time dateTime="2015-05-27T07:03:15.750Z"><i class="fa fa-clock-o"></i> <!-- -->May 27, 2015</time><span><i class="fa fa-bookmark"></i> <a href="/categories/Web-Development" title="Web-Development" rel="category"><strong>Web-Development</strong></a>, <a href="/categories/Development" title="Development" rel="category"><strong>Development</strong></a></span><span class="pull-right"><i class="fa fa-comments"></i> <a href="/post/html5-file-upload-without-jquery" title="HTML5 File Upload without jQuery">0 comment</a></span></div><div class="content"><div class="entry-colors"><div class="red"></div><div class="blue"></div><div class="gray"></div></div><div class="text-center"><img src="http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1432710174026_zps9kowrird.png" alt="HTML5 File Upload without jQuery" class="image-head img-responsive"/></div><div class="raw"><p>In this blog post, I’ll explain how to use HTML 5, to read information about file(s) selected by users, and to upload the file(s) on a server. You might want to do is let the user upload the selected file or files to a server. This can be done asynchronously very easily.</p><p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/File">File API</a> is one of the most interesting features added with HTML 5<!-- -->.<!-- --> Now we can fetch and display file(s) information before they are uploaded on the server, and we can send them without posting a form.</p><p>We’ll see how to access file(s) information when they are selected by users, and then upload them asynchronously using an Ajax Request without jQuery.</p><h2>Show File information</h2><p>Access information of a file selected by the user. Here is the HTML code :</p><pre><code>&lt;input type=&quot;file&quot; id=&quot;fileinput&quot; /&gt;
+&lt;p id=&quot;info&quot;&gt;&lt;/p&gt;</code></pre><p>When the user choose a file, the &#x27;change&#x27; event is fired on the input element, so we can listen for it :</p><pre><code>document.querySelector(&#x27;#fileinput&#x27;).addEventListener(&#x27;change&#x27;, function(){
 
+	if(this.files.length===0)
+		return;
 
-
-<meta property="article:published_time" content="2015-05-27T07:03:15&#43;00:00"/>
-
-<meta property="article:modified_time" content="2016-09-01T16:21:45&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/images/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-  <link rel="stylesheet" href="https://use.fontawesome.com/c7d199424f.css">
-  <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all" />
-  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds2.feedburner.com/WebSnippet" />
-  
-  
-  
-</head>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-3">
-            <header>
-    <div class="logo">
-        <a href="/">
-            Web <span class="text-danger">{</span><span class="snippet">Snippet</span><span class="text-danger">}</span>
-        </a>
-    </div>
-    <hr />
-    <div class="social">
-        <a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow">
-                <i class="fa fa-facebook" aria-hidden></i>
-                <span class="sr-only">facebook</span>
-            </a>
-        <a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow">
-                <i class="fa fa-twitter" aria-hidden></i>
-                <span class="sr-only">twitter</span>
-            </a>
-        <a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow">
-                <i class="fa fa-google-plus" aria-hidden></i>
-                <span class="sr-only">google+</span>
-            </a>
-        <a href="http://feeds2.feedburner.com/WebSnippet" title="rss">
-                <i class="fa fa-rss" aria-hidden></i>
-                <span class="sr-only">rss</span>
-            </a>
-    </div>
-    <hr />
-    <ul class="nav nav-stacked">
-        <li role="presentation"><a href="/" title="">Home</a></li>
-        <li role="presentation"><a href="/tools-and-resources" title="Tools and Resources">Tools &amp; Resources</a></li>
-        <li role="presentation"><a href="/about" title="About">About</a></li>
-        <li role="presentation"><a href="/contact" title="Support">Support</a></li>
-        <li role="presentation"><a href="/contact" title="Contacts">Contacts</a></li>
-    </ul>
-</header>
-        </div>
-        <div class="col-md-6">
-            <article class="post">
-                <div class="page-header">
-                    <h1>
-                        <a href="/post/html5-file-upload-without-jquery/" title="HTML5 File Upload without jQuery">
-                            HTML5 File Upload without jQuery
-                        </a>
-                    </h1>
-                </div>
-                <div class="meta text-muted">
-                    <time datetime="2015-05-27T07:03:15">
-                        <i class="fa fa-clock-o"></i>
-                        May 27, 2015
-                    </time>
-                    
-                    <span>
-                        <i class="fa fa-bookmark"></i>
-                        
-                            <a href="/categories/web-development" title="Web-Development" rel="category">
-                                <strong>Web-Development</strong></a>,
-                        
-                            <a href="/categories/development" title="Development" rel="category">
-                                <strong>Development</strong></a>
-                        
-                    </span>
-                    <span class="pull-right">
-                        <i class="fa fa-comments"></i>
-                        <a href="/post/html5-file-upload-without-jquery/" title="HTML5 File Upload without jQuery">0 comment</a>
-                    </span>
-                </div>
-                <div class="content">
-                    <div class="entry-colors">
-                        <div class="red"></div>
-                        <div class="blue"></div>
-                        <div class="gray"></div>
-                    </div>
-                    <div class="text-center">
-                        <img src="http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1432710174026_zps9kowrird.png" alt="HTML5 File Upload without jQuery" class="image-head img-responsive"/>
-                    </div>
-                    <div class="raw">
-                        
-
-<p>In this blog post, I’ll explain how to use HTML 5, to read information about file(s) selected by users, and to upload the file(s) on a server. You might want to do is let the user upload the selected file or files to a server. This can be done asynchronously very easily.</p>
-
-<p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/File">File API</a> is one of the most interesting features added with HTML 5. Now we can fetch and display file(s) information before they are uploaded on the server, and we can send them without posting a form.</p>
-
-<p>We’ll see how to access file(s) information when they are selected by users, and then upload them asynchronously using an Ajax Request without jQuery.</p>
-
-<h2 id="show-file-information">Show File information</h2>
-
-<p>Access information of a file selected by the user. Here is the HTML code :</p>
-
-<pre><code>&lt;input type=&quot;file&quot; id=&quot;fileinput&quot; /&gt;
-&lt;p id=&quot;info&quot;&gt;&lt;/p&gt;
-</code></pre>
-
-<p>When the user choose a file, the &lsquo;change&rsquo; event is fired on the input element, so we can listen for it :</p>
-
-<pre><code>document.querySelector('#fileinput').addEventListener('change', function(){
-
-    if(this.files.length===0)
-        return;
-
-    // gets first selected file
+	// gets first selected file
     var file = this.files[0]; 
 
-    document.querySelector('#info').innerText = 
-        'Name: '+ file.name+
-        ', Size: '+file.size +
-        ', Type: '+file.type +
-        ', Last Modified: ' + file.lastModified;
+    document.querySelector(&#x27;#info&#x27;).innerText = 
+    	&#x27;Name: &#x27;+ file.name+
+    	&#x27;, Size: &#x27;+file.size +
+    	&#x27;, Type: &#x27;+file.type +
+    	&#x27;, Last Modified: &#x27; + file.lastModified;
 
-}, false);
-</code></pre>
-
-<p>As you can see, the File API is quite simple to use, it adds the <code>files</code> property on the HTMLInputElement. As you may have noticed, we retrieved the chosen file, by accessing the index 0 of the FileList collection : <code>this.files[0]</code>. </p>
-
-<h2 id="previewing-files">Previewing Files</h2>
-
-<p>As we can read the file(s) information, we can also read the content of the file, this, for example, can allow us to preview selected files before upload. <br />
-Let’s see an example with previewing images, we make little bit changes to previous example.</p>
-
-<pre><code>&lt;input type=&quot;file&quot; id=&quot;fileinput&quot; /&gt;
+}, false);</code></pre><p>As you can see, the File API is quite simple to use, it adds the <code>files</code> property on the HTMLInputElement. As you may have noticed, we retrieved the chosen file, by accessing the index 0 of the FileList collection : <code>this.files[0]</code>. </p><h2>Previewing Files</h2><p>As we can read the file(s) information, we can also read the content of the file, this, for example, can allow us to preview selected files before upload. <br/>Let’s see an example with previewing images, we make little bit changes to previous example.</p><pre><code>&lt;input type=&quot;file&quot; id=&quot;fileinput&quot; /&gt;
 &lt;img id=&quot;preview&quot;&gt;
-&lt;p id=&quot;info&quot;&gt;&lt;/p&gt;
-</code></pre>
+&lt;p id=&quot;info&quot;&gt;&lt;/p&gt;</code></pre><p>Here is JavaScript code to manage the selected file(s):</p><pre><code>document.querySelector(&#x27;#fileinput&#x27;).addEventListener(&#x27;change&#x27;, function(){
 
-<p>Here is JavaScript code to manage the selected file(s):</p>
+	if(this.files.length===0)
+		return;
 
-<pre><code>document.querySelector('#fileinput').addEventListener('change', function(){
-
-    if(this.files.length===0)
-        return;
-
-    // gets first selected file
+	// gets first selected file
     var file = this.files[0]; 
 
-    document.querySelector('#info').innerText = 
-        'Name: '+ file.name+
-        ', Size: '+file.size +
-        ', Type: '+file.type +
-        ', Last Modified: ' + file.lastModified;
+    document.querySelector(&#x27;#info&#x27;).innerText = 
+    	&#x27;Name: &#x27;+ file.name+
+    	&#x27;, Size: &#x27;+file.size +
+    	&#x27;, Type: &#x27;+file.type +
+    	&#x27;, Last Modified: &#x27; + file.lastModified;
 
     // Using FileReader to display the image content
     var reader = new FileReader();
     reader.onload = function(e) { 
-        document.querySelector('#preview').src = e.target.result;
+    	document.querySelector(&#x27;#preview&#x27;).src = e.target.result;
     };
     reader.readAsDataURL(file);
 
-}, false);
-</code></pre>
-
-<p>Here we introduced the <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReader">FileReader</a> object, that allow us to asynchronously read the contents of files.<br />
-Instantiate the object with the <code>new FileReader()</code>, then tell the object to read the data from the file with the method <code>readAsDataURL</code>.<br />
-The <code>onload</code> method is called after the content is read by the object like an event, then the content of the file is assigned to the image <code>src</code> attribute: <code>document.querySelector('#preview').src = e.target.result;</code></p>
-
-<h2 id="upload-the-files">Upload The files</h2>
-
-<p>Now we will upload files using <a href="https://developer.mozilla.org/en/DOM/XMLHttpRequest/Using_XMLHttpRequest">XMLHttpRequest</a> (Ajax). For each files selected by the user we will create an HTTP request to send the file to the server. <br />
-First create a function to upload a file using <a href="https://developer.mozilla.org/en/DOM/XMLHttpRequest/Using_XMLHttpRequest">XMLHttpRequest</a>:</p>
-
-<pre><code>function uploadFile(file){
-    var url = '/file/image';
+}, false);</code></pre><p>Here we introduced the <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReader">FileReader</a> object, that allow us to asynchronously read the contents of files.<br/>Instantiate the object with the <code>new FileReader()</code>, then tell the object to read the data from the file with the method <code>readAsDataURL</code>.<br/>The <code>onload</code> method is called after the content is read by the object like an event, then the content of the file is assigned to the image <code>src</code> attribute: <code>document.querySelector(&#x27;#preview&#x27;).src = e.target.result;</code></p><h2>Upload The files</h2><p>Now we will upload files using <a href="https://developer.mozilla.org/en/DOM/XMLHttpRequest/Using_XMLHttpRequest">XMLHttpRequest</a> (Ajax). For each files selected by the user we will create an HTTP request to send the file to the server. <br/>First create a function to upload a file using <a href="https://developer.mozilla.org/en/DOM/XMLHttpRequest/Using_XMLHttpRequest">XMLHttpRequest</a>:</p><pre><code>function uploadFile(file){
+    var url = &#x27;/file/image&#x27;;
     var xhr = new XMLHttpRequest();
     var fd = new FormData();
     xhr.open(&quot;POST&quot;, url, true);
@@ -220,232 +46,18 @@ First create a function to upload a file using <a href="https://developer.mozill
             // Every thing ok, file uploaded
             console.log(xhr.responseText); // handle response.
         } else if(xhr.readyState == 4){
-            // with some error
-            console.log(xhr.responseText); // handle response.
+        	// with some error
+			console.log(xhr.responseText); // handle response.
         }
     };
     fd.append(&quot;uploadfile&quot;, file);
     xhr.send(fd);
-}
-</code></pre>
-
-<p>This function will create an ajax request (POST) on the url and send the file in the <code>upload_file</code> request parameter. Here we introduced the FormData object, that allow us to easily construct a set of key/value pairs representing form fields and their values, which can then be easily sent using the XMLHttpRequest send() method. Now we’ll connect the <code>uploadFile</code> function to the javascript that manage the selected files :</p>
-
-<p>Here is HTML:</p>
-
-<pre><code>&lt;input type=&quot;file&quot; id=&quot;fileinput&quot; /&gt;
+}</code></pre><p>This function will create an ajax request (POST) on the url and send the file in the <code>upload_file</code> request parameter. Here we introduced the FormData object, that allow us to easily construct a set of key/value pairs representing form fields and their values, which can then be easily sent using the XMLHttpRequest send() method. Now we’ll connect the <code>uploadFile</code> function to the javascript that manage the selected files :</p><p>Here is HTML:</p><pre><code>&lt;input type=&quot;file&quot; id=&quot;fileinput&quot; /&gt;
 &lt;img id=&quot;preview&quot;&gt;
 &lt;p id=&quot;info&quot;&gt;&lt;/p&gt;
-&lt;button id=&quot;uploadfiles&quot;&gt;Upload file&lt;/button&gt;
-</code></pre>
-
-<p>Here is JavaScript:</p>
-
-<pre><code>document.querySelector('#uploadfiles').addEventListener('change', function () {
+&lt;button id=&quot;uploadfiles&quot;&gt;Upload file&lt;/button&gt;</code></pre><p>Here is JavaScript:</p><pre><code>document.querySelector(&#x27;#uploadfiles&#x27;).addEventListener(&#x27;change&#x27;, function () {
     var files = this.files;
     for(var i=0; i&lt;files.length; i++){
         uploadFile(this.files[i]); // call the function to upload the file
     }
-}, false);
-</code></pre>
-
-<p>That is all. You can send other form fields in such way.</p>
-
-                    </div>
-                    <ul class="share">
-    <li class="presentation">Share this:</li>
-    <li class="presentation">
-        <a href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2fhtml5-file-upload-without-jquery%2f" target="_blank" rel="nofollow" title="HTML5 File Upload without jQuery">
-                                <i class="fa fa-facebook"></i> Facebook
-                            </a>
-    </li>
-    <li class="presentation">
-        <a href="https://twitter.com/home?status=HTML5%20File%20Upload%20without%20jQuery %2fpost%2fhtml5-file-upload-without-jquery%2f" target="_blank" rel="nofollow" title="HTML5 File Upload without jQuery">
-                                <i class="fa fa-twitter"></i> Twitter
-                            </a>
-    </li>
-    <li class="presentation">
-        <a href="https://plus.google.com/share?url=%2fpost%2fhtml5-file-upload-without-jquery%2f" target="_blank" rel="nofollow" title="HTML5 File Upload without jQuery">
-                                <i class="fa fa-google-plus"></i> Google+
-                            </a>
-    </li>
-    <li class="presentation">
-        <a href="http://www.stumbleupon.com/submit?url=%2fpost%2fhtml5-file-upload-without-jquery%2f&amp;title=HTML5%20File%20Upload%20without%20jQuery" target="_blank"
-            rel="nofollow" title="HTML5 File Upload without jQuery">
-                                <i class="fa fa-stumbleupon"></i> Stumble
-                            </a>
-    </li>
-    <li class="presentation">
-        <a href="http://digg.com/submit?url=%2fpost%2fhtml5-file-upload-without-jquery%2f&amp;title=HTML5%20File%20Upload%20without%20jQuery" target="_blank"
-            rel="nofollow" title="HTML5 File Upload without jQuery">
-                                <i class="fa fa-digg"></i> Digg
-                            </a>
-    </li>
-</li>
-                </div>
-            </article>
-        </div>
-        <div class="col-md-3">
-            <div class="widget panel panel-default">
-    <div class="panel-heading">
-        <h4>
-            Follow Us
-            <span class="social pull-right">
-                <a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow" target="_blank" class="nodecoration">
-                    <i class="fa fa-facebook" aria-hidden></i>
-                    <span class="sr-only">facebook</span>
-                </a>
-                <a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow" target="_blank" class="nodecoration">
-                    <i class="fa fa-twitter" aria-hidden></i>
-                    <span class="sr-only">twitter</span>
-                </a>
-                <a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow" target="_blank" class="nodecoration">
-                    <i class="fa fa-google-plus" aria-hidden></i>
-                    <span class="sr-only">google+</span>
-                </a>
-                <a href="http://feeds2.feedburner.com/WebSnippet" title="rss" target="_blank" class="nodecoration">
-                    <i class="fa fa-rss" aria-hidden></i>
-                    <span class="sr-only">rss</span>
-                </a>
-            </span>
-        </h4>
-    </div>
-    <div class="panel-body">
-        <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=WebSnippet', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">	    
-	    <input type="hidden" value="WebSnippet" name="uri">
-	    <input type="hidden" name="loc" value="en_US">  		
-  		<div class="form-group">
-          <label class="sr-only" for="subemail">Enter your email address</label>
-          <div class="input-group">
-            <input type="text" id="subemail" name="email" class="form-control" placeholder="Your email address...">
-            <span class="input-group-btn">
-                <button class="btn btn-default" type="submit" aria-label="Subscribe">
-                  <i class="fa fa-fire" aria-hidden></i>
-                </button>
-            </span>
-          </div>
-        </div>  
-	</form>
-    </div>
-</div>
-            
-<div class="widget panel panel-default">
-    <div class="panel-heading">
-        <h4>CATEGORIES</h4>
-    </div>
-    <div class="panel-body">
-        <nav>
-            <h5>
-                <a href="/categories/design" title="Design">
-                    Design (10)
-                </a>
-            </h5>
-            <h5>
-                <a href="/categories/development" title="Development">
-                    Development (38)
-                </a>
-            </h5>
-            <h5>
-                <a href="/categories/mobile-development" title="Mobile-Development">
-                    Mobile-Development (1)
-                </a>
-            </h5>
-            <h5>
-                <a href="/categories/resources" title="Resources">
-                    Resources (15)
-                </a>
-            </h5>
-            <h5>
-                <a href="/categories/tools" title="Tools">
-                    Tools (1)
-                </a>
-            </h5>
-            <h5>
-                <a href="/categories/web-development" title="Web-Development">
-                    Web-Development (37)
-                </a>
-            </h5>
-            <h5>
-                <a href="/categories/web-management" title="Web-Management">
-                    Web-Management (5)
-                </a>
-            </h5>
-        </nav>
-    </div>
-</div>
-            
-<div class="widget panel panel-default">
-	<div class="panel-heading">
-        <h4>CATEGORIES</h4>
-    </div>
-	<div class="panel-body">
-		<nav>
-		<h5>
-			<a href="/tags/.net" title=".net">.net (2)</a>
-		</h5>
-		<h5>
-			<a href="/tags/angularjs" title="angularjs">angularjs (4)</a>
-		</h5>
-		<h5>
-			<a href="/tags/css" title="css">css (7)</a>
-		</h5>
-		<h5>
-			<a href="/tags/html" title="html">html (4)</a>
-		</h5>
-		<h5>
-			<a href="/tags/javascript" title="javascript">javascript (26)</a>
-		</h5>
-		<h5>
-			<a href="/tags/mobile" title="mobile">mobile (1)</a>
-		</h5>
-		<h5>
-			<a href="/tags/node.js" title="node.js">node.js (8)</a>
-		</h5>
-		<h5>
-			<a href="/tags/react" title="react">react (1)</a>
-		</h5>
-		<h5>
-			<a href="/tags/tools" title="tools">tools (1)</a>
-		</h5>
-		</nav>
-	</div>
-</div>
-        </div>
-    </div>
-</div>
-<footer>
-    <div class="container">
-        <div class="text-center social">
-            <a href="mailto:hello@websnippet.io" title="email" rel="nofollow">
-                <i class="fa fa-envelope" aria-hidden></i>
-                <span class="sr-only">email</span>
-            </a>
-            <a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow" target="_blank">
-                <i class="fa fa-facebook" aria-hidden></i>
-                <span class="sr-only">facebook</span>
-            </a>
-            <a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow" target="_blank">
-                <i class="fa fa-twitter" aria-hidden></i>
-                <span class="sr-only">twitter</span>
-            </a>
-            <a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow" target="_blank">
-                <i class="fa fa-google-plus" aria-hidden></i>
-                <span class="sr-only">google+</span>
-            </a>
-            <a href="http://feeds2.feedburner.com/WebSnippet" title="rss" target="_blank">
-                <i class="fa fa-rss" aria-hidden></i>
-                <span class="sr-only">rss</span>
-            </a>
-        </div>
-    </div>
-</footer>
-
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-63282481-1', 'auto');
-ga('send', 'pageview');
-</script>
+}, false);</code></pre><p>That is all. You can send other form fields in such way.</p></div><ul class="share"><li class="presentation">Share this:</li><li class="presentation"><a href="https://www.facebook.com/sharer/sharer.php?u=/post/html5-file-upload-without-jquery" target="_blank" rel="nofollow" title="HTML5 File Upload without jQuery"><i class="fa fa-facebook"></i> <span class="hidden-xs">Facebook</span></a></li><li class="presentation"><a href="https://twitter.com/home?status=HTML5 File Upload without jQuery+/post/html5-file-upload-without-jquery" target="_blank" rel="nofollow" title="HTML5 File Upload without jQuery"><i class="fa fa-twitter"></i> <span class="hidden-xs">Twitter</span></a></li><li class="presentation"><a href="https://plus.google.com/share?url=/post/html5-file-upload-without-jquery" target="_blank" rel="nofollow" title="HTML5 File Upload without jQuery"><i class="fa fa-google-plus"></i> <span class="hidden-xs">Google+</span></a></li><li class="presentation"><a href="http://www.stumbleupon.com/submit?url=/post/html5-file-upload-without-jquery&amp;amp;title=HTML5 File Upload without jQuery" target="_blank" rel="nofollow" title="HTML5 File Upload without jQuery"><i class="fa fa-stumbleupon"></i> <span class="hidden-xs">Stumble</span></a></li><li class="presentation"><a href="http://digg.com/submit?url=/post/html5-file-upload-without-jquery&amp;amp;title=HTML5 File Upload without jQuery" target="_blank" rel="nofollow" title="HTML5 File Upload without jQuery"><i class="fa fa-digg"></i> <span class="hidden-xs">Digg</span></a></li></ul></div></article></div><div class="col-md-3"><div class="widget panel panel-default"><div class="panel-heading"><h4>Follow Us<span class="social pull-right"><a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow" target="_blank" class="nodecoration"><i class="fa fa-facebook" aria-hidden="true"></i><span class="sr-only">facebook</span></a><a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow" target="_blank" class="nodecoration"><i class="fa fa-twitter" aria-hidden="true"></i><span class="sr-only">twitter</span></a><a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow" target="_blank" class="nodecoration"><i class="fa fa-google-plus" aria-hidden="true"></i><span class="sr-only">google+</span></a><a href="http://feeds2.feedburner.com/WebSnippet" title="rss" target="_blank" class="nodecoration"><i class="fa fa-rss" aria-hidden="true"></i><span class="sr-only">rss</span></a></span></h4></div><div class="panel-body"><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow"><input type="hidden" value="WebSnippet" name="uri"/><input type="hidden" name="loc" value="en_US"/><div class="form-group"><label class="sr-only" for="subemail">Enter your email address</label><div class="input-group"><input type="text" id="subemail" name="email" class="form-control" placeholder="Your email address..."/><span class="input-group-btn"><button class="btn btn-default" type="submit" aria-label="Subscribe"><i class="fa fa-fire" aria-hidden="true"></i></button></span></div></div></form></div></div><div class="widget panel panel-default"><div class="panel-heading"><h4>CATEGORIES</h4></div><div class="panel-body"><nav><h5><a href="/categories/algorithm" title="Algorithm">Algorithm<!-- --> (<!-- -->1<!-- -->)</a></h5><h5><a href="/categories/design" title="Design">Design<!-- --> (<!-- -->10<!-- -->)</a></h5><h5><a href="/categories/development" title="Development">Development<!-- --> (<!-- -->38<!-- -->)</a></h5><h5><a href="/categories/interview" title="interview">interview<!-- --> (<!-- -->2<!-- -->)</a></h5><h5><a href="/categories/intreview" title="intreview">intreview<!-- --> (<!-- -->2<!-- -->)</a></h5><h5><a href="/categories/mobile-development" title="Mobile-Development">Mobile-Development<!-- --> (<!-- -->1<!-- -->)</a></h5><h5><a href="/categories/resources" title="Resources">Resources<!-- --> (<!-- -->15<!-- -->)</a></h5><h5><a href="/categories/system design" title="System Design">System Design<!-- --> (<!-- -->2<!-- -->)</a></h5><h5><a href="/categories/system-design" title="System-Design">System-Design<!-- --> (<!-- -->2<!-- -->)</a></h5><h5><a href="/categories/tools" title="Tools">Tools<!-- --> (<!-- -->1<!-- -->)</a></h5><h5><a href="/categories/web management" title="Web Management">Web Management<!-- --> (<!-- -->5<!-- -->)</a></h5><h5><a href="/categories/web-development" title="Web-Development">Web-Development<!-- --> (<!-- -->37<!-- -->)</a></h5></nav></div></div><div class="widget panel panel-default"><div class="panel-heading"><h4>TAGS</h4></div><div class="panel-body"><nav><h5><a href="/tags/.net" title=".NET">.NET<!-- --> (<!-- -->2<!-- -->)</a></h5><h5><a href="/tags/algorithm" title="Algorithm">Algorithm<!-- --> (<!-- -->1<!-- -->)</a></h5><h5><a href="/tags/angularjs" title="AngularJS">AngularJS<!-- --> (<!-- -->4<!-- -->)</a></h5><h5><a href="/tags/css" title="CSS">CSS<!-- --> (<!-- -->7<!-- -->)</a></h5><h5><a href="/tags/html" title="HTML">HTML<!-- --> (<!-- -->4<!-- -->)</a></h5><h5><a href="/tags/interview" title="interview">interview<!-- --> (<!-- -->5<!-- -->)</a></h5><h5><a href="/tags/interviews" title="interviews">interviews<!-- --> (<!-- -->1<!-- -->)</a></h5><h5><a href="/tags/intreview" title="intreview">intreview<!-- --> (<!-- -->2<!-- -->)</a></h5><h5><a href="/tags/javascript" title="JavaScript">JavaScript<!-- --> (<!-- -->27<!-- -->)</a></h5><h5><a href="/tags/mobile" title="Mobile">Mobile<!-- --> (<!-- -->1<!-- -->)</a></h5><h5><a href="/tags/node.js" title="Node.JS">Node.JS<!-- --> (<!-- -->8<!-- -->)</a></h5><h5><a href="/tags/react" title="React">React<!-- --> (<!-- -->1<!-- -->)</a></h5><h5><a href="/tags/tools" title="Tools">Tools<!-- --> (<!-- -->1<!-- -->)</a></h5></nav></div></div></div></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"title":"HTML5 File Upload without jQuery","description":"In this blog post, I’ll explain how to use HTML 5, to read information about file(s) selected by users, and to upload the file(s) on a server. You might want to do is let the user upload the selected file or files to a server. This can be done asynchronously very easily.","date":"2015-05-27T07:03:15.750Z","lastmod":"2016-09-01T16:21:45.027Z","slug":"html5-file-upload-without-jquery","categories":["Web-Development","Development"],"tags":["JavaScript","HTML"],"thumbnail":"http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/th_1432710174026_zps9kowrird.png","image":"http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1432710174026_zps9kowrird.png","source":"","content":"\n\nIn this blog post, I’ll explain how to use HTML 5, to read information about file(s) selected by users, and to upload the file(s) on a server. You might want to do is let the user upload the selected file or files to a server. This can be done asynchronously very easily.\n\nThe [File API](https://developer.mozilla.org/en-US/docs/Web/API/File) is one of the most interesting features added with HTML 5\\. Now we can fetch and display file(s) information before they are uploaded on the server, and we can send them without posting a form.\n\nWe’ll see how to access file(s) information when they are selected by users, and then upload them asynchronously using an Ajax Request without jQuery.\n\n## Show File information\n\nAccess information of a file selected by the user. Here is the HTML code :\n\n    \u003cinput type=\"file\" id=\"fileinput\" /\u003e\n    \u003cp id=\"info\"\u003e\u003c/p\u003e\n\nWhen the user choose a file, the 'change' event is fired on the input element, so we can listen for it :\n\n    document.querySelector('#fileinput').addEventListener('change', function(){\n\n    \tif(this.files.length===0)\n    \t\treturn;\n\n    \t// gets first selected file\n        var file = this.files[0]; \n\n        document.querySelector('#info').innerText = \n        \t'Name: '+ file.name+\n        \t', Size: '+file.size +\n        \t', Type: '+file.type +\n        \t', Last Modified: ' + file.lastModified;\n\n    }, false);\n\nAs you can see, the File API is quite simple to use, it adds the `files` property on the HTMLInputElement. As you may have noticed, we retrieved the chosen file, by accessing the index 0 of the FileList collection : `this.files[0]`. \n\n## Previewing Files\n\nAs we can read the file(s) information, we can also read the content of the file, this, for example, can allow us to preview selected files before upload.   \nLet’s see an example with previewing images, we make little bit changes to previous example.\n\n    \u003cinput type=\"file\" id=\"fileinput\" /\u003e\n    \u003cimg id=\"preview\"\u003e\n    \u003cp id=\"info\"\u003e\u003c/p\u003e\n\nHere is JavaScript code to manage the selected file(s):\n\n    document.querySelector('#fileinput').addEventListener('change', function(){\n\n    \tif(this.files.length===0)\n    \t\treturn;\n\n    \t// gets first selected file\n        var file = this.files[0]; \n\n        document.querySelector('#info').innerText = \n        \t'Name: '+ file.name+\n        \t', Size: '+file.size +\n        \t', Type: '+file.type +\n        \t', Last Modified: ' + file.lastModified;\n\n        // Using FileReader to display the image content\n        var reader = new FileReader();\n        reader.onload = function(e) { \n        \tdocument.querySelector('#preview').src = e.target.result;\n        };\n        reader.readAsDataURL(file);\n\n    }, false);\n\nHere we introduced the [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) object, that allow us to asynchronously read the contents of files.  \nInstantiate the object with the `new FileReader()`, then tell the object to read the data from the file with the method `readAsDataURL`.  \nThe `onload` method is called after the content is read by the object like an event, then the content of the file is assigned to the image `src` attribute: `document.querySelector('#preview').src = e.target.result;`\n\n## Upload The files\n\nNow we will upload files using [XMLHttpRequest](https://developer.mozilla.org/en/DOM/XMLHttpRequest/Using_XMLHttpRequest) (Ajax). For each files selected by the user we will create an HTTP request to send the file to the server.   \nFirst create a function to upload a file using [XMLHttpRequest](https://developer.mozilla.org/en/DOM/XMLHttpRequest/Using_XMLHttpRequest):\n\n    function uploadFile(file){\n        var url = '/file/image';\n        var xhr = new XMLHttpRequest();\n        var fd = new FormData();\n        xhr.open(\"POST\", url, true);\n        xhr.onreadystatechange = function() {\n            if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n                // Every thing ok, file uploaded\n                console.log(xhr.responseText); // handle response.\n            } else if(xhr.readyState == 4){\n            \t// with some error\n    \t\t\tconsole.log(xhr.responseText); // handle response.\n            }\n        };\n        fd.append(\"uploadfile\", file);\n        xhr.send(fd);\n    }\n\nThis function will create an ajax request (POST) on the url and send the file in the `upload_file` request parameter. Here we introduced the FormData object, that allow us to easily construct a set of key/value pairs representing form fields and their values, which can then be easily sent using the XMLHttpRequest send() method. Now we’ll connect the `uploadFile` function to the javascript that manage the selected files :\n\nHere is HTML:\n\n    \u003cinput type=\"file\" id=\"fileinput\" /\u003e\n    \u003cimg id=\"preview\"\u003e\n    \u003cp id=\"info\"\u003e\u003c/p\u003e\n    \u003cbutton id=\"uploadfiles\"\u003eUpload file\u003c/button\u003e\n\nHere is JavaScript:\n\n    document.querySelector('#uploadfiles').addEventListener('change', function () {\n        var files = this.files;\n        for(var i=0; i\u003cfiles.length; i++){\n            uploadFile(this.files[i]); // call the function to upload the file\n        }\n    }, false);\n\nThat is all. You can send other form fields in such way.","permalink":"/post/html5-file-upload-without-jquery","site":{"categories":[{"name":"Algorithm","count":1},{"name":"Design","count":10},{"name":"Development","count":38},{"name":"interview","count":2},{"name":"intreview","count":2},{"name":"Mobile-Development","count":1},{"name":"Resources","count":15},{"name":"System Design","count":2},{"name":"System-Design","count":2},{"name":"Tools","count":1},{"name":"Web Management","count":5},{"name":"Web-Development","count":37}],"tags":[{"name":".NET","count":2},{"name":"Algorithm","count":1},{"name":"AngularJS","count":4},{"name":"CSS","count":7},{"name":"HTML","count":4},{"name":"interview","count":5},{"name":"interviews","count":1},{"name":"intreview","count":2},{"name":"JavaScript","count":27},{"name":"Mobile","count":1},{"name":"Node.JS","count":8},{"name":"React","count":1},{"name":"Tools","count":1}]}},"__N_SSG":true},"page":"/post/[slug]","query":{"slug":"html5-file-upload-without-jquery"},"buildId":"1DBarU4E01zFtGq8RaKtI","isFallback":false,"gsp":true,"scriptLoader":[]}</script><footer><div class="container"><div class="text-center social"><a href="mailto:hello@websnippet.io" title="email" rel="nofollow"><i class="fa fa-envelope" aria-hidden="true"></i><span class="sr-only">email</span></a><a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i><span class="sr-only">facebook</span></a><a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i><span class="sr-only">twitter</span></a><a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i><span class="sr-only">google+</span></a><a href="http://feeds2.feedburner.com/WebSnippet" title="rss" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i><span class="sr-only">rss</span></a></div></div></footer></body></html>

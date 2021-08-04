@@ -1,192 +1,40 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-  <title> Video Streaming with NodeJS - Web Resources | WebSnippet </title>
-  
-  <meta name="generator" content="Hugo 0.30.2" />
-  <meta property="og:title" content="Video Streaming with NodeJS" />
-<meta property="og:description" content="Streaming small video files to HTML5 video with Node is easy what about big one, how streaming (any size) video files with node.js" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://websnippet.io/post/video-streaming-with-nodejs/" />
-
-
-
-<meta property="article:published_time" content="2016-03-27T05:46:51&#43;00:00"/>
-
-<meta property="article:modified_time" content="2016-04-21T21:19:40&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/images/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-  <link rel="stylesheet" href="https://use.fontawesome.com/c7d199424f.css">
-  <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all" />
-  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds2.feedburner.com/WebSnippet" />
-  
-  
-  
-</head>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-3">
-            <header>
-    <div class="logo">
-        <a href="/">
-            Web <span class="text-danger">{</span><span class="snippet">Snippet</span><span class="text-danger">}</span>
-        </a>
-    </div>
-    <hr />
-    <div class="social">
-        <a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow">
-                <i class="fa fa-facebook" aria-hidden></i>
-                <span class="sr-only">facebook</span>
-            </a>
-        <a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow">
-                <i class="fa fa-twitter" aria-hidden></i>
-                <span class="sr-only">twitter</span>
-            </a>
-        <a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow">
-                <i class="fa fa-google-plus" aria-hidden></i>
-                <span class="sr-only">google+</span>
-            </a>
-        <a href="http://feeds2.feedburner.com/WebSnippet" title="rss">
-                <i class="fa fa-rss" aria-hidden></i>
-                <span class="sr-only">rss</span>
-            </a>
-    </div>
-    <hr />
-    <ul class="nav nav-stacked">
-        <li role="presentation"><a href="/" title="">Home</a></li>
-        <li role="presentation"><a href="/tools-and-resources" title="Tools and Resources">Tools &amp; Resources</a></li>
-        <li role="presentation"><a href="/about" title="About">About</a></li>
-        <li role="presentation"><a href="/contact" title="Support">Support</a></li>
-        <li role="presentation"><a href="/contact" title="Contacts">Contacts</a></li>
-    </ul>
-</header>
-        </div>
-        <div class="col-md-6">
-            <article class="post">
-                <div class="page-header">
-                    <h1>
-                        <a href="/post/video-streaming-with-nodejs/" title="Video Streaming with NodeJS">
-                            Video Streaming with NodeJS
-                        </a>
-                    </h1>
-                </div>
-                <div class="meta text-muted">
-                    <time datetime="2016-03-27T05:46:51">
-                        <i class="fa fa-clock-o"></i>
-                        March 27, 2016
-                    </time>
-                    
-                    <span>
-                        <i class="fa fa-bookmark"></i>
-                        
-                            <a href="/categories/web-development" title="Web-Development" rel="category">
-                                <strong>Web-Development</strong></a>,
-                        
-                            <a href="/categories/development" title="Development" rel="category">
-                                <strong>Development</strong></a>
-                        
-                    </span>
-                    <span class="pull-right">
-                        <i class="fa fa-comments"></i>
-                        <a href="/post/video-streaming-with-nodejs/" title="Video Streaming with NodeJS">0 comment</a>
-                    </span>
-                </div>
-                <div class="content">
-                    <div class="entry-colors">
-                        <div class="red"></div>
-                        <div class="blue"></div>
-                        <div class="gray"></div>
-                    </div>
-                    <div class="text-center">
-                        <img src="https://4.bp.blogspot.com/-9tcBliK6fN4/WhDK9gRtsTI/AAAAAAAAD24/QWBZCzXmABQAxZkRCUNOI4gjcjO7EHLSgCLcBGAs/s1600/nodejs.png" alt="Video Streaming with NodeJS" class="image-head img-responsive"/>
-                    </div>
-                    <div class="raw">
-                        <p>We can stream video files by utilizing fs.createReadStream(), the server can read the file in a stream rather than reading it all into memory at once. First, we need to create node.js server(here is a code).</p>
-
-<pre><code>var fs = require(&quot;fs&quot;),
+<!DOCTYPE html><html lang="en-us"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><link rel="shortcut icon" href="/favicon.ico"/><link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png"/><link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png"/><link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png"/><link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png"/><link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png"/><link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png"/><link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png"/><link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png"/><link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png"/><link rel="icon" type="image/png" sizes="192x192" href="/images/android-icon-192x192.png"/><link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png"/><link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"/><link rel="stylesheet" href="https://use.fontawesome.com/c7d199424f.css"/><link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds2.feedburner.com/WebSnippet"/><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/9670e7c0f595ce4564ea.css" as="style"/><link rel="stylesheet" href="/_next/static/css/9670e7c0f595ce4564ea.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-a54b4f32bdc1ef890ddd.js"></script><script src="/_next/static/chunks/webpack-61095c13c5984b221292.js" defer=""></script><script src="/_next/static/chunks/framework-2191d16384373197bc0a.js" defer=""></script><script src="/_next/static/chunks/main-49bcd45faeefa7f6716c.js" defer=""></script><script src="/_next/static/chunks/pages/_app-acb08fab9f1c222b1368.js" defer=""></script><script src="/_next/static/chunks/724-6d750a57714866617c3d.js" defer=""></script><script src="/_next/static/chunks/pages/post/%5Bslug%5D-a28104542e64fbbe7064.js" defer=""></script><script src="/_next/static/1DBarU4E01zFtGq8RaKtI/_buildManifest.js" defer=""></script><script src="/_next/static/1DBarU4E01zFtGq8RaKtI/_ssgManifest.js" defer=""></script></head><body><div id="__next"><div class="container-fluid"><div class="row"><div class="col-md-3"><header><div class="logo"><a href="/">Web <span class="text-danger">{</span><span class="snippet">Snippet</span><span class="text-danger">}</span></a></div><hr/><div class="social"><a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i><span class="sr-only">facebook</span></a><a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i><span class="sr-only">twitter</span></a><a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i><span class="sr-only">google+</span></a><a href="http://feeds2.feedburner.com/WebSnippet" title="rss"><i class="fa fa-rss" aria-hidden="true"></i><span class="sr-only">rss</span></a></div><hr/><ul class="nav nav-stacked"><li role="presentation"><a href="/" title="">Home</a></li><li role="presentation"><a href="/tools-and-resources" title="Tools and Resources">Tools &amp; Resources</a></li><li role="presentation"><a href="/about" title="About">About</a></li><li role="presentation"><a href="/contact" title="Support">Support</a></li><li role="presentation"><a href="/contact" title="Contacts">Contacts</a></li></ul></header></div><div class="col-md-6"><article class="post"><div class="page-header"><h1><a href="/post/video-streaming-with-nodejs" title="Video Streaming with NodeJS">Video Streaming with NodeJS</a></h1></div><div class="meta text-muted"><time dateTime="2016-03-27T05:46:51.827Z"><i class="fa fa-clock-o"></i> <!-- -->March 27, 2016</time><span><i class="fa fa-bookmark"></i> <a href="/categories/Web-Development" title="Web-Development" rel="category"><strong>Web-Development</strong></a>, <a href="/categories/Development" title="Development" rel="category"><strong>Development</strong></a></span><span class="pull-right"><i class="fa fa-comments"></i> <a href="/post/video-streaming-with-nodejs" title="Video Streaming with NodeJS">0 comment</a></span></div><div class="content"><div class="entry-colors"><div class="red"></div><div class="blue"></div><div class="gray"></div></div><div class="text-center"><img src="https://4.bp.blogspot.com/-9tcBliK6fN4/WhDK9gRtsTI/AAAAAAAAD24/QWBZCzXmABQAxZkRCUNOI4gjcjO7EHLSgCLcBGAs/s1600/nodejs.png" alt="Video Streaming with NodeJS" class="image-head img-responsive"/></div><div class="raw"><p>We can stream video files by utilizing fs.createReadStream(), the server can read the file in a stream rather than reading it all into memory at once. First, we need to create node.js server(here is a code).</p><pre><code>var fs = require(&quot;fs&quot;),
     http = require(&quot;http&quot;),
     url = require(&quot;url&quot;),
     path = require(&quot;path&quot;);
 
 http.createServer(function (req, res) {
-  if (req.url = '/movie.mp4') {
+  if (req.url = &#x27;/movie.mp4&#x27;) {
     // here will be code :)
   }
-}).listen(3000);
-</code></pre>
-
-<p>We will take care about the <code>Accept-Ranges</code> header  as is required for the HTML5 video controls to work instead of just blindly send the full file. So we should first check the <code>Accept-Ranges</code> header in the incoming request, then read in and send just that bit.</p>
-
-<pre><code>var range = req.headers.range;
-var positions = range.replace(/bytes=/, '').split('-');
-var start = parseInt(positions[0], 10);
-</code></pre>
-
-<p> Now we hava to check requested file and after write reponse header:</p>
-
-<pre><code>fs.stat(file, function(err, stats) {    
+}).listen(3000);</code></pre><p>We will take care about the <code>Accept-Ranges</code> header  as is required for the HTML5 video controls to work instead of just blindly send the full file. So we should first check the <code>Accept-Ranges</code> header in the incoming request, then read in and send just that bit.</p><pre><code>var range = req.headers.range;
+var positions = range.replace(/bytes=/, &#x27;&#x27;).split(&#x27;-&#x27;);
+var start = parseInt(positions[0], 10);</code></pre><p> Now we hava to check requested file and after write reponse header:</p><pre><code>fs.stat(file, function(err, stats) {    
     var total = stats.size;
     var end = positions[1] ? parseInt(positions[1], 10) : total - 1;
     var chunkSize = (end - start) + 1;
 
     res.writeHead(206, {
-        'Content-Range': 'bytes ' + start + '-' + end + '/' + total,
-        'Accept-Ranges': 'bytes',
-        'Content-Length': chunkSize,
-        'Content-Type': 'video/mp4'
+        &#x27;Content-Range&#x27;: &#x27;bytes &#x27; + start + &#x27;-&#x27; + end + &#x27;/&#x27; + total,
+        &#x27;Accept-Ranges&#x27;: &#x27;bytes&#x27;,
+        &#x27;Content-Length&#x27;: chunkSize,
+        &#x27;Content-Type&#x27;: &#x27;video/mp4&#x27;
     });
-});
-</code></pre>
-
-<p>The main part, create stream with <code>fs.createReadStream</code>:</p>
-
-<pre><code>var stream = fs.createReadStream(file, { start: start, end: end })
+});</code></pre><p>The main part, create stream with <code>fs.createReadStream</code>:</p><pre><code>var stream = fs.createReadStream(file, { start: start, end: end })
     .on(&quot;open&quot;, function() {
         stream.pipe(res);
     }).on(&quot;error&quot;, function(err) {
         res.end(err);
-    });
-</code></pre>
-
-<p>That is all. Here is complete code:</p>
-
-<pre><code>var fs = require('fs'),
-    http = require('http'),
-    url = require('url'),
-    path = require('path');
+    });</code></pre><p>That is all. Here is complete code:</p><pre><code>var fs = require(&#x27;fs&#x27;),
+    http = require(&#x27;http&#x27;),
+    url = require(&#x27;url&#x27;),
+    path = require(&#x27;path&#x27;);
 
 http.createServer( (req, res)=&gt;{
-  if (req.url === '/movie.mp4') {
-    var file = path.resolve(__dirname,'movie.mp4');
+  if (req.url === &#x27;/movie.mp4&#x27;) {
+    var file = path.resolve(__dirname,&#x27;movie.mp4&#x27;);
     var range = req.headers.range;
-    var positions = range.replace(/bytes=/, '').split('-');
+    var positions = range.replace(/bytes=/, &#x27;&#x27;).split(&#x27;-&#x27;);
     var start = parseInt(positions[0], 10);
 
     fs.stat(file, (err, stats)=&gt;{
@@ -195,223 +43,23 @@ http.createServer( (req, res)=&gt;{
       var chunkSize = (end - start) + 1;
 
       res.writeHead(206, {
-        'Content-Range': 'bytes ' + start + '-' + end + '/' + total,
-        'Accept-Ranges': 'bytes',
-        'Content-Length': chunkSize,
-        'Content-Type': 'video/mp4'
+        &#x27;Content-Range&#x27;: &#x27;bytes &#x27; + start + &#x27;-&#x27; + end + &#x27;/&#x27; + total,
+        &#x27;Accept-Ranges&#x27;: &#x27;bytes&#x27;,
+        &#x27;Content-Length&#x27;: chunkSize,
+        &#x27;Content-Type&#x27;: &#x27;video/mp4&#x27;
       });
 
       var stream = fs.createReadStream(file, { start: start, end: end })
-        .on('open', ()=&gt;{
+        .on(&#x27;open&#x27;, ()=&gt;{
           stream.pipe(res);
-        }).on('error', (err)=&gt;{
+        }).on(&#x27;error&#x27;, (err)=&gt;{
           res.end(err);
         });
 
-        res.on('close', ()=&gt;{
+        res.on(&#x27;close&#x27;, ()=&gt;{
           // close or destroy stream
           stream = null; 
         });
     });    
   }
-}).listen(3000);
-</code></pre>
-
-                    </div>
-                    <ul class="share">
-    <li class="presentation">Share this:</li>
-    <li class="presentation">
-        <a href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2fvideo-streaming-with-nodejs%2f" target="_blank" rel="nofollow" title="Video Streaming with NodeJS">
-                                <i class="fa fa-facebook"></i> Facebook
-                            </a>
-    </li>
-    <li class="presentation">
-        <a href="https://twitter.com/home?status=Video%20Streaming%20with%20NodeJS %2fpost%2fvideo-streaming-with-nodejs%2f" target="_blank" rel="nofollow" title="Video Streaming with NodeJS">
-                                <i class="fa fa-twitter"></i> Twitter
-                            </a>
-    </li>
-    <li class="presentation">
-        <a href="https://plus.google.com/share?url=%2fpost%2fvideo-streaming-with-nodejs%2f" target="_blank" rel="nofollow" title="Video Streaming with NodeJS">
-                                <i class="fa fa-google-plus"></i> Google+
-                            </a>
-    </li>
-    <li class="presentation">
-        <a href="http://www.stumbleupon.com/submit?url=%2fpost%2fvideo-streaming-with-nodejs%2f&amp;title=Video%20Streaming%20with%20NodeJS" target="_blank"
-            rel="nofollow" title="Video Streaming with NodeJS">
-                                <i class="fa fa-stumbleupon"></i> Stumble
-                            </a>
-    </li>
-    <li class="presentation">
-        <a href="http://digg.com/submit?url=%2fpost%2fvideo-streaming-with-nodejs%2f&amp;title=Video%20Streaming%20with%20NodeJS" target="_blank"
-            rel="nofollow" title="Video Streaming with NodeJS">
-                                <i class="fa fa-digg"></i> Digg
-                            </a>
-    </li>
-</li>
-                </div>
-            </article>
-        </div>
-        <div class="col-md-3">
-            <div class="widget panel panel-default">
-    <div class="panel-heading">
-        <h4>
-            Follow Us
-            <span class="social pull-right">
-                <a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow" target="_blank" class="nodecoration">
-                    <i class="fa fa-facebook" aria-hidden></i>
-                    <span class="sr-only">facebook</span>
-                </a>
-                <a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow" target="_blank" class="nodecoration">
-                    <i class="fa fa-twitter" aria-hidden></i>
-                    <span class="sr-only">twitter</span>
-                </a>
-                <a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow" target="_blank" class="nodecoration">
-                    <i class="fa fa-google-plus" aria-hidden></i>
-                    <span class="sr-only">google+</span>
-                </a>
-                <a href="http://feeds2.feedburner.com/WebSnippet" title="rss" target="_blank" class="nodecoration">
-                    <i class="fa fa-rss" aria-hidden></i>
-                    <span class="sr-only">rss</span>
-                </a>
-            </span>
-        </h4>
-    </div>
-    <div class="panel-body">
-        <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=WebSnippet', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">	    
-	    <input type="hidden" value="WebSnippet" name="uri">
-	    <input type="hidden" name="loc" value="en_US">  		
-  		<div class="form-group">
-          <label class="sr-only" for="subemail">Enter your email address</label>
-          <div class="input-group">
-            <input type="text" id="subemail" name="email" class="form-control" placeholder="Your email address...">
-            <span class="input-group-btn">
-                <button class="btn btn-default" type="submit" aria-label="Subscribe">
-                  <i class="fa fa-fire" aria-hidden></i>
-                </button>
-            </span>
-          </div>
-        </div>  
-	</form>
-    </div>
-</div>
-            
-<div class="widget panel panel-default">
-    <div class="panel-heading">
-        <h4>CATEGORIES</h4>
-    </div>
-    <div class="panel-body">
-        <nav>
-            <h5>
-                <a href="/categories/design" title="Design">
-                    Design (10)
-                </a>
-            </h5>
-            <h5>
-                <a href="/categories/development" title="Development">
-                    Development (38)
-                </a>
-            </h5>
-            <h5>
-                <a href="/categories/mobile-development" title="Mobile-Development">
-                    Mobile-Development (1)
-                </a>
-            </h5>
-            <h5>
-                <a href="/categories/resources" title="Resources">
-                    Resources (15)
-                </a>
-            </h5>
-            <h5>
-                <a href="/categories/tools" title="Tools">
-                    Tools (1)
-                </a>
-            </h5>
-            <h5>
-                <a href="/categories/web-development" title="Web-Development">
-                    Web-Development (37)
-                </a>
-            </h5>
-            <h5>
-                <a href="/categories/web-management" title="Web-Management">
-                    Web-Management (5)
-                </a>
-            </h5>
-        </nav>
-    </div>
-</div>
-            
-<div class="widget panel panel-default">
-	<div class="panel-heading">
-        <h4>CATEGORIES</h4>
-    </div>
-	<div class="panel-body">
-		<nav>
-		<h5>
-			<a href="/tags/.net" title=".net">.net (2)</a>
-		</h5>
-		<h5>
-			<a href="/tags/angularjs" title="angularjs">angularjs (4)</a>
-		</h5>
-		<h5>
-			<a href="/tags/css" title="css">css (7)</a>
-		</h5>
-		<h5>
-			<a href="/tags/html" title="html">html (4)</a>
-		</h5>
-		<h5>
-			<a href="/tags/javascript" title="javascript">javascript (26)</a>
-		</h5>
-		<h5>
-			<a href="/tags/mobile" title="mobile">mobile (1)</a>
-		</h5>
-		<h5>
-			<a href="/tags/node.js" title="node.js">node.js (8)</a>
-		</h5>
-		<h5>
-			<a href="/tags/react" title="react">react (1)</a>
-		</h5>
-		<h5>
-			<a href="/tags/tools" title="tools">tools (1)</a>
-		</h5>
-		</nav>
-	</div>
-</div>
-        </div>
-    </div>
-</div>
-<footer>
-    <div class="container">
-        <div class="text-center social">
-            <a href="mailto:hello@websnippet.io" title="email" rel="nofollow">
-                <i class="fa fa-envelope" aria-hidden></i>
-                <span class="sr-only">email</span>
-            </a>
-            <a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow" target="_blank">
-                <i class="fa fa-facebook" aria-hidden></i>
-                <span class="sr-only">facebook</span>
-            </a>
-            <a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow" target="_blank">
-                <i class="fa fa-twitter" aria-hidden></i>
-                <span class="sr-only">twitter</span>
-            </a>
-            <a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow" target="_blank">
-                <i class="fa fa-google-plus" aria-hidden></i>
-                <span class="sr-only">google+</span>
-            </a>
-            <a href="http://feeds2.feedburner.com/WebSnippet" title="rss" target="_blank">
-                <i class="fa fa-rss" aria-hidden></i>
-                <span class="sr-only">rss</span>
-            </a>
-        </div>
-    </div>
-</footer>
-
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-63282481-1', 'auto');
-ga('send', 'pageview');
-</script>
+}).listen(3000);</code></pre></div><ul class="share"><li class="presentation">Share this:</li><li class="presentation"><a href="https://www.facebook.com/sharer/sharer.php?u=/post/video-streaming-with-nodejs" target="_blank" rel="nofollow" title="Video Streaming with NodeJS"><i class="fa fa-facebook"></i> <span class="hidden-xs">Facebook</span></a></li><li class="presentation"><a href="https://twitter.com/home?status=Video Streaming with NodeJS+/post/video-streaming-with-nodejs" target="_blank" rel="nofollow" title="Video Streaming with NodeJS"><i class="fa fa-twitter"></i> <span class="hidden-xs">Twitter</span></a></li><li class="presentation"><a href="https://plus.google.com/share?url=/post/video-streaming-with-nodejs" target="_blank" rel="nofollow" title="Video Streaming with NodeJS"><i class="fa fa-google-plus"></i> <span class="hidden-xs">Google+</span></a></li><li class="presentation"><a href="http://www.stumbleupon.com/submit?url=/post/video-streaming-with-nodejs&amp;amp;title=Video Streaming with NodeJS" target="_blank" rel="nofollow" title="Video Streaming with NodeJS"><i class="fa fa-stumbleupon"></i> <span class="hidden-xs">Stumble</span></a></li><li class="presentation"><a href="http://digg.com/submit?url=/post/video-streaming-with-nodejs&amp;amp;title=Video Streaming with NodeJS" target="_blank" rel="nofollow" title="Video Streaming with NodeJS"><i class="fa fa-digg"></i> <span class="hidden-xs">Digg</span></a></li></ul></div></article></div><div class="col-md-3"><div class="widget panel panel-default"><div class="panel-heading"><h4>Follow Us<span class="social pull-right"><a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow" target="_blank" class="nodecoration"><i class="fa fa-facebook" aria-hidden="true"></i><span class="sr-only">facebook</span></a><a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow" target="_blank" class="nodecoration"><i class="fa fa-twitter" aria-hidden="true"></i><span class="sr-only">twitter</span></a><a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow" target="_blank" class="nodecoration"><i class="fa fa-google-plus" aria-hidden="true"></i><span class="sr-only">google+</span></a><a href="http://feeds2.feedburner.com/WebSnippet" title="rss" target="_blank" class="nodecoration"><i class="fa fa-rss" aria-hidden="true"></i><span class="sr-only">rss</span></a></span></h4></div><div class="panel-body"><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow"><input type="hidden" value="WebSnippet" name="uri"/><input type="hidden" name="loc" value="en_US"/><div class="form-group"><label class="sr-only" for="subemail">Enter your email address</label><div class="input-group"><input type="text" id="subemail" name="email" class="form-control" placeholder="Your email address..."/><span class="input-group-btn"><button class="btn btn-default" type="submit" aria-label="Subscribe"><i class="fa fa-fire" aria-hidden="true"></i></button></span></div></div></form></div></div><div class="widget panel panel-default"><div class="panel-heading"><h4>CATEGORIES</h4></div><div class="panel-body"><nav><h5><a href="/categories/algorithm" title="Algorithm">Algorithm<!-- --> (<!-- -->1<!-- -->)</a></h5><h5><a href="/categories/design" title="Design">Design<!-- --> (<!-- -->10<!-- -->)</a></h5><h5><a href="/categories/development" title="Development">Development<!-- --> (<!-- -->38<!-- -->)</a></h5><h5><a href="/categories/interview" title="interview">interview<!-- --> (<!-- -->2<!-- -->)</a></h5><h5><a href="/categories/intreview" title="intreview">intreview<!-- --> (<!-- -->2<!-- -->)</a></h5><h5><a href="/categories/mobile-development" title="Mobile-Development">Mobile-Development<!-- --> (<!-- -->1<!-- -->)</a></h5><h5><a href="/categories/resources" title="Resources">Resources<!-- --> (<!-- -->15<!-- -->)</a></h5><h5><a href="/categories/system design" title="System Design">System Design<!-- --> (<!-- -->2<!-- -->)</a></h5><h5><a href="/categories/system-design" title="System-Design">System-Design<!-- --> (<!-- -->2<!-- -->)</a></h5><h5><a href="/categories/tools" title="Tools">Tools<!-- --> (<!-- -->1<!-- -->)</a></h5><h5><a href="/categories/web management" title="Web Management">Web Management<!-- --> (<!-- -->5<!-- -->)</a></h5><h5><a href="/categories/web-development" title="Web-Development">Web-Development<!-- --> (<!-- -->37<!-- -->)</a></h5></nav></div></div><div class="widget panel panel-default"><div class="panel-heading"><h4>TAGS</h4></div><div class="panel-body"><nav><h5><a href="/tags/.net" title=".NET">.NET<!-- --> (<!-- -->2<!-- -->)</a></h5><h5><a href="/tags/algorithm" title="Algorithm">Algorithm<!-- --> (<!-- -->1<!-- -->)</a></h5><h5><a href="/tags/angularjs" title="AngularJS">AngularJS<!-- --> (<!-- -->4<!-- -->)</a></h5><h5><a href="/tags/css" title="CSS">CSS<!-- --> (<!-- -->7<!-- -->)</a></h5><h5><a href="/tags/html" title="HTML">HTML<!-- --> (<!-- -->4<!-- -->)</a></h5><h5><a href="/tags/interview" title="interview">interview<!-- --> (<!-- -->5<!-- -->)</a></h5><h5><a href="/tags/interviews" title="interviews">interviews<!-- --> (<!-- -->1<!-- -->)</a></h5><h5><a href="/tags/intreview" title="intreview">intreview<!-- --> (<!-- -->2<!-- -->)</a></h5><h5><a href="/tags/javascript" title="JavaScript">JavaScript<!-- --> (<!-- -->27<!-- -->)</a></h5><h5><a href="/tags/mobile" title="Mobile">Mobile<!-- --> (<!-- -->1<!-- -->)</a></h5><h5><a href="/tags/node.js" title="Node.JS">Node.JS<!-- --> (<!-- -->8<!-- -->)</a></h5><h5><a href="/tags/react" title="React">React<!-- --> (<!-- -->1<!-- -->)</a></h5><h5><a href="/tags/tools" title="Tools">Tools<!-- --> (<!-- -->1<!-- -->)</a></h5></nav></div></div></div></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"title":"Video Streaming with NodeJS","description":"Streaming small video files to HTML5 video with Node is easy what about big one, how streaming (any size) video files with node.js","date":"2016-03-27T05:46:51.827Z","lastmod":"2016-04-21T21:19:40.230Z","slug":"video-streaming-with-nodejs","categories":["Web-Development","Development"],"tags":["Node.JS"],"thumbnail":"https://4.bp.blogspot.com/-9tcBliK6fN4/WhDK9gRtsTI/AAAAAAAAD24/QWBZCzXmABQAxZkRCUNOI4gjcjO7EHLSgCLcBGAs/s400/nodejs.png","image":"https://4.bp.blogspot.com/-9tcBliK6fN4/WhDK9gRtsTI/AAAAAAAAD24/QWBZCzXmABQAxZkRCUNOI4gjcjO7EHLSgCLcBGAs/s1600/nodejs.png","source":"","content":"\n\nWe can stream video files by utilizing fs.createReadStream(), the server can read the file in a stream rather than reading it all into memory at once. First, we need to create node.js server(here is a code).\n\n    var fs = require(\"fs\"),\n        http = require(\"http\"),\n        url = require(\"url\"),\n        path = require(\"path\");\n\n    http.createServer(function (req, res) {\n      if (req.url = '/movie.mp4') {\n        // here will be code :)\n      }\n    }).listen(3000);\n\nWe will take care about the `Accept-Ranges` header  as is required for the HTML5 video controls to work instead of just blindly send the full file. So we should first check the `Accept-Ranges` header in the incoming request, then read in and send just that bit.\n\n    var range = req.headers.range;\n    var positions = range.replace(/bytes=/, '').split('-');\n    var start = parseInt(positions[0], 10);\n\n Now we hava to check requested file and after write reponse header:\n\n    fs.stat(file, function(err, stats) {    \n        var total = stats.size;\n        var end = positions[1] ? parseInt(positions[1], 10) : total - 1;\n        var chunkSize = (end - start) + 1;\n\n        res.writeHead(206, {\n            'Content-Range': 'bytes ' + start + '-' + end + '/' + total,\n            'Accept-Ranges': 'bytes',\n            'Content-Length': chunkSize,\n            'Content-Type': 'video/mp4'\n        });\n    });\n\nThe main part, create stream with `fs.createReadStream`:\n\n    var stream = fs.createReadStream(file, { start: start, end: end })\n        .on(\"open\", function() {\n            stream.pipe(res);\n        }).on(\"error\", function(err) {\n            res.end(err);\n        });\n\nThat is all. Here is complete code:\n\n    var fs = require('fs'),\n        http = require('http'),\n        url = require('url'),\n        path = require('path');\n\n    http.createServer( (req, res)=\u003e{\n      if (req.url === '/movie.mp4') {\n        var file = path.resolve(__dirname,'movie.mp4');\n        var range = req.headers.range;\n        var positions = range.replace(/bytes=/, '').split('-');\n        var start = parseInt(positions[0], 10);\n\n        fs.stat(file, (err, stats)=\u003e{\n          var total = stats.size;\n          var end = positions[1] ? parseInt(positions[1], 10) : total - 1;\n          var chunkSize = (end - start) + 1;\n\n          res.writeHead(206, {\n            'Content-Range': 'bytes ' + start + '-' + end + '/' + total,\n            'Accept-Ranges': 'bytes',\n            'Content-Length': chunkSize,\n            'Content-Type': 'video/mp4'\n          });\n\n          var stream = fs.createReadStream(file, { start: start, end: end })\n            .on('open', ()=\u003e{\n              stream.pipe(res);\n            }).on('error', (err)=\u003e{\n              res.end(err);\n            });\n\n            res.on('close', ()=\u003e{\n              // close or destroy stream\n              stream = null; \n            });\n        });    \n      }\n    }).listen(3000);","permalink":"/post/video-streaming-with-nodejs","site":{"categories":[{"name":"Algorithm","count":1},{"name":"Design","count":10},{"name":"Development","count":38},{"name":"interview","count":2},{"name":"intreview","count":2},{"name":"Mobile-Development","count":1},{"name":"Resources","count":15},{"name":"System Design","count":2},{"name":"System-Design","count":2},{"name":"Tools","count":1},{"name":"Web Management","count":5},{"name":"Web-Development","count":37}],"tags":[{"name":".NET","count":2},{"name":"Algorithm","count":1},{"name":"AngularJS","count":4},{"name":"CSS","count":7},{"name":"HTML","count":4},{"name":"interview","count":5},{"name":"interviews","count":1},{"name":"intreview","count":2},{"name":"JavaScript","count":27},{"name":"Mobile","count":1},{"name":"Node.JS","count":8},{"name":"React","count":1},{"name":"Tools","count":1}]}},"__N_SSG":true},"page":"/post/[slug]","query":{"slug":"video-streaming-with-nodejs"},"buildId":"1DBarU4E01zFtGq8RaKtI","isFallback":false,"gsp":true,"scriptLoader":[]}</script><footer><div class="container"><div class="text-center social"><a href="mailto:hello@websnippet.io" title="email" rel="nofollow"><i class="fa fa-envelope" aria-hidden="true"></i><span class="sr-only">email</span></a><a href="https://www.facebook.com/websnippet.io" title="facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i><span class="sr-only">facebook</span></a><a href="https://twitter.com/WebSnippetio" title="twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i><span class="sr-only">twitter</span></a><a href="https://plus.google.com/109007174257357268166" title="google+" rel="nofollow" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i><span class="sr-only">google+</span></a><a href="http://feeds2.feedburner.com/WebSnippet" title="rss" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i><span class="sr-only">rss</span></a></div></div></footer></body></html>
