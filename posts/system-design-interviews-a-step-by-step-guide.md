@@ -4,8 +4,8 @@ description: "System Design Interviews: A step by step guide"
 date: "2020-06-01"
 slug: "system-design-interviews-a-step-by-step-guide"
 categories:
-    - "interview"
-tags: ["interviews"]
+    - "Interview"
+tags: ["Interview"]
 thumbnail: ""
 image: ""
 ---

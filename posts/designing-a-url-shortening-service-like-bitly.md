@@ -4,8 +4,8 @@ description: "Designing a URL Shortening service like Bitly"
 date: "2020-03-01"
 slug: "designing-a-url-shortening-service-like-bitly"
 categories:
-    - "intreview"
-tags: ["intreview"]
+    - "Interview"
+tags: ["Interview"]
 thumbnail: ""
 image: ""
 source: ""

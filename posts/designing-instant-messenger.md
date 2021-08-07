@@ -5,7 +5,7 @@ date: "2020-06-01"
 slug: "designing-instant-messenger"
 categories:
     - "System Design"
-tags: ["interview"]
+tags: ["Interview"]
 thumbnail: ""
 image: ""
 ---

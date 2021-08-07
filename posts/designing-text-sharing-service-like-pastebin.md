@@ -4,8 +4,8 @@ description: "Let's design a Pastebin, Pasted, or Chopapp like web service, wher
 date: "2020-06-01"
 slug: "designing-text-sharing-service-like-pastebin"
 categories:
-    - "interview"
-tags: ["interview"]
+    - "Interview"
+tags: ["Interview"]
 thumbnail: ""
 image: ""
 ---

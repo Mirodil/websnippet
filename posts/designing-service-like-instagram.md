@@ -4,8 +4,8 @@ description: "Let's design a photo-sharing service like Instagram, where users c
 date: "2020-06-01"
 slug: "designing-service-like-instagram"
 categories:
-    - "intreview"
-tags: ["intreview"]
+    - "Interview"
+tags: ["Interview"]
 thumbnail: ""
 image: ""
 ---
