@@ -3,6 +3,25 @@ import config from '../config.json';
 // import Head from './components/Head';
 import Footer from '../components/Footer';
 
+const fontawesome = `
+/*!
+ *  Font Awesome v4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@import url('//use.fontawesome.com/releases/v4.7.0/css/font-awesome-css.min.css');
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot');
+  src: url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff') format('woff'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.ttf') format('truetype'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+`
+
 class WebSnippet extends Document {
     static async getInitialProps(ctx) {
         const initialProps = await Document.getInitialProps(ctx)
@@ -30,7 +49,8 @@ class WebSnippet extends Document {
                     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
                     <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png" />
                     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
-                    <link rel="stylesheet" href="https://use.fontawesome.com/c7d199424f.css" />
+                    {/* <link rel="stylesheet" href="https://use.fontawesome.com/c7d199424f.css" /> */}
+                    <style type="text/css">{fontawesome}</style>
                     {/* <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all" /> */}
                     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds2.feedburner.com/WebSnippet" />
                 </Head>
