@@ -1,3 +1,18 @@
+---
+title: "How do you design the Vending Machine"
+description: "How do you design the Vending Machine. We will write code to implement a Vending machine that has a bunch of products like chocolates, candy, cold-drink, and accept some coins like Nickle, Dime, Quarter, Cent, etc. Make sure you insert a coin, get a product back, and get your chance back."
+date: "2021-10-01T00:00:00.854Z"
+lastmod: "2021-10-01T00:00:00.854Z"
+slug: "design-vending-machine"
+categories: 
+    - "System Design"
+tags: ["Interview"]
+thumbnail: "/assets/design-vending-machine.jpg"
+image: "/assets/design-vending-machine.jpg"
+
+---
+
+
 # How do you design the Vending Machine
 
 You need to write code to implement a Vending machine that has a bunch of products like chocolates, candy, cold-drink, and accept some coins like Nickle, Dime, Quarter, Cent, etc. Make sure you insert a coin, get a product back, and get your chance back.
@@ -14,10 +29,12 @@ Let's draw state transition diagramm for the Vending Machine.
 
 ```
 graph TD
-    A(ProductState) -->|select| B(ChargeState)
-    B -->|coin| C(ReturnState)
+    A(ProductsState) -->|select| B(ChargeState)
+    B -->|coin| C(CollectState)
     C -->|reset and invoke refund and product| A
     C -->|coin| C
+    A -->|coin| A
+    B -->|select| B
 ```
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBKFByb2R1Y3RzU3RhdGUpIC0tPnxzZWxlY3R8IEIoQ2hhcmdlU3RhdGUpXG4gICAgQiAtLT58Y29pbnwgQyhDb2xsZWN0U3RhdGUpXG4gICAgQyAtLT58cmVzZXQgYW5kIGludm9rZSByZWZ1bmQgYW5kIHByb2R1Y3R8IEFcbiAgICBDIC0tPnxjb2lufCBDXG4gICAgQSAtLT58Y29pbnwgQVxuICAgIEIgLS0-fHNlbGVjdHwgQlxuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOmZhbHNlfQ)](https://mermaid.live/edit#eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBKFByb2R1Y3RzU3RhdGUpIC0tPnxzZWxlY3R8IEIoQ2hhcmdlU3RhdGUpXG4gICAgQiAtLT58Y29pbnwgQyhDb2xsZWN0U3RhdGUpXG4gICAgQyAtLT58cmVzZXQgYW5kIGludm9rZSByZWZ1bmQgYW5kIHByb2R1Y3R8IEFcbiAgICBDIC0tPnxjb2lufCBDXG4gICAgQSAtLT58Y29pbnwgQVxuICAgIEIgLS0-fHNlbGVjdHwgQlxuIiwibWVybWFpZCI6IntcbiAgXCJ0aGVtZVwiOiBcImRlZmF1bHRcIlxufSIsInVwZGF0ZUVkaXRvciI6ZmFsc2UsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjpmYWxzZX0)
 
