@@ -17,7 +17,7 @@ image: "/assets/design-vending-machine.jpg"
 
 You need to write code to implement a Vending machine that has a bunch of products like chocolates, candy, cold-drink, and accept some coins like Nickle, Dime, Quarter, Cent, etc. Make sure you insert a coin, get a product back, and get your chance back.
 
-We are going to make some assumtions to simplsiity sake:
+We are going to make some assumtions to simplicity sake:
 - We assume we have endless products, so we don't have throw a ProductSoldOutExcepiton
 - We assume we have endless coins, so we don't have throw a NotSufficientChangeException
 
