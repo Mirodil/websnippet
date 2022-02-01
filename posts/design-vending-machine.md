@@ -154,3 +154,111 @@ class VendingMachineFSM {
 As you can notice we are sperating a state(`VendingMachineFSM`) from a vending machine(`IVendingMachine`) by using interface.
 As Vending Machine is a State Machine. The events and actions are what is being controlled, and the finite state machine is how that control is managed, and those two can be encapsulated and kept completely separate from one another. The separation of what from how is one of the most essential aspects of good software design.
 Too often we find software systems in which what from how are so intertangled that it's very difficult to separate operation from policy. And when you can't separate what from how, well then you wind up with systems that are pretty fragile.
+
+The other version is implement state transition table using lists or dictionary data structure and it called table driven approach.
+
+### State pattern
+
+
+```typescript
+
+interface IVendingMachineState {
+    reset(vm: VendingMachineFSM_DP): void;
+    coin(vm: VendingMachineFSM_DP, coin: number): void;
+    select(vm: VendingMachineFSM_DP, product: Product): void;
+}
+
+abstract class VendingMachineFSM_DP {
+    state: IVendingMachineState;
+    balance: number = 0;
+    selectedProduct?: Product;
+    availableProducts: Product[] = [];
+
+    constructor(state: IVendingMachineState) {
+        this.state = state;
+    }
+
+    select(product: Product) {
+        this.state.select(this, product);
+    }
+
+    coin(coin: number) {
+        this.state.coin(this, coin);
+    }
+
+    reset() {
+        this.state.reset(this);
+    }
+
+    // methods will be implemented by concrete Vending Machine
+    abstract returnChanges(charges: number): void;
+    abstract unloadProduct(selectedProduct: Product): void;
+    abstract displayCharges(price: number): void;
+    abstract displayProducts(list: Product[]): void;
+}
+
+class ProductState implements IVendingMachineState {
+    reset(vm: VendingMachineFSM_DP): void {
+        vm.displayProducts(vm.availableProducts);
+    }
+
+    coin(vm: VendingMachineFSM_DP, coin: number): void {
+        vm.returnChanges(coin);
+        vm.displayProducts(vm.availableProducts);
+    }
+
+    select(vm: VendingMachineFSM_DP, product: Product): void {
+        vm.state = new ChargeState();
+        vm.balance = product.price
+        vm.displayCharges(vm.balance);
+    }
+}
+
+class ChargeState implements IVendingMachineState {
+    reset(vm: VendingMachineFSM_DP): void {
+        vm.state = new ProductState();
+        vm.displayProducts(vm.availableProducts);
+    }
+
+    coin(vm: VendingMachineFSM_DP, coin: number): void {
+        vm.state = new ChargeState();
+        vm.balance -= coin;
+        if (vm.balance <= 0) {
+            vm.state = new ProductState();
+            vm.unloadProduct(vm.selectedProduct!);
+            vm.returnChanges(vm.balance);
+        } else {
+            vm.displayCharges(vm.balance);
+        }
+    }
+
+    select(vm: VendingMachineFSM_DP, product: Product): void {
+        vm.balance = product.price;
+        vm.displayCharges(product.price);
+    }
+}
+
+class CollectState implements IVendingMachineState {
+    reset(vm: VendingMachineFSM_DP): void {
+        throw new Error("Method not implemented.");
+    }
+
+    coin(vm: VendingMachineFSM_DP, coin: number): void {
+        vm.balance -= coin;
+        if (vm.balance <= 0) {
+            vm.state = new ProductState();
+            vm.unloadProduct(vm.selectedProduct!);
+            vm.returnChanges(vm.balance);
+        } else {
+            vm.displayCharges(vm.balance);
+        }
+    }
+
+    select(vm: VendingMachineFSM_DP, product: Product): void {
+        throw new Error("Method not implemented.");
+    }
+
+}
+
+```
+
