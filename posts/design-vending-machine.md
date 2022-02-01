@@ -27,8 +27,6 @@ We are going to make some assumtions to simplicity sake:
 State transition diagram is an efficient form for depicting a finite state machine, and it is called a state transition diagram. We will start with a state transition diagram, and we follow the arrows, and we say the arrows in the `Given-When-Then` form, then you get something like this.
 Let's draw state transition diagramm for the Vending Machine.
 
-[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBKFByb2R1Y3RzU3RhdGUpIC0tPnxzZWxlY3R8IEIoQ2hhcmdlU3RhdGUpXG4gICAgQiAtLT58Y29pbnwgQyhDb2xsZWN0U3RhdGUpXG4gICAgQyAtLT58cmVzZXQgYW5kIGludm9rZSByZWZ1bmQgYW5kIHByb2R1Y3R8IEFcbiAgICBDIC0tPnxjb2lufCBDXG4gICAgQSAtLT58Y29pbnwgQVxuICAgIEIgLS0-fHNlbGVjdHwgQlxuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOmZhbHNlfQ)](https://mermaid.live/edit#eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBKFByb2R1Y3RzU3RhdGUpIC0tPnxzZWxlY3R8IEIoQ2hhcmdlU3RhdGUpXG4gICAgQiAtLT58Y29pbnwgQyhDb2xsZWN0U3RhdGUpXG4gICAgQyAtLT58cmVzZXQgYW5kIGludm9rZSByZWZ1bmQgYW5kIHByb2R1Y3R8IEFcbiAgICBDIC0tPnxjb2lufCBDXG4gICAgQSAtLT58Y29pbnwgQVxuICAgIEIgLS0-fHNlbGVjdHwgQlxuIiwibWVybWFpZCI6IntcbiAgXCJ0aGVtZVwiOiBcImRlZmF1bHRcIlxufSIsInVwZGF0ZUVkaXRvciI6ZmFsc2UsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjpmYWxzZX0)
-
 ![vending machine state transition diagram](/assets/design-vending-machine-state-transition-diagram.svg) 
 
 ### State transition tables
