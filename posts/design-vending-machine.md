@@ -157,8 +157,11 @@ Too often we find software systems in which what from how are so intertangled th
 
 The other version is implement state transition table using lists or dictionary data structure and it called table driven approach.
 
+
 ### State pattern
 
+> The state pattern is a behavioral software design pattern that allows an object to alter its behavior when its internal state changes
+> wiki
 
 ```typescript
 
