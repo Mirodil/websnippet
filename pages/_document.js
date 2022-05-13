@@ -49,9 +49,7 @@ class WebSnippet extends Document {
                     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
                     <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png" />
                     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
-                    {/* <link rel="stylesheet" href="https://use.fontawesome.com/c7d199424f.css" /> */}
-                    <style type="text/css">{fontawesome}</style>
-                    {/* <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all" /> */}
+                    <style type="text/css" dangerouslySetInnerHTML={{ __html: fontawesome }}></style>
                     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds2.feedburner.com/WebSnippet" />
                 </Head>
                 <body>
