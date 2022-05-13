@@ -49,7 +49,7 @@ function Blog({ title, description, date, tags, permalink, thumbnail }) {
                 </div>
                 <div className="row">
                     <div className="col-xs-12 col-md-4 text-center">
-                        <img src={thumbnail || 'http://placehold.it/200x150'} alt={title} />
+                        <img src={thumbnail || '/assets/200x150.png'} alt={title} />
                     </div>
                     <div className="col-xs-12 col-md-8">
                         {description}
