@@ -70,7 +70,7 @@ export default function Post({ site, title, permalink, content, date, categories
                         {image && <img src={image} alt={title} className="image-head img-responsive" />}
                     </div>
                     <div className="raw">
-                        <ReactMarkdown source={content} />
+                        <ReactMarkdown children={content} />
                     </div>
                     <PostSource value={source} />
                     <Share title={title} permalink={permalink} />
