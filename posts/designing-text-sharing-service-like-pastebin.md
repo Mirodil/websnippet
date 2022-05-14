@@ -1,7 +1,7 @@
 ---
 title: "Designing Text Sharing Service like Pastebin"
 description: "Let's design a Pastebin, Pasted, or Chopapp like web service, where users can store plain text. Users of the service will enter a piece of text and get a randomly generated URL to access it."
-date: "2020-06-01"
+date: "2023-06-01"
 slug: "designing-text-sharing-service-like-pastebin"
 categories:
     - "Interview"

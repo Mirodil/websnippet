@@ -1,7 +1,7 @@
 ---
 title: "Designing Service Like Twitter"
 description: "Let's design a Twitter-like social networking service. Users of the service will be able to post tweets, follow other people, and favorite tweets."
-date: "2020-06-01"
+date: "2023-06-01"
 slug: "designing-service-like-twitter"
 categories:
     - "System-Design"

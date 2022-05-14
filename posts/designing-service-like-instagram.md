@@ -1,7 +1,7 @@
 ---
 title: "Designing Service like Instagram"
 description: "Let's design a photo-sharing service like Instagram, where users can upload photos to share them with other users"
-date: "2020-06-01"
+date: "2023-06-01"
 slug: "designing-service-like-instagram"
 categories:
     - "Interview"

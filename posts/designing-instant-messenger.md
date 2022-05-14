@@ -1,7 +1,7 @@
 ---
 title: "Designing Instant Messenger"
 description: "Let's design an instant messaging service like whatup, or telegram where users can send text messages to each other through web and mobile interfaces."
-date: "2020-06-01"
+date: "2023-06-01"
 slug: "designing-instant-messenger"
 categories:
     - "System Design"
