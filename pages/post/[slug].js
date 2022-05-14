@@ -1,10 +1,12 @@
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import Layout from '../../components/Layout';
 import slugs from '../../store/slugs';
 import load from '../../store/load';
 import DateTime from '../../components/DateTime';
 import Share from '../../components/Share';
+import Code from '../../components/Code';
 
 function Category({ name, i, count }) {
     const addComma = (i) => i + 1 < count ? ', ' : '';
@@ -70,7 +72,7 @@ export default function Post({ site, title, permalink, content, date, categories
                         {image && <img src={image} alt={title} className="image-head img-responsive" />}
                     </div>
                     <div className="raw">
-                        <ReactMarkdown children={content} />
+                        <ReactMarkdown children={content} remarkPlugins={[remarkGfm]} components={{ code: Code }} />
                     </div>
                     <PostSource value={source} />
                     <Share title={title} permalink={permalink} />

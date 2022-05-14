@@ -1,7 +1,7 @@
 ---
 title: "Designing A File Hosting Service"
 description: "We will talk about designing a file hosting service like Google Dirve, Microsoft OneDrive, Dropbox. This type of cloud file storage service enables users to store their data on remote servers."
-date: "2020-06-01"
+date: "2023-06-01"
 slug: "designing-a-file-hosting-service"
 categories:
     - "System Design"

@@ -1,7 +1,7 @@
 ---
 title: "Designing a URL Shortening service like Bitly"
 description: "Designing a URL Shortening service like Bitly"
-date: "2020-03-01"
+date: "2023-03-01"
 slug: "designing-a-url-shortening-service-like-bitly"
 categories:
     - "Interview"

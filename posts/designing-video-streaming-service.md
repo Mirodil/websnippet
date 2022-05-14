@@ -1,7 +1,7 @@
 ---
 title: "Designing Video Streaming Service"
 description: "Let's design a video sharing service like Youtube or Netflix, where users will be able to upload/view/search videos"
-date: "2020-06-01"
+date: "2023-06-01"
 slug: "designing-video-streaming-service"
 categories:
     - "System-Design"
