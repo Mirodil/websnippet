@@ -20,13 +20,13 @@ The Node Package Manager holds a key role in deployment for Node.js and makes it
 
 ## **[Amazon Web Services](http://aws.amazon.com/)**
 
-![](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1439474308036_zpssysjrho4.jpeg)
+![](/assets/amazon-web-services.jpeg)
 
 With the partnership of Amazon and Bitnami, Node.js is available on Amazon Web Services. AWS provides Elastic Beanstalk service, which is a container that pushes packaged applications in AWS as Platform as a Service (PaaS). AWS provides you full control over the server which runs your applications and moreover price would be same whether you run one application or many applications on the same server.
 
 ### **[Microsoft Azure](http://azure.microsoft.com/en-us/)**
 
-![](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1439474774896_zpsor1nips7.jpeg)
+![](/assets/microsoft-azure.jpeg)
 
 Azure is a cloud based platform powered by Microsoft which facilitates managing, deploying and building of applications. One of the advantage of hosting Node.js web applications on Azure is that the application can scale out automatically to hundreds of Azure instances as per the need. With Azure developers can easily migrate applications without the need of changing code and has a support for both Windows and Linux machines.
 

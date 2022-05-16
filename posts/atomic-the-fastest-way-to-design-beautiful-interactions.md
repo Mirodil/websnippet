@@ -7,7 +7,7 @@ slug: "atomic-the-fastest-way-to-design-beautiful-interactions"
 categories: ["Design","Resources"]
 tags: []
 thumbnail: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/th_1433612644779_zpsumjtb25w.jpeg"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1433612644779_zpsumjtb25w.jpeg"
+image: "/assets/atomic.jpeg"
 source: "https://atomic.io"
 ---
 
