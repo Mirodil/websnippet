@@ -7,7 +7,7 @@ slug: "free-download-do-ui-kit-with-250-components"
 categories: ["Design","Resources"]
 tags: []
 thumbnail: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/th_1433691106351_zpsn9qucqqt.jpeg"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1433691106351_zpsn9qucqqt.jpeg"
+image: "/assets/1433691106351_zpsn9qucqqt.jpeg"
 source: "http://www.invisionapp.com/do"
 ---
 

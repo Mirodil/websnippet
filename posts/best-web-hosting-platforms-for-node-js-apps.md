@@ -32,43 +32,43 @@ Azure is a cloud based platform powered by Microsoft which facilitates managing,
 
 ### **[AppFog](https://www.appfog.com/)**
 
-![](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1439474578739_zpss2k25kxc.jpeg)
+![](/assets/1439474578739_zpss2k25kxc.jpeg)
 
 AppFog provides a really fast way to scale and launch your app in just a matter of time. AppFog features a mesmerizing user interface, REST API for robust deployment and a powerful command line. It saves you a lot of time as you don’t have to spend time on setting database, updating firewalls, and provisioning servers.
 
 ### **[CloudFoundry](http://pivotal.io/platform-as-a-service/pivotal-cloud-foundry)**
 
-![](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1439474658303_zps2bwv1ifc.png)
+![](/assets/1439474658303_zps2bwv1ifc.png)
 
 Cloud Foundry is an open source Platform as a Service created by VMware and currently maintained by Pivotal Software. Cloud Foundry offerings come in three flavors namely Cloud Foundry Open Source Software (which can be used by anyone), Pivotal Cloud Foundry (used as a commercial product) and Pivotal Web Services (services which is hosted on Amazon Web Services).
 
 ### **[Heroku](https://www.heroku.com/)**
 
-![](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1439474696600_zpsecjeylst.png)
+![](/assets/1439474696600_zpsecjeylst.png)
 
 Heroku supports a wide range of languages and was founded in year 2007\. When it first released it supported only Ruby but since then it has added support for PHP, Perl, Python, Clojure, Java, Scala and Node.js. Heroku also provides you seamless integration with some third party services such as Redis, SendGrid, MongoDB etc.
 
 ### **[Joyent](https://www.joyent.com/)**
 
-![](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1439474734970_zpsq5xslxjd.png)
+![](/assets/1439474734970_zpsq5xslxjd.png)
 
 Joyent offers IaaS (Infrastructure as a service) and PaaS (Platform as a Service) mainly to large enterprises. It is an official sponsor of Node.js and assists developers to debug, design and deploy Node.js applications. Joyent is works with many Fortune 100 enterprises to run Node.js for their critical applications.
 
 ### **[Modulus.io](https://modulus.io/)**
 
-![](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1439474801549_zpsao85n4wi.jpeg)
+![](/assets/1439474801549_zpsao85n4wi.jpeg)
 
 Modulus offers Platform as a service (PaaS) hosting environment which is highly secure and cost effective. It supports languages such as Node.js, php, Java, staticsite and meteor. It provides powerful metrics which tracks every single request that comes into modulus. It helps you measure the performance of your activity. The services are currently available in USA, Asia and Europe.
 
 ### **[OpenShift](https://www.openshift.com/)**
 
-![](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1439474830628_zpsb0yzdzwj.png)
+![](/assets/1439474830628_zpsb0yzdzwj.png)
 
 OpenShift is a cloud based hosting and development platform developed by Red Hat. With OpenShift one can also use Git to deploy web applications in different languages. It supports many languages such as JavaScript, Haskell, Java, .Net, Perl, Node.js, Python etc. By using open Cartridge API you can add your own logic to OpenShift.
 
 ### **[EngineYard](https://www.engineyard.com/)**
 
-![](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1439474888956_zpswg8cyzj6.png)
+![](/assets/1439474888956_zpswg8cyzj6.png)
 
 EngineYard is a Platorm as a Service (Paas) company headquartered at San Francisco and founded in the year 2006\. It gives you full control by customizing your stack whenever required. It has an excellent support community working round the clock to help the customers. It supports language such as Node.js, Ruby on Rails and PHP.
 

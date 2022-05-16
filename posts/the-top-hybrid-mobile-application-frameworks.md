@@ -66,12 +66,12 @@ Learning Kendo UI is not difficult, developers familiar with jQuery will find Ke
 
 ## [Onsen UI](http://onsen.io/)
 
-![Onsen.io](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/unnamed_zpsdtfeaxcr.png)
+![Onsen.io](/assets/unnamed_zpsdtfeaxcr.png)
 
 [Onsen UI](http://onsen.io/) is the Javascript and CSS frameworks for HTML5, PhoneGap & Cordova apps with UI components.
 
 ## [RAD.JS](http://rad-js.com/)
 
-![](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1432706659171_zpsbw8sspv8.png)
+![](/assets/1432706659171_zpsbw8sspv8.png)
 
 <span style="font-family:proxima-nova-soft,sans-serif; font-size:17.007999420166px">[RAD.JS](http://rad-js.com/) is a mobile app framework for all major mobile systems and even Web browsers. It focuses on ease of use and speed.</span>

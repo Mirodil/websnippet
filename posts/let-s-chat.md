@@ -7,7 +7,7 @@ slug: "let-s-chat"
 categories: ["Web-Development", "Development"]
 tags: ["Node.JS"]
 thumbnail: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/th_1433612501292_zpsqdimjkas.jpeg"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1433612501292_zpsqdimjkas.jpeg"
+image: "/assets/1433612501292_zpsqdimjkas.jpeg"
 source: "https://sdelements.github.io/lets-chat/"
 ---
 

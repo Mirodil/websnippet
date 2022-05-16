@@ -12,7 +12,6 @@ export default function Code({ node, inline, className, children, ...props }) {
     const match = /language-(\w+)/.exec(className || '');
 
     if (!inline && match) {
-        console.log('>>>', match[1]);
         return <SyntaxHighlighter
             children={String(children).replace(/\n$/, '')}
             style={prism}

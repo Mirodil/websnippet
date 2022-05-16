@@ -7,7 +7,7 @@ slug: "top-tips-to-improve-angularjs-performance"
 categories: ["Web-Development", "Development"]
 tags: ["AngularJS","JavaScript"]
 thumbnail: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/th_1433229958444_zpsvyvreq32.png"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1433229958444_zpsvyvreq32.png"
+image: "/assets/1433229958444_zpsvyvreq32.png"
 source: ""
 ---
 
@@ -99,4 +99,4 @@ You may need ng-show for an elements that toggles on an off often, but for 95% o
 
 [Batarang](https://chrome.google.com/webstore/detail/angularjs-batarang-stable/niopocochgahfkiccpjmmpchncjoapek) is a great tool from the Angular team, and it was very helpful in my debugging efforts. It has a lot of useful features, but the one that was the most relevant to this use-case is the performance tab.
 
-![](http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1433229511834_zpskh3suh7k.png)
+![](/assets/1433229511834_zpskh3suh7k.png)

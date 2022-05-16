@@ -7,7 +7,7 @@ slug: "google-s-roboto-font-is-now-open-source"
 categories: ["Design","Resources"]
 tags: []
 thumbnail: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/th_1433691210077_zpsvbi7eqbc.png"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1433691210077_zpsvbi7eqbc.png"
+image: "/assets/1433691210077_zpsvbi7eqbc.png"
 source: "https://github.com/google/roboto"
 ---
 

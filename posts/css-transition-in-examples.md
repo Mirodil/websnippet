@@ -7,7 +7,7 @@ slug: "css-transition-in-examples"
 categories: ["Web-Development", "Development"]
 tags: ["CSS"]
 thumbnail: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/th_1433175821455_zpsjsvgwxma.png"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1433175821455_zpsjsvgwxma.png"
+image: "/assets/1433175821455_zpsjsvgwxma.png"
 source: ""
 ---
 
