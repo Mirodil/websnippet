@@ -7,7 +7,7 @@ slug: "plain-javascript-functions-and-helpers"
 categories: ["Web-Development", "Development"]
 tags: ["JavaScript"]
 thumbnail: "http://rs1135.pbsrc.com/albums/m637/Maer007/WebSnippet/unnamed_zpss8a9icwh.png~c200"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/unnamed_zpss8a9icwh.png"
+image: "/assets/unnamed_zpss8a9icwh.png"
 source: "http://plainjs.com/"
 ---
 

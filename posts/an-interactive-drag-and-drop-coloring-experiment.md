@@ -7,7 +7,7 @@ slug: "an-interactive-drag-and-drop-coloring-experiment"
 categories: ["Web Management","Resources","Design"]
 tags: []
 thumbnail: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/th_1433159175724_zps6korux6d.jpeg"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1433159175724_zps6korux6d.jpeg"
+image: "/assets/an-interactive-drag-and-drop-coloring-experiment.jpeg"
 source: "http://tympanus.net/codrops/2015/04/22/interactive-drag-drop-coloring-concept/"
 ---
 

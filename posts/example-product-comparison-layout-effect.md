@@ -7,7 +7,7 @@ slug: "example-product-comparison-layout-effect"
 categories: ["Web-Development", "Development"]
 tags: ["CSS","JavaScript"]
 thumbnail: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/th_1433611563946_zpsotb9nas5.jpeg"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1433611563946_zpsotb9nas5.jpeg"
+image: "/assets/1433611563946_zpsotb9nas5.jpeg"
 source: "http://tympanus.net/codrops/2015/05/26/product-comparison-layout-effect"
 ---
 

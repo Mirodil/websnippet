@@ -7,7 +7,7 @@ slug: "carnival-unobtrusive-way-to-add-comments-to-website"
 categories: ["Web Management","Resources"]
 tags: []
 thumbnail: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/th_1433159066129_zpsfylng5hy.jpeg"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1433159066129_zpsfylng5hy.jpeg"
+image: "/assets/1433159066129_zpsfylng5hy.jpeg"
 source: "https://carnivalapp.io/"
 ---
 

@@ -7,7 +7,7 @@ slug: "create-tooltip-style-toolbars-with-toolbar-js"
 categories: ["Design"]
 tags: ["JavaScript"]
 thumbnail: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/th_1433612772033_zps9hz3mlkh.jpeg"
-image: "http://i1135.photobucket.com/albums/m637/Maer007/WebSnippet/1433612772033_zps9hz3mlkh.jpeg"
+image: "/assets/1433612772033_zps9hz3mlkh.jpeg"
 source: "http://paulkinzett.github.io/toolbar"
 ---
 
