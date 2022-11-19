@@ -22,7 +22,7 @@
   "homepage": "https://github.com/Mirodil/websnippet#readme",
   "devDependencies": {
     "raw-loader": "^4.0.1",
-    "serve": "^13.0.2"
+    "serve": "^14.1.2"
   },
   "dependencies": {
     "bootstrap-sass": "^3.4.3",
